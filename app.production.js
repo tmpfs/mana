@@ -18,5 +18,23 @@ module.exports = {
       }
     ],
     optimize: optimize()
+  },
+
+  deploy: {
+    production: {
+      s3: {
+        domain: 'manaubud.com',
+        credentials: {
+          profile: 'mana'
+        },
+        prefix: 'production',
+        region: 'ap-southeast-1',
+        error: 'production/404.html',
+        redirects: [
+          'www.manaubud.com'
+        ],
+        publish: false
+      }
+    }
   }
 }
