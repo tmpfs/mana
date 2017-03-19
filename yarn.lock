@@ -1583,7 +1583,7 @@ enhanced-resolve@^3.0.0:
     object-assign "^4.0.1"
     tapable "^0.2.5"
 
-entities@~1.1.1:
+entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
@@ -3167,6 +3167,12 @@ makestatic-preset-parse@^1.0.0:
     makestatic-parse-html "^1.1.14"
     makestatic-parse-js "^1.0.27"
 
+makestatic-sitemap@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/makestatic-sitemap/-/makestatic-sitemap-1.2.1.tgz#8e07ea3cea68bb12e53e6006619e8049a7cafe08"
+  dependencies:
+    entities "^1.1.1"
+
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
@@ -4416,7 +4422,7 @@ reshape-include@^0.3.0:
   dependencies:
     reshape-plugin-util "^0.2.0"
 
-"reshape-layouts@github:makestatic/reshape-layouts#context-filename":
+reshape-layouts@makestatic/reshape-layouts#context-filename:
   version "0.2.1"
   resolved "https://codeload.github.com/makestatic/reshape-layouts/tar.gz/87c99ed7c45a8e72e57b1d0cabba787312faa102"
 

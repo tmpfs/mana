@@ -3,9 +3,9 @@
   --light-blue: #c7ffe2
   --dark-blue: #44a6c1
   --text-color: #144e5b
+  --link-color: #224
   --heading-color: #446
   --heading-line-color: #aac
-  --link-color: #0074b4
   --button-color: #eee8d5
   --button-background: #007389
   --button-text-shadow: #668
@@ -75,6 +75,7 @@ header nav a
   display: inline-block
   height: var(--header-height)
   line-height: var(--header-height)
+  border: 0
 
 header nav:first-child
   float: left
@@ -84,12 +85,17 @@ header nav:last-child
 
 header nav:last-child a
   padding: 0 2rem
-  border-left: 1px solid #cfcfcf
+  border: 0
+  background: transparent
+  transition: background 0.5s ease-in-out
+  &:hover
+    background: #fffaa0
 
+/*
 header nav:last-child a:last-child
-  /* inverted knockout */
   background: var(--text-color)
   color: var(--body-background)
+*/
 
 footer nav a:not(:last-child)
   margin-right: 2rem
@@ -123,7 +129,8 @@ blockquote
 
 a
   text-decoration: none
-  color: var(--text-color)
+  color: var(--link-color)
+  border-bottom: 1px solid #ffe
   transition: border .5s ease-in-out
   &:hover
     border-bottom: 1px solid
