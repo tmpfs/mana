@@ -1,0 +1,155 @@
+:root
+  --selection: #eee8d5
+  --light-blue: #c7ffe2
+  --dark-blue: #44a6c1
+  --text-color: #144e5b
+  --heading-color: #446
+  --heading-line-color: #aac
+  --link-color: #0074b4
+  --button-color: #eee8d5
+  --button-background: #007389
+  --button-text-shadow: #668
+  --body-background: #fffdd0
+  --header-height: 60px
+
+html
+  box-sizing: border-box
+  font-size: 62.5%
+
+*, *:after, *:before
+  box-sizing: inherit
+
+html, body
+  width: 100%
+  height: 100%
+  min-height: 100%
+  margin: 0
+  padding: 0
+
+body
+  background: var(--body-background)
+  /* AA safe contrast */
+  color: var(--text-color)
+  font-size: 1.8rem
+  line-height: 2.2rem
+  text-align: center
+  font-family: SourceSerif, serif
+
+header, footer, h1, h2, h3, h4, h5, h6
+  font-family: SourceSans, sans-serif
+
+h1, h2, h3, h4, h5, h6
+  display: inline-block
+  text-transform: uppercase
+  letter-spacing: 1px
+  border-bottom: 2px solid
+  margin: 2rem 0 1rem 0
+  padding: 0 0 .25rem 0
+
+h3
+  font-size: 1.8rem
+
+header
+  clear: fix
+  text-transform: uppercase
+  height: var(--header-height)
+
+.logo
+  padding: 0 0 4px 2rem
+
+.logo img, .logo span
+  display: inline-block
+
+.logo img
+  margin-right: 1rem
+  position: relative
+  top: 8px
+
+.logo span
+  font-size: 2.6rem
+
+header nav
+  height: var(--header-height)
+
+header nav a
+  display: inline-block
+  height: var(--header-height)
+  line-height: var(--header-height)
+
+header nav:first-child
+  float: left
+
+header nav:last-child
+  float: right
+
+header nav:last-child a
+  padding: 0 2rem
+  border-left: 1px solid #cfcfcf
+
+header nav:last-child a:last-child
+  /* inverted knockout */
+  background: var(--text-color)
+  color: var(--body-background)
+
+footer nav a:not(:last-child)
+  margin-right: 2rem
+
+header a
+  &:hover
+    border: 0
+
+footer
+  border-top: 1px solid #efefef
+  padding-top: 4rem
+  min-height: 12rem
+  text-transform: uppercase
+  font-size: 1.4rem
+
+main
+  /* 3 * 280 columns with 20px/2rem spacing and 20px/2rem horizontal padding */
+  max-width: 920px
+  margin: 0 auto
+  text-align: left
+  overflow: auto
+  padding: 2rem 2rem
+
+section
+  margin-bottom: 4rem
+
+blockquote
+  border-left: 4px solid #ccc
+  margin: 0
+  padding: 0 0 0 4rem
+
+a
+  text-decoration: none
+  color: var(--text-color)
+  transition: border .5s ease-in-out
+  &:hover
+    border-bottom: 1px solid
+
+.slideshow
+  width: 100%
+  overflow: hidden
+
+.slideshow img
+  width: 100%
+
+a.btn
+  color: var(--button-color)
+  display: inline-block
+  font-size: 1.4rem
+  background: var(--button-background)
+  padding: 1rem 1rem 0.8rem 1rem
+  border-radius: .5rem
+  text-transform: uppercase
+  border-bottom: 0
+  border-color: transparent
+  text-shadow: 1px 1px var(--button-text-shadow)
+  transition: background .5s ease-in-out
+  &:hover
+    background: var(--dark-blue)
+  &.small
+    padding: .3rem .5rem .3rem .5rem
+    font-size: 1.2rem
+    border-radius: .3rem

@@ -1,0 +1,5 @@
+extends(src='layout.sgr')
+  block(name='content')
+    article
+      h2 Page Not Found
+      p(mdi) The page you are looking for could not be found, start from the [home page](/).

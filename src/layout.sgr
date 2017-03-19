@@ -1,0 +1,45 @@
+doctype html
+html(lang='en')
+  head
+    block(name='meta')
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible' content='IE=edge')
+      meta(name='author' content='muji')
+      meta(name='viewport' content='width=device-width, initial-scale=1')
+      link(rel='canonical' href='https://manaubud.com')
+      link(rel='icon' type='image/png' href='/img/favicon.png?v=2')
+    block(name='description')
+      meta(name='description' content='Ubud mana villas')
+
+    block(name='keywords')
+      meta(name='keywords' content='villa, luxury, mana, ubud')
+
+    block(name='title')
+      title Mana Ubud
+
+    block(name='stylesheets')
+      link(rel='stylesheet' href='/css/style.css')
+
+  body
+    header
+      nav
+        a.logo(href='/' title='Mana')
+          img(src='/img/logo-icon.png')
+          span Mana
+      nav
+        a(href='/mana-ubud/' title='Mana Ubud Villas') Mana Ubud
+        a(href='/mana-sari/' title='Mana Sari Villas') Mana Sari
+        a(href='#book-now' title='Book Now') Book Now
+
+    block(name='content')
+
+    footer
+      nav
+        a(href='/contact/' title='Contact Us') Contact
+        a(href='/sitemap/' title='Sitemap') Sitemap
+
+    block(name='noscript')
+      noscript
+
+    block(name='javascript')
+      script(src='/js/main.js' defer)

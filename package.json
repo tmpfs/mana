@@ -1,0 +1,32 @@
+{
+  "name": "mana",
+  "description": "Ubud mana villas",
+  "version": "1.0.0",
+  "author": "muji",
+  "license": "MIT",
+  "homepage": "https://manaubud.com",
+  "repository": "",
+  "bugs": "",
+  "keywords": ["villa","luxury","mana","ubud"],
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "*",
+    "makestatic-css-standard": "^1.0.0",
+    "makestatic-html-standard": "^1.0.0",
+    "makestatic-inline-css": "^1.0.3",
+    "makestatic-page-id": "^1.0.0",
+    "makestatic-preset-optimize": "^1.1.0",
+    "makestatic-preset-parse": "^1.0.0",
+    "postcss-loader": "^1.3.2",
+    "reshape-loader": "makestatic/reshape-loader#webpack2",
+    "source-loader": "^0.2.0",
+    "standard": "^8.6.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "clean": "rm -rf public",
+    "compile": "makestatic --clean --env production",
+    "lint": "standard src/js/**/*.js"
+  }
+}
