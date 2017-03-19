@@ -1,0 +1,11 @@
+footer
+  nav
+    a(href='/contact/' title='Contact Us') Contact
+    a(href='/sitemap/' title='Sitemap') Sitemap
+  nav.email
+    a(href='mailto:info@ubudmana.com') info@ubudmana.com
+  ul
+    li
+      a(href='tel:+6281236340887') +62 81236340887
+    li
+      a(href='tel:+6282146376989') +62 82146376989

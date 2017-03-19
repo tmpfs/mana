@@ -1,0 +1,10 @@
+header
+  nav
+    a.logo(href='/' title='Mana')
+      img(src='/assets/img/logo-icon.png')
+      span Mana
+  nav
+    a(href='/mana-ubud/' title='Mana Ubud Villas') Mana Ubud
+    a(href='/mana-sari/' title='Mana Sari Villas') Mana Sari
+    a(href='#book-now' title='Book Now') Book Now
+

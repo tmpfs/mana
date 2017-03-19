@@ -1,0 +1,25 @@
+extends(src='../layout.sgr')
+  block(name='title')
+    title Mana Sari
+  block(name='description')
+    meta(name='description' content='Luxury villas minutes from Ubud Centre')
+  block(name='header')
+    include(src='../_header.sgr')
+  block(name='content')
+    include(src='../_room-nav.sgr')
+    div.slideshow
+      img(src='/assets/img/mana-sari-pool-view.jpg')
+    main(class='{{ pageId }}')
+      h3 Mana Sari
+      p.
+        Beautiful mix of old and new architecture, classic javanese teak house infused with light and love.
+
+      p.
+        Airy, bright and spacious main joglo loft style house with large walk in closet and very grand bathroom with tub, natural stone walls.
+
+      p.
+        The second bedroom is modern with green roof garden chill out on top. It has its own beautiful bright bathroom with tub and terrace overlooking the jungle below . The property has a second outdoor pool kitchen for entertaining.
+      p.
+        The salt water infinity pool is overlooking the jungle and river below with a length of 11 meters. The villa is set on a quiet no through road with a few other high end villas, yet just a short walk to town.
+  block(name='footer')
+    include(src='../_footer.sgr')

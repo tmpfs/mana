@@ -3079,6 +3079,12 @@ makestatic-css-standard@^1.0.0:
     rucksack-css "^0.9.1"
     sugarss "^0.2.0"
 
+makestatic-graph-resources@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/makestatic-graph-resources/-/makestatic-graph-resources-1.1.9.tgz#bf9cc97466cc318abbfc152e46fb6df300f8b73c"
+  dependencies:
+    postcss-value-parser "^3.3.0"
+
 makestatic-html-standard@^1.0.0:
   version "1.0.31"
   resolved "https://registry.yarnpkg.com/makestatic-html-standard/-/makestatic-html-standard-1.0.31.tgz#d9cb7827b6a0a2578b0ea16427abb154f1522e34"
@@ -3159,7 +3165,7 @@ makestatic-preset-optimize@^1.1.0:
     makestatic-optimize-image "^1.0.25"
     makestatic-optimize-js "^1.0.24"
 
-makestatic-preset-parse@^1.0.0:
+makestatic-preset-parse@^1.0.21:
   version "1.0.21"
   resolved "https://registry.yarnpkg.com/makestatic-preset-parse/-/makestatic-preset-parse-1.0.21.tgz#02095be1c3e929a63f8d65d122bc8fecfc361d7d"
   dependencies:
@@ -3167,9 +3173,9 @@ makestatic-preset-parse@^1.0.0:
     makestatic-parse-html "^1.1.14"
     makestatic-parse-js "^1.0.27"
 
-makestatic-sitemap@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/makestatic-sitemap/-/makestatic-sitemap-1.2.1.tgz#8e07ea3cea68bb12e53e6006619e8049a7cafe08"
+makestatic-sitemap@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/makestatic-sitemap/-/makestatic-sitemap-1.2.2.tgz#bc68ab4c511319a8604c10ddd7b7befc8ea56554"
   dependencies:
     entities "^1.1.1"
 

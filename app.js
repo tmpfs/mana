@@ -1,3 +1,5 @@
+const parse = require('makestatic-preset-parse')
+
 module.exports = {
   input: 'src',
   output: 'public',
@@ -6,8 +8,12 @@ module.exports = {
     ghostMode: false
   },
 
+  entry: {
+    'assets/js/main.js': ['./assets/js/index.js']
+  },
+
   styles: () => {
-    const std= require('makestatic-css-standard')
+    const std = require('makestatic-css-standard')
     return std()
   },
 
@@ -23,5 +29,17 @@ module.exports = {
 
   script: {
     presets: ['env']
+  },
+
+  lifecycle: {
+    parse: parse({js: false}),
+    graph: require('makestatic-graph-resources'),
+    transform: [
+      {
+        plugin: require('makestatic-sitemap'),
+        formats: ['html'],
+        template: 'sitemap/index.html'
+      }
+    ]
   }
 }

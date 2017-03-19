@@ -1,29 +1,32 @@
 extends(src='layout.sgr')
+  block(name='title')
+    title Mana Villas
+  block(name='description')
+    meta(name='description' content='Luxury modern villas')
+  block(name='header')
+    include(src='_header.sgr')
   block(name='content')
     div.slideshow
-      img(src='/img/patio-view.jpg')
+      img(src='/assets/img/patio-view.jpg')
 
-    main(id='{{ pageId }}')
+    main(class='{{ pageId }}')
       section
         h2 Mana
         p.
           Luxurious villas blending traditional Javanese teak architecture with modern design to create a unique atmosphere set amidst the lush tropical foliage of Bali.
 
-        h3 Location
+        h4 Mana Ubud
         p.
           Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
-        p. 
-          Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle. Both our locations are in quiet neighborhoods that offer an ideal place to relax and enjoy all the nearby restaurants and activities.
-
-        h3 Investment
-        p.
-          If you are thinking of moving to Bali or looking for an investment property our team can help make that happen, please contact us for more information.
-        h3 Get in Touch
         p
-          | Please send us an email to  
-          a(href='mailto:info@ubudmana.com') info@ubudmana.com  
-          | or call us on 
-          a(href='tel:+6281236340887') +62 81236340887
-          |  or 
-          a(href='tel:+6282146376989') +62 82146376989
-          | .
+          a(href='/mana-ubud/' title='Photos and Information') More information & photos
+        h4 Mana Sari
+        p.
+          Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle. Both our locations are in quiet neighborhoods that offer an ideal place to relax and enjoy all the nearby restaurants and activities.
+        p
+          a(href='/mana-sari/' title='Photos and Information') More information & photos
+
+        h4 Investment
+        p(mdi) If you are thinking of moving to Bali or looking for an investment property our team can help make that happen &#8212; please [contact us](/contact/ "Contact Us") for more information.
+  block(name='footer')
+    include(src='_footer.sgr')

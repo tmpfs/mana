@@ -22,7 +22,7 @@
     "makestatic-inline-css": "^1.0.3",
     "makestatic-page-id": "^1.0.0",
     "makestatic-preset-optimize": "^1.1.0",
-    "makestatic-preset-parse": "^1.0.0",
+    "makestatic-preset-parse": "^1.0.21",
     "postcss-loader": "^1.3.2",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
@@ -35,6 +35,7 @@
     "lint": "standard src/js/**/*.js"
   },
   "dependencies": {
-    "makestatic-sitemap": "^1.2.1"
+    "makestatic-graph-resources": "^1.1.9",
+    "makestatic-sitemap": "^1.2.2"
   }
 }

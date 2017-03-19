@@ -91,11 +91,26 @@ header nav:last-child a
   &:hover
     background: #fffaa0
 
-/*
-header nav:last-child a:last-child
-  background: var(--text-color)
-  color: var(--body-background)
-*/
+footer
+  border-top: 1px solid #efefef
+  padding: 3rem 0
+  text-transform: uppercase
+  font-size: 1.4rem
+
+footer ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+footer ul li
+  display: inline-block
+  &:not(:last-child)
+    margin-right: 1rem
+
+footer nav.email
+  margin-top: 4rem
+  display: inline-block
+  border-top: 1px solid
 
 footer nav a:not(:last-child)
   margin-right: 2rem
@@ -103,13 +118,6 @@ footer nav a:not(:last-child)
 header a
   &:hover
     border: 0
-
-footer
-  border-top: 1px solid #efefef
-  padding-top: 4rem
-  min-height: 12rem
-  text-transform: uppercase
-  font-size: 1.4rem
 
 main
   /* 3 * 280 columns with 20px/2rem spacing and 20px/2rem horizontal padding */
@@ -142,21 +150,60 @@ a
 .slideshow img
   width: 100%
 
-a.btn
-  color: var(--button-color)
-  display: inline-block
-  font-size: 1.4rem
-  background: var(--button-background)
-  padding: 1rem 1rem 0.8rem 1rem
+#sitemap
+  font-size: 1.8rem
+
+#sitemap ul
+  list-style-type: none
+
+#sitemap ul
+  padding-left: 1.5rem
+  border-left: 1px solid #dd9
+
+#sitemap > ul
+  padding-left: 0
+  border-left: 0
+
+#sitemap li p
+  margin-top: 1rem
+
+label
+  display: block
+  margin-bottom: 0.5rem
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="reset"],
+textarea
+  font-family: SourceSans
+  font-size: 2rem
+  padding: 0.5rem
+  width: 100%
+  max-width: 320px
   border-radius: .5rem
+  border: 1px solid #ccc
+
+input[type="reset"]
+  margin-right: 2rem
+
+input[type="submit"],
+input[type="reset"]
   text-transform: uppercase
-  border-bottom: 0
-  border-color: transparent
-  text-shadow: 1px 1px var(--button-text-shadow)
-  transition: background .5s ease-in-out
-  &:hover
-    background: var(--dark-blue)
-  &.small
-    padding: .3rem .5rem .3rem .5rem
-    font-size: 1.2rem
-    border-radius: .3rem
+  display: inline-block
+  width: 8rem
+  margin-top: 2rem
+
+input + label
+  margin-top: 2rem
+
+.clearfix
+  clear: fix
+
+.text-left
+  text-align: left
+
+.room-nav
+  padding: 1rem
+  /* border-top: 1px solid */
+  display: inline-block
