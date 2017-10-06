@@ -15,15 +15,18 @@ extends(src='layout.sgr')
         div.locations
           div
             h4 Mana Ubud
-            p.
-              Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
             p
-              a(href='/mana-ubud/' title='Photos and Information') More information & photos
+              Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
+            nav
+              a(href='/mana-ubud/' title='Photos and Information') Explore 
+              a(href='/mana-ubud/' title='Make a booking') Book Now
           div
             h4 Mana Sari
-            p.
-              Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle. Both our locations are in quiet neighborhoods that offer an ideal place to relax and enjoy all the nearby restaurants and activities.
             p
-              a(href='/mana-sari/' title='Photos and Information') More information & photos
+              Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
+
+            nav
+              a(href='/mana-sari/' title='Photos and Information') Explore
+              a(href='/mana-sari/' title='Make a booking') Book Now
   block(name='footer')
     include(src='_footer.sgr')

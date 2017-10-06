@@ -25,6 +25,31 @@
 .slideshow.home .locations > div
   flex: 1 0
   background: var(--dark)
+  display: flex
+  flex-direction: column
+  margin-right: 2rem
+
+.slideshow.home .locations > div > :not(nav)
+  padding: 0 2rem
+
+.slideshow.home .locations > div > p
+  color: #ccc
+
+.slideshow.home .locations > div > nav
+  margin-top: 2rem
+  display: flex
+
+.slideshow.home .locations > div > nav > a
+  flex: 1 0
+  display: inline-block
+  color: var(--dark)
+  background: var(--light)
+  border: 0
+  padding: 1rem
+  text-transform: uppercase
+  &:hover
+    color: var(--light)
+    background: var(--dark)
 
 .slideshow > .overlay
   position: absolute
