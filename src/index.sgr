@@ -14,17 +14,17 @@ extends(src='layout.sgr')
           //- span.inverse Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali
         div.locations
           div.mana-ubud
-            h4 Mana Ubud
             //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
             .img
+              h4 Mana Ubud
             nav
               a(href='/mana-ubud/' title='Photos and Information') Explore 
               a(href='/mana-ubud/' title='Make a booking') Book Now
           div.mana-sari
-            h4 Mana Sari
             //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
 
             .img
+              h4 Mana Sari
             nav
               a(href='/mana-sari/' title='Photos and Information') Explore
               a(href='/mana-sari/' title='Make a booking') Book Now
