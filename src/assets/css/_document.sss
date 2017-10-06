@@ -2,15 +2,19 @@
   --selection: #eee8d5
   --light-blue: #c7ffe2
   --dark-blue: #44a6c1
-  --text-color: #144e5b
   --link-color: #224
   --heading-color: #446
   --heading-line-color: #aac
   --button-color: #eee8d5
   --button-background: #007389
   --button-text-shadow: #668
-  --body-background: #fffdd0
+  --body-background: #fff
+  --text-color: #000
   --header-height: 60px
+
+  /* v2 monochrome */
+  --light: #fff
+  --dark: #000
 
 html
   box-sizing: border-box
@@ -33,16 +37,12 @@ body
   font-size: 1.8rem
   line-height: 2.2rem
   text-align: center
-  font-family: SourceSerif, serif
-
-header, footer, h1, h2, h3, h4, h5, h6
   font-family: SourceSans, sans-serif
 
 h1, h2, h3, h4, h5, h6
   display: inline-block
   text-transform: uppercase
   letter-spacing: 1px
-  border-bottom: 2px solid
   margin: 2rem 0 1rem 0
   padding: 0 0 .25rem 0
 
@@ -125,7 +125,7 @@ main
   margin: 0 auto
   text-align: left
   overflow: auto
-  padding: 2rem 2rem
+  padding: 0 2rem
 
 section
   margin-bottom: 4rem
@@ -138,10 +138,10 @@ blockquote
 a
   text-decoration: none
   color: var(--link-color)
-  border-bottom: 1px solid #ffe
-  transition: border .5s ease-in-out
+  border-bottom: 1px solid transparent
+  transition: all .3s ease-in-out
   &:hover
-    border-bottom: 1px solid
+    border-bottom: 1px solid currentColor
 
 .slideshow
   width: 100%

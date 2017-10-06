@@ -1,4 +1,4 @@
-footer
+footer.inverse
   nav
     a(href='/contact/' title='Contact Us') Contact
     a(href='/sitemap/' title='Sitemap') Sitemap

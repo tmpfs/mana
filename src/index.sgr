@@ -4,29 +4,26 @@ extends(src='layout.sgr')
   block(name='description')
     meta(name='description' content='Luxury modern villas')
   block(name='header')
-    include(src='_header.sgr')
+    //-include(src='_header.sgr')
   block(name='content')
-    div.slideshow
-      img(src='/assets/img/patio-view.jpg')
-
-    main(class='{{ pageId }}')
-      section
-        h2 Mana
-        p.
-          Luxurious villas blending traditional Javanese teak architecture with modern design to create a unique atmosphere set amidst the lush tropical foliage of Bali.
-
-        h4 Mana Ubud
-        p.
-          Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
+    div.slideshow.home
+      .overlay
+        h1
+          span.inverse We love creating beautiful harmonious spaces that inspire
         p
-          a(href='/mana-ubud/' title='Photos and Information') More information & photos
-        h4 Mana Sari
-        p.
-          Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle. Both our locations are in quiet neighborhoods that offer an ideal place to relax and enjoy all the nearby restaurants and activities.
-        p
-          a(href='/mana-sari/' title='Photos and Information') More information & photos
-
-        h4 Investment
-        p(mdi) If you are thinking of moving to Bali or looking for an investment property our team can help make that happen &#8212; please [contact us](/contact/ "Contact Us") for more information.
+          span.inverse Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali
+        div.locations
+          div
+            h4 Mana Ubud
+            p.
+              Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
+            p
+              a(href='/mana-ubud/' title='Photos and Information') More information & photos
+          div
+            h4 Mana Sari
+            p.
+              Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle. Both our locations are in quiet neighborhoods that offer an ideal place to relax and enjoy all the nearby restaurants and activities.
+            p
+              a(href='/mana-sari/' title='Photos and Information') More information & photos
   block(name='footer')
     include(src='_footer.sgr')

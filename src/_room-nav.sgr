@@ -1,2 +1,2 @@
 div.room-nav.text-left
-  span(mdi) From $350 per night | [Map](#map) | [Rates](#rates) | [Gallery](#gallery) | [Reviews](#reviews) | [Availability & Reservation](#book-now)
+  span(mdi) [Info](#info) | [Map](#map) | [Gallery](#gallery) | [Reviews](#reviews)

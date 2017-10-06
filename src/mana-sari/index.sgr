@@ -6,9 +6,9 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    include(src='../_room-nav.sgr')
     div.slideshow
       img(src='/assets/img/mana-sari-pool-view.jpg')
+    include(src='../_room-nav.sgr')
     main(class='{{ pageId }}')
       h3 Mana Sari
       p.

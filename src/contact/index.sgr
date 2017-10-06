@@ -17,8 +17,9 @@ extends(src='../layout.sgr')
         a(href='tel:+6282146376989') +62 82146376989
         | .
       hr
+      p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
       div
-        p If you prefer enter your details and we'll get back to you as soon as possible.
+        //- p If you prefer enter your details and we'll get back to you as soon as possible.
         form
           label(for='name') Name
           input(type='text', name='name', id='name')
