@@ -8,7 +8,9 @@ extends(src='layout.sgr')
   block(name='content')
     div.slideshow.home
       .overlay
-        h1 We love creating beautiful harmonious spaces that inspire
+        h1
+          img(src='/assets/img/circles.png', width='64', height='64')
+          span We love creating beautiful harmonious spaces that inspire
           //- span.inverse We love creating beautiful harmonious spaces that inspire
         p Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali
           //- span.inverse Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali
