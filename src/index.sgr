@@ -6,6 +6,9 @@ extends(src='layout.sgr')
   block(name='header')
     //-include(src='_header.sgr')
   block(name='content')
+    div.logo
+      img(src="/assets/img/logo-dark.png", width="32", height="32")
+      span MANA
     .splash
       h1
         //-img(src='/assets/img/circles.png', width='64', height='64')
