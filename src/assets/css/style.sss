@@ -15,24 +15,29 @@
   width: 100%
   height: 100%
 
-.slideshow.home
-  background-image: url('/assets/img/ubud-mana-dusk.jpg')
+.home
+  position: relative
+  text-align: left
+  width: 100%
+  /* background-image: url('/assets/img/ubud-mana-dusk.jpg') */
   background-size: cover
   background-position: bottom center
+  height: auto
 
 .slideshow.mana-ubud
   background-image: url('/assets/img/modern-interior.jpg')
   background-size: cover
   background-position: bottom center
 
-.slideshow.home .locations
+.home .locations
   display: flex
+  flex-direction: column
 
-.slideshow.home .locations > div
+.home .locations > div
   flex: 1 0
-  margin-right: 2rem
+  margin-bottom: 4rem
 
-.slideshow.home .locations > div h4
+.home .locations > div h4
   position: absolute
   left: 0
   top: 0
@@ -42,51 +47,55 @@
   text-shadow: 1px 1px var(--dark)
   font-weight: normal
 
-.slideshow.home .locations > div > :not(nav)
-  padding: 0 2rem
+.home .locations > div > :not(nav)
+  padding: 0
 
-.slideshow.home .locations > div > p
+.home .locations > div > p
   color: #ccc
 
-.slideshow.home .locations > div > nav
+.home .locations > div > nav
   display: flex
 
-.slideshow.home .locations > div > nav > a
+.home .locations > div > nav > a
   flex: 1 0
   display: inline-block
-  color: var(--dark)
-  background: var(--light)
+  color: var(--light)
+  background: var(--dark)
   border: 0
   padding: 1rem
   text-transform: uppercase
   &:hover
-    color: var(--light)
-    background: var(--dark)
+    color: var(--dark)
+    background: var(--light)
 
-.slideshow > .overlay
+.home > .overlay
   position: absolute
-  left: 2rem
-  top: 2rem
+  left: 0
+  top: 0
   color: var(--light)
 
-.slideshow > .overlay > h1
-  margin-top: 0
+.home > .overlay > *:not(footer)
+  margin: 0 2rem
+
+.home > .overlay > h1
+  margin-top: 2rem
+  margin-bottom: 4rem
   text-shadow: 1px 1px var(--dark)
 
-.slideshow > .overlay > h1 > *
+.home > .overlay > h1 > *
   vertical-align: middle
 
-.slideshow > .overlay > h1 > img
+.home > .overlay > h1 > img
   margin-right: 2rem
 
-.slideshow > .overlay > p
+.home > .overlay > p
   margin-bottom: 4rem
   font-size: 2.4rem
   line-height: 3.1rem
   max-width: 50%
   text-shadow: 1px 1px var(--dark)
 
-.slideshow > .overlay > p:first-child
+.home > .overlay > p:first-child
   text-transform: uppercase
 
 .inverse, .inverse a
