@@ -21,7 +21,7 @@ extends(src='layout.sgr')
         div.mana-ubud
           //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
           .img
-            h4 Mana
+            h4 Ubud
             a.book(href='/mana-ubud/' title='Make a booking')
               | book a room
           ul.features
@@ -35,7 +35,7 @@ extends(src='layout.sgr')
           //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
 
           .img
-            h4 Mana Sari
+            h4 Sari
             a.book(href='/mana-ubud/' title='Make a booking')
               | book a room
           ul.features
