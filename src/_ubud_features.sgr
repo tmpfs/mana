@@ -17,3 +17,4 @@ ul.features
     span
       img.icon(src='/assets/img/icon/heart.svg' width="16" height="16")
       | Yoga Studio
+    span &nbsp;
