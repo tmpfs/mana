@@ -44,30 +44,5 @@ extends(src='../layout.sgr')
       p.
         The open-air, en-suite bathroom is huge and bright with rainfall shower, separate bath and natural limestone walls. A bonus is the enormous mirror that covers one wall of the bathroom.
 
-      h4 General
-
-      p.
-        We are a quick 10-minute car or scooter ride from the center of town. We can arrange a scooter rental upon your arrival or provide car and/or scooter taxi service. We have many recommendations for activities, restaurants, cafe, massage, spa, treatments and other happenings around town. We'll provide you with a personal mobile phone for the convenience of making reservations, booking appointments and calling taxis if needed.
-
-      h4 Guest Access
-
-      p.
-        Guests have their own private kitchen and furnished balcony; access to the large open-air common kitchen, dining room and comfortable lounge area, saltwater pool, deck area, pool beds, yoga studio-fitness room and roof top terrace. We'll also provide a personal mobile phone. Feel at home.
-
-      h4 Getting Around
-
-      p.
-        Most people find it easiest to rent a scooter or get a taxi into town. We can arrange a scooter rental upon arrival and we have a number of drivers our guests can call for pick-ups and drop offs or even tours around (and stored in your personal mobile). Fortunately we have easy road access.
-
-      h4 Neighborhood
-
-      p.
-        Penestanan is a little sub-village of Ubud, becoming the 'hip' part of town. It has been gaining popularity in recent years. Lots of cool restaurants, coffee shops, spas, juice shops, yoga and beautiful nature: rice fields and jungle. Generally a bit more quiet. It's far enough away that you can have quiet times yet close enough to jump into town.
-
-      h4 Hosting
-
-      p.
-        We are always available to give information, tips and recommendations to our guests. We know a lot about the happenings of Ubud, whether it's restaurants, yoga, health and wellness. We can easily connect you to where you want to go. We provide you with a personal mobile phone during your stay to make it easier to get around if you need taxis and to book appointments, make reservations. We also give you a list of recommended restaurants, cafes and activities.
-
   block(name='footer')
     include(src='../_footer.sgr')

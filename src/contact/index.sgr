@@ -7,28 +7,29 @@ extends(src='../layout.sgr')
     include(src='../_header.sgr')
   block(name='content')
     main(class='{{ pageId }}')
-      h3 Get in Touch
-      p
-        | Please send us an email to&nbsp;
-        a(href='mailto:info@ubudmana.com') info@ubudmana.com
-        | &nbsp;or call us on&nbsp;
-        a(href='tel:+6281236340887') +62 81236340887
-        | &nbsp;or&nbsp;
-        a(href='tel:+6282146376989') +62 82146376989
-        | .
-      hr
-      p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
-      div
-        //- p If you prefer enter your details and we'll get back to you as soon as possible.
-        form
-          label(for='name') Name
-          input(type='text', name='name', id='name')
-          label(for='email') Email
-          input(type='email', name='email', id='email')
-          label(for='comment') Comment
-          textarea#comment
-          div
-            input(type='reset', name='reset', value='clear')
-            input(type='submit', name='submit', value='send')
+      section
+        h2 Get in Touch
+        p
+          | Please send us an email to&nbsp;
+          a(href='mailto:info@ubudmana.com') info@ubudmana.com
+          | &nbsp;or call us on&nbsp;
+          a(href='tel:+6281236340887') +62 81236340887
+          | &nbsp;or&nbsp;
+          a(href='tel:+6282146376989') +62 82146376989
+          | .
+        hr
+        p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
+        div
+          //- p If you prefer enter your details and we'll get back to you as soon as possible.
+          form
+            label(for='name') Name
+            input(type='text', name='name', id='name')
+            label(for='email') Email
+            input(type='email', name='email', id='email')
+            label(for='comment') Comment
+            textarea#comment
+            div
+              input(type='reset', name='reset', value='clear')
+              input(type='submit', name='submit', value='send')
   block(name='footer')
     include(src='../_footer.sgr')
