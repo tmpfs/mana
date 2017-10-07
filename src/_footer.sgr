@@ -1,9 +1,9 @@
 footer.inverse
   nav
-    a(href='/info/' title='Local Info') Local Info
+    a(href='/info/' title='Local Info') Info
     a(href='/contact/' title='Contact Us') Contact
     a(href='/sitemap/' title='Sitemap') Sitemap
   nav
     a(href='mailto:info@ubudmana.com') info@ubudmana.com
-    a(href='tel:+6281236340887') +62 81236340887
-    a(href='tel:+6282146376989') +62 82146376989
+    a(href='tel:+6281236340887') +6281236340887
+    a(href='tel:+6282146376989') +6282146376989

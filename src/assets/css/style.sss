@@ -9,35 +9,38 @@
   background: var(--dark)
   color: var(--light)
 
+.small
+  font-size: 1.4rem
+
 .slideshow
   position: relative
   text-align: left
   width: 100%
   height: 100%
 
-.home
-  position: relative
+.slideshow.mana-ubud
+  background-image: url('/assets/img/modern-interior.jpg')
+  background-size: cover
+  background-position: bottom center
+
+.splash
   text-align: left
   width: 100%
   /* background-image: url('/assets/img/ubud-mana-dusk.jpg') */
   background-size: cover
   background-position: bottom center
   height: auto
+  padding: 0 2rem
 
-.slideshow.mana-ubud
-  background-image: url('/assets/img/modern-interior.jpg')
-  background-size: cover
-  background-position: bottom center
-
-.home .locations
+.splash .locations
   display: flex
   flex-direction: column
 
-.home .locations > div
+.splash .locations > div:not(:last-child)
   flex: 1 0
-  margin-bottom: 4rem
+  margin-bottom: 2rem
 
-.home .locations > div h4
+.splash .locations > div h4
   position: absolute
   left: 0
   top: 0
@@ -46,57 +49,32 @@
   padding: 1rem !important
   text-shadow: 1px 1px var(--dark)
   font-weight: normal
+  color: var(--light)
 
-.home .locations > div > :not(nav)
+.splash .locations > div > :not(nav)
   padding: 0
 
-.home .locations > div > p
-  color: #ccc
-
-.home .locations > div > nav
+.splash .locations > div > nav
   display: flex
 
-.home .locations > div > nav > a
+.splash .locations > div > nav > a
   flex: 1 0
   display: inline-block
   color: var(--light)
   background: var(--dark)
   border: 0
-  padding: 1rem
+  padding: 0.5rem 0.5rem 0.5rem 1rem
   text-transform: uppercase
+  font-size: 1.6rem
   &:hover
     color: var(--dark)
     background: var(--light)
 
-.home > .overlay
-  position: absolute
-  left: 0
-  top: 0
-  color: var(--light)
+.splash
 
-.home > .overlay > *:not(footer)
-  margin: 0 2rem
-
-.home > .overlay > h1
-  margin-top: 2rem
-  margin-bottom: 4rem
-  text-shadow: 1px 1px var(--dark)
-
-.home > .overlay > h1 > *
-  vertical-align: middle
-
-.home > .overlay > h1 > img
-  margin-right: 2rem
-
-.home > .overlay > p
-  margin-bottom: 4rem
-  font-size: 2.4rem
-  line-height: 3.1rem
-  max-width: 50%
-  text-shadow: 1px 1px var(--dark)
-
-.home > .overlay > p:first-child
-  text-transform: uppercase
+.splash > p
+  color: var(--dark)
+  margin-bottom: 2rem
 
 .inverse, .inverse a
   background: var(--dark)
@@ -121,3 +99,36 @@
 
 section.page
   padding-top: var(--header-height)
+
+@media screen and (max-width: 719px)
+  .splash > h1
+    font-size: 2.4rem
+    margin-top: 2rem
+    margin-bottom: 1rem
+    /* text-shadow: 1px 1px var(--dark) */
+    line-height: 2.6rem
+
+  .splash > p.leader
+    margin-top: 0
+    margin-bottom: 2rem
+    font-size: 1.4rem
+    line-height: 1.8rem
+    max-width: none
+    /* max-width: 50% */
+    /* text-shadow: 1px 1px var(--dark) */
+
+@media screen and (min-width: 720px)
+  .splash > h1
+    margin-top: 2rem
+    margin-bottom: 2rem
+    /* text-shadow: 1px 1px var(--dark) */
+    line-height: 3.1rem
+
+  .splash > p.leader
+    margin-top: 0
+    margin-bottom: 4rem
+    font-size: 2.6rem
+    line-height: 3rem
+    max-width: 75%
+    /* text-shadow: 1px 1px var(--dark) */
+
