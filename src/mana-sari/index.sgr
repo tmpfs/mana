@@ -13,15 +13,19 @@ extends(src='../layout.sgr')
         h4 Information
         include(src='../_sari_features.sgr')
         p.
-          Beautiful mix of old and new architecture, classic javanese teak house infused with light and love.
+          Mana Sari is a beautiful mix of old and new architecture.
 
         p.
-          Airy, bright and spacious main joglo loft style house with large walk in closet and very grand bathroom with tub, natural stone walls.
+          The main living space is a large, airy and bright classic Javanese teak house infused with light and love. It features a large walk in closet and grand bathroom with tub and natural stone walls.
 
         p.
-          The second bedroom is modern with green roof garden chill out on top. It has its own beautiful bright bathroom with tub and terrace overlooking the jungle below . The property has a second outdoor pool kitchen for entertaining.
+          The secondary living space is a modern apartment with a bright and beautiful en-suite bathroom. Ascend the spiral staircase to the green roof garden for an extra chill out space.
+
         p.
-          The salt water infinity pool is overlooking the jungle and river below with a length of 11 meters. The villa is set on a quiet no through road with a few other high end villas, yet just a short walk to town.
+          The salt water infinity pool is overlooking the jungle and river below, alongside the pool is an outdoor kitchen for entertaining.
+          
+        p.
+          The villa is set on a quiet no through road with a few other high end villas and is just a short walk to the centre of Ubud.
       section#map
         h4 Map
         img(src='/assets/img/mock-map.jpg')
