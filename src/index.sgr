@@ -35,4 +35,4 @@ extends(src='layout.sgr')
       p.small.
         Book directly with the promo code MANA123 to save 5%
   block(name='footer')
-    // include(src='_footer.sgr')
+    include(src='_footer.sgr')
