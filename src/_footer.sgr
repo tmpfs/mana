@@ -13,3 +13,8 @@ footer
       a(href='tel:+6282146376989') +6282146376989
     span
       a(href='mailto:info@ubudmana.com') info@ubudmana.com
+div.social.center
+  img.icon(src='/assets/img/icon/twitter.svg' width="16" height="16")
+  img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16")
+  img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16")
+  img.icon(src='/assets/img/icon/facebook.svg' width="16" height="16")
