@@ -1,13 +1,13 @@
 extends(src='../layout.sgr')
   block(name='title')
-    title Mana Ubud
+    title Local Information
   block(name='description')
-    meta(name='description' content='Luxury villas in Penestanan Village')
+    meta(name='description' content='Useful local knowledge')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
     main(class='{{ pageId }}')
-      section
+      section.page
         h2 Local Information
 
         h4 General

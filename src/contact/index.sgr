@@ -7,7 +7,7 @@ extends(src='../layout.sgr')
     include(src='../_header.sgr')
   block(name='content')
     main(class='{{ pageId }}')
-      section
+      section.page
         h2 Get in Touch
         p
           | Please send us an email to&nbsp;

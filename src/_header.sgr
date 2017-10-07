@@ -1,9 +1,9 @@
 header
   nav
-    a.logo(href='/' title='Mana')
-      img(src='/assets/img/logo-icon.png')
+    a.logo(href='/' title='Home')
+      img(src='/assets/img/circles.png', width='42', height='42')
   nav
-    //-a(href='/mana-ubud/' title='Mana Ubud Villas') Mana Ubud
-    //-a(href='/mana-sari/' title='Mana Sari Villas') Mana Sari
+    a(href='/mana-ubud/' title='Mana Ubud Villas') Mana Ubud
+    a(href='/mana-sari/' title='Mana Sari Villas') Mana Sari
     //-a(href='#book-now' title='Book Now') Book Now
 
