@@ -21,14 +21,24 @@
 .slideshow.mana-ubud
   background-image: url('/assets/img/modern-interior.jpg')
   background-size: cover
-  background-position: bottom center
+  background-position: center center
+
+.slideshow.mana-sari
+  background-image: url('/assets/img/mana-sari-pool-view.jpg')
+  background-size: cover
+  background-position: center center
+
+.features
+  margin: 0
+  padding: 1rem
+  list-style-type: none
+  font-size: 1.4rem
+  display: flex
+  flex-direction: column
 
 .splash
   text-align: left
   width: 100%
-  /* background-image: url('/assets/img/ubud-mana-dusk.jpg') */
-  background-size: cover
-  background-position: bottom center
   height: auto
   padding: 0 2rem
 
@@ -50,9 +60,6 @@
   text-shadow: 1px 1px var(--dark)
   font-weight: normal
   color: var(--light)
-
-.splash .locations > div > :not(nav)
-  padding: 0
 
 .splash .locations > div > nav
   display: flex
@@ -114,6 +121,9 @@ section.page
   padding-top: var(--header-height)
 
 @media screen and (max-width: 719px)
+  body p, .room-nav
+    font-size: 1.4rem
+
   .splash > h1
     font-size: 2.4rem
     margin-top: 2rem
@@ -145,5 +155,14 @@ section.page
     max-width: 75%
     /* text-shadow: 1px 1px var(--dark) */
 
+  .locations > div:not(:last-child)
+    margin-bottom: 8rem !important
+
   .locations .mana-sari .img, .locations .mana-ubud .img
-    height: 480px
+    height: 640px
+
+  .features
+    flex-direction: row
+  .features li
+    flex: 1 0
+    text-align: center
