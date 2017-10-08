@@ -8,7 +8,7 @@ extends(src='../layout.sgr')
   block(name='content')
     div.slideshow(class='{{ pageId }}')
     include(src='../_room-nav.sgr')
-    main(class='{{ pageId }}')
+    main
       section
         h2 Mana Ubud
 

@@ -30,13 +30,13 @@ extends(src='layout.sgr')
             li Salt water pool
             li Yoga Studio
           nav
-            a(href='/mana-ubud/' title='Photos and Information') Explore 
+            a(href='/mana-ubud/' title='Photos and Information') Explore
         div.mana-sari
           //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
 
           .img
             h4 Sari
-            a.book(href='/mana-ubud/' title='Make a booking')
+            a.book(href='/mana-sari/' title='Make a booking')
               | book a room
           ul.features
             li 2 Bedroom in Central Ubud

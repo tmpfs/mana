@@ -76,9 +76,12 @@ header nav:last-child a
   background: var(--dark)
   color: var(--light)
   transition: all 0.4s ease-in-out
-  &:hover
+  &:hover, &.selected
     background: var(--light)
     color: var(--dark)
+
+header nav:last-child a.selected
+  pointer-events: none
 
 footer
   display: flex
