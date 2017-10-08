@@ -8,7 +8,7 @@ extends(src='../layout.sgr')
   block(name='content')
     main(class='{{ pageId }}')
       section.page
-        h2 Local Information
+        h1 We believe in sharing knowledge
         h4 General
 
         p.
