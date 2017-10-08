@@ -45,6 +45,7 @@ extends(src='../layout.sgr')
           The open-air, en-suite bathroom is huge and bright with rainfall shower, separate bath and natural limestone walls. A bonus is the enormous mirror that covers one wall of the bathroom.
       section#map
         h4 Map
+        img(src='/assets/img/mock-map.jpg')
       section#gallery
         h4 Gallery
       section#reviews

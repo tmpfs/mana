@@ -24,6 +24,7 @@ extends(src='../layout.sgr')
           The salt water infinity pool is overlooking the jungle and river below with a length of 11 meters. The villa is set on a quiet no through road with a few other high end villas, yet just a short walk to town.
       section#map
         h4 Map
+        img(src='/assets/img/mock-map.jpg')
       section#gallery
         h4 Gallery
       section#reviews
