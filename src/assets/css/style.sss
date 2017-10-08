@@ -112,16 +112,17 @@ header .logo > span
   padding: 1rem
   list-style-type: none
   font-size: 1.4rem
-  display: flex
-  flex-direction: column
+  display: table
+  width: 100%
 
 .features li
-  display: flex
-  flex: 1 0
+  width: 100%
+  display: table-row
 
 .features li span
-  flex: 1 0
-  width: 50%
+  display: table-cell
+  min-width: 80px
+  padding-right: 2rem
 
 .splash
   text-align: left
@@ -263,7 +264,23 @@ section.page
     height: 640px
 
   .features
+    display: flex
+
+  .features li
+    display: flex
+    flex: 1 0
+    text-align: center
+
+  .features li span
+    margin-right: 0 !important
+    flex: 1 0
+
+    /*
+  .features
     flex-direction: row
   .features li
     flex: 1 0
     text-align: center
+    */
+
+
