@@ -6,9 +6,10 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    main(class='{{ pageId }}')
+    main
       section.page
         h1 We like helping you find what you need
+        div.banner
         div(id='sitemap')
   block(name='footer')
     include(src='../_footer.sgr')
