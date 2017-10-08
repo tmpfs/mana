@@ -50,5 +50,7 @@ extends(src='../layout.sgr')
         h4 Gallery
       section#reviews
         h4 Reviews
+        include(src='_reviews.sgr')
+
   block(name='footer')
     include(src='../_footer.sgr')
