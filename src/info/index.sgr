@@ -6,9 +6,10 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    main(class='{{ pageId }}')
+    main
       section.page
         h1 We believe in sharing knowledge
+        div.banner
         h4 General
 
         p.
