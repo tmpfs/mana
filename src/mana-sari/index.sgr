@@ -27,6 +27,7 @@ extends(src='../layout.sgr')
         img(src='/assets/img/mock-map.jpg')
       section#gallery
         h4 Gallery
+        div.gallery
       section#reviews
         h4 Reviews
         include(src='_reviews.sgr')
