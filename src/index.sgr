@@ -6,24 +6,18 @@ extends(src='layout.sgr')
   block(name='header')
     //-include(src='_header.sgr')
   block(name='content')
+
+    //-div
+      //-img(src="/assets/img/logo-dark.png" width="128" height="128")
+      //-h1(style='display: block; margin-top: 0') MANAVEDA
+
     div.logo
-      img(src="/assets/img/logo-dark.png", width="32", height="32")
+      img(src="/assets/img/logo-dark.png" width="32" height="32")
       span MANA
     .splash
       h1 We love creating beautiful harmonious spaces that inspire
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
-        div.mana-ubud
-          //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
-          .img
-            h4 Ubud
-            a.book(href='/mana-ubud/' title='Make a booking')
-              | book a room
-          //- p Penestanan Klod, Ubud, 80571, Indonesia
-          //- https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en
-          include(src='_ubud_features.sgr')
-          nav
-            a(href='/mana-ubud/' title='Photos and Information') Explore
         div.mana-sari
           //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
 
@@ -36,6 +30,17 @@ extends(src='layout.sgr')
           include(src='_sari_features.sgr')
           nav
             a(href='/mana-sari/' title='Photos and Information') Explore
+        div.mana-ubud
+          //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
+          .img
+            h4 Zen
+            a.book(href='/mana-ubud/' title='Make a booking')
+              | book a room
+          //- p Penestanan Klod, Ubud, 80571, Indonesia
+          //- https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en
+          include(src='_ubud_features.sgr')
+          nav
+            a(href='/mana-ubud/' title='Photos and Information') Explore
       p.small.
         Book directly with the promo code MANA123 to save 5%
   block(name='footer')
