@@ -10,7 +10,8 @@ extends(src='../layout.sgr')
     include(src='../_room-nav.sgr')
     main
       section
-        h2 Mana Sari
+        //- h2 Sari
+        include(src='../_sari_features.sgr')
         p.
           Beautiful mix of old and new architecture, classic javanese teak house infused with light and love.
 

@@ -24,11 +24,7 @@ extends(src='layout.sgr')
             h4 Ubud
             a.book(href='/mana-ubud/' title='Make a booking')
               | book a room
-          ul.features
-            li 3 Bedroom in Penestanan, Ubud
-            li Wifi
-            li Salt water pool
-            li Yoga Studio
+          include(src='_ubud_features.sgr')
           nav
             a(href='/mana-ubud/' title='Photos and Information') Explore
         div.mana-sari
@@ -38,10 +34,7 @@ extends(src='layout.sgr')
             h4 Sari
             a.book(href='/mana-sari/' title='Make a booking')
               | book a room
-          ul.features
-            li 2 Bedroom in Central Ubud
-            li Wifi
-            li Salt water pool
+          include(src='_sari_features.sgr')
           nav
             a(href='/mana-sari/' title='Photos and Information') Explore
       p.small.
