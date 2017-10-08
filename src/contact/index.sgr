@@ -6,9 +6,10 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    main(class='{{ pageId }}')
+    main
       section.page
         h1 We enjoy satisfying our visitors
+        div.banner
         p
           | Please send us an email to&nbsp;
           a(href='mailto:info@ubudmana.com') info@ubudmana.com
@@ -19,6 +20,7 @@ extends(src='../layout.sgr')
           | .
         //-hr
         //-p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
+        hr
         div
           //- p If you prefer enter your details and we'll get back to you as soon as possible.
           form

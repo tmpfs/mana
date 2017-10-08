@@ -8,6 +8,7 @@ extends(src='../layout.sgr')
   block(name='content')
     main(class='{{ pageId }}')
       section.page
+        h1 We like helping you find what you need
         div(id='sitemap')
   block(name='footer')
     include(src='../_footer.sgr')

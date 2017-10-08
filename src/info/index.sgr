@@ -9,7 +9,6 @@ extends(src='../layout.sgr')
     main(class='{{ pageId }}')
       section.page
         h2 Local Information
-
         h4 General
 
         p.
