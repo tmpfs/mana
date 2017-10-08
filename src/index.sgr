@@ -10,13 +10,8 @@ extends(src='layout.sgr')
       img(src="/assets/img/logo-dark.png", width="32", height="32")
       span MANA
     .splash
-      h1
-        //-img(src='/assets/img/circles.png', width='64', height='64')
-        span We love creating beautiful harmonious spaces that inspire
-        //- span.inverse We love creating beautiful harmonious spaces that inspire
-      p.leader
-        span Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
-        //- span.inverse Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali
+      h1 We love creating beautiful harmonious spaces that inspire
+      p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
         div.mana-ubud
           //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.

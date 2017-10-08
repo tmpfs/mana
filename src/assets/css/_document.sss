@@ -41,7 +41,6 @@ body
   font-family: SourceSans, sans-serif
 
 h1, h2, h3, h4, h5, h6
-  display: inline-block
   text-transform: uppercase
   letter-spacing: 1px
   margin: 2rem 0 1rem 0
@@ -117,9 +116,6 @@ main
 section
   margin-bottom: 4rem
 
-section > h2
-  display: block
-
 blockquote
   border-left: 4px solid #ccc
   margin: 0
@@ -167,9 +163,26 @@ textarea
   font-size: 2rem
   padding: 0.5rem
   width: 100%
-  max-width: 320px
-  border-radius: .5rem
-  border: 1px solid #ccc
+  border-style: none
+
+input[type="text"],
+input[type="email"],
+textarea
+  border-bottom: 2px solid var(--dark)
+  margin-bottom: 2rem
+  font-size: 1.6rem
+  padding: 1rem
+  background: #efefef
+
+textarea
+  width: 100%
+  max-width: 100%
+
+input[type="submit"],
+input[type="reset"]
+  background: var(--dark)
+  color: var(--light)
+  font-size: 1.4rem
 
 input[type="reset"]
   margin-right: 2rem

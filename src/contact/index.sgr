@@ -8,28 +8,28 @@ extends(src='../layout.sgr')
   block(name='content')
     main(class='{{ pageId }}')
       section.page
-        h2 Get in Touch
+        h1 We enjoy satisfying our visitors
         p
           | Please send us an email to&nbsp;
           a(href='mailto:info@ubudmana.com') info@ubudmana.com
           | &nbsp;or call us on&nbsp;
-          a(href='tel:+6281236340887') +62 81236340887
+          a(href='tel:+6281236340887') +6281236340887
           | &nbsp;or&nbsp;
-          a(href='tel:+6282146376989') +62 82146376989
+          a(href='tel:+6282146376989') +6282146376989
           | .
-        hr
-        p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
+        //-hr
+        //-p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
         div
           //- p If you prefer enter your details and we'll get back to you as soon as possible.
           form
-            label(for='name') Name
-            input(type='text', name='name', id='name')
-            label(for='email') Email
-            input(type='email', name='email', id='email')
-            label(for='comment') Comment
-            textarea#comment
-            div
-              input(type='reset', name='reset', value='clear')
-              input(type='submit', name='submit', value='send')
+            //- label(for='name') Name
+            input(type='text' name='name' id='name' placeholder='Your name')
+            //- label(for='email') Email
+            input(type='email' name='email' id='email' placeholder='Your email address')
+            //-label(for='comment') Comment
+            textarea#comment(placeholder='Your message' rows='6')
+            div.actions
+              input(type='reset' name='reset' value='clear')
+              input(type='submit' name='submit' value='send')
   block(name='footer')
     include(src='../_footer.sgr')
