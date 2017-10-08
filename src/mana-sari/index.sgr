@@ -9,8 +9,8 @@ extends(src='../layout.sgr')
     div.slideshow(class='{{ pageId }}')
     include(src='../_room-nav.sgr')
     main
-      section
-        //- h2 Sari
+      section#info
+        h4 Information
         include(src='../_sari_features.sgr')
         p.
           Beautiful mix of old and new architecture, classic javanese teak house infused with light and love.
@@ -22,5 +22,11 @@ extends(src='../layout.sgr')
           The second bedroom is modern with green roof garden chill out on top. It has its own beautiful bright bathroom with tub and terrace overlooking the jungle below . The property has a second outdoor pool kitchen for entertaining.
         p.
           The salt water infinity pool is overlooking the jungle and river below with a length of 11 meters. The villa is set on a quiet no through road with a few other high end villas, yet just a short walk to town.
+      section#map
+        h4 Map
+      section#gallery
+        h4 Gallery
+      section#reviews
+        h4 Reviews
   block(name='footer')
     include(src='../_footer.sgr')
