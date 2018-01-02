@@ -1,5 +1,5 @@
 nav.room-nav
   a(href="#info" title="Information") Info
-  a(href="#map" title="Map") Map
   a(href="#gallery" title="Gallery") Gallery
   a(href="#reviews" title="Reviews") Reviews
+  a(href="#map" title="Map") Map

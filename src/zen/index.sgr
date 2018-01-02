@@ -11,7 +11,8 @@ extends(src='../layout.sgr')
     include(src='../_room-nav.sgr')
     main
       section#info
-        h4 Information
+        h4
+          a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
 
         p.
@@ -44,15 +45,18 @@ extends(src='../layout.sgr')
 
         p.
           The open-air, en-suite bathroom is huge and bright with rainfall shower, separate bath and natural limestone walls. A bonus is the enormous mirror that covers one wall of the bathroom.
-      section#map
-        h4 Map
-        img(src='/assets/img/mock-map.jpg')
       section#gallery
-        h4 Gallery
+        h4
+          a(href='#gallery' title='Gallery Permalink') Gallery
         div.gallery
       section#reviews
-        h4 Reviews
+        h4
+          a(href='#reviews' title='Reviews Permalink') Reviews
         include(src='_reviews.sgr')
+      section#map
+        h4
+          a(href='#map' title='Map Permalink') Map
+        img(src='/assets/img/mock-map.jpg')
 
   block(name='footer')
     include(src='../_footer.sgr')

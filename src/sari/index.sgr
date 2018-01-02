@@ -27,15 +27,15 @@ extends(src='../layout.sgr')
 
         p.
           The villa is set on a quiet no through road with a few other high end villas and is just a short walk to the centre of Ubud.
-      section#map
-        h4 Map
-        img(src='/assets/img/mock-map.jpg')
       section#gallery
         h4 Gallery
         div.gallery
       section#reviews
         h4 Reviews
         include(src='_reviews.sgr')
+      section#map
+        h4 Map
+        img(src='/assets/img/mock-map.jpg')
   block(name='footer')
     include(src='../_footer.sgr')
 
