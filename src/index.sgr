@@ -18,8 +18,6 @@ extends(src='layout.sgr')
               a(href='#sari') Sari
             a.book(href='https://app-apac.thebookingbutton.com/properties/manasari12direct' title='Make a booking')
               | book a villa
-          //- p Jalan Gunung Sari, Bali, Ubud, 80571, Indonesia
-          //- https://www.google.co.id/maps/@-8.50766,115.27314,14z?hl=en
           include(src='./sari/_features.sgr')
           nav
             a(href='/sari/' title='Photos and Information') Explore
@@ -29,12 +27,8 @@ extends(src='layout.sgr')
               a(href='#zen') Zen
             a.book(href='/zen/' title='Make a booking')
               | book a villa
-          //- p Penestanan Klod, Ubud, 80571, Indonesia
-          //- https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en
           include(src='./zen/_features.sgr')
           nav
             a(href='/zen/' title='Photos and Information') Explore
-      //-p.small.
-        //-Book directly with the promo code MANA123 to save 5%
   block(name='footer')
     include(src='_footer.sgr')
