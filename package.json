@@ -1,6 +1,6 @@
 {
-  "name": "mana",
-  "description": "Ubud mana villas",
+  "name": "mana-veda",
+  "description": "Mana veda villas",
   "version": "1.0.0",
   "author": "muji",
   "license": "MIT",
@@ -27,17 +27,15 @@
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
     "standard": "^8.6.0",
-    "webpack": "^2.2.1"
-  },
-  "scripts": {
-    "clean": "rm -rf public",
-    "compile": "makestatic --clean --env production",
-    "lint": "standard src/js/**/*.js"
-  },
-  "dependencies": {
+    "webpack": "^2.2.1",
     "makestatic-deploy-s3": "^1.0.18",
     "makestatic-graph-resources": "^1.1.9",
     "makestatic-sitemap": "^1.2.2",
     "raw-loader": "^0.5.1"
+  },
+  "scripts": {
+    "clean": "rm -rf public",
+    "build": "makestatic --clean --env production",
+    "lint": "standard src/js/**/*.js"
   }
 }
