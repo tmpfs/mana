@@ -6,7 +6,8 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div#slider.swipe(class='{{ pageId }}')
+    div#slider.swipe(data-id='{{ pageId }}')
+      div.swipe-wrap
     include(src='../_room-nav.sgr')
     main
       section#info
@@ -55,3 +56,7 @@ extends(src='../layout.sgr')
 
   block(name='footer')
     include(src='../_footer.sgr')
+
+  block(name='javascript')
+    script(src='/assets/js/vendor/swipe.js' defer)
+    script(src='/assets/js/main.js' defer)
