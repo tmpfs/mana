@@ -14,37 +14,33 @@ extends(src='../layout.sgr')
         h4
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
+        p.
+          Mana Zen is a historical treasure redefined, blending the beautiful Javanese antique wooden house (Joglo) with modern loft style living to create a luxurious gem.
 
         p.
-          Magical oasis. Mana means life force energy, which you can feel in the vibrant and peaceful energy of the place. A beautiful historical treasure redefined and modernized.
-
-        p.
-          A luxurious gem tucked away in a tranquil little pocket of Penestanan village, in Ubud, overlooking wild, beautiful jungle. It is a complex of 3 luxurious villas, shared common lounge area, saltwater pool, yoga studio, green rooftop lounge. A happy place.
-
-        h5 Style
-
-        p. Each of our 3 villas is surrounded by lush tropical gardens including organic gardens growing veggies, fruits and herbs. Our signature design style is to refurbish the antique Indonesian teakwood house to create a unique and striking blend of modernity and tradition. The up-cycled whitewashed wood and high ceilings brings light, brightness and a contemporary feeling in perfect balance with the traditional solid structure. The villas are the product of refined craftsmanship. As a designer, it is a pleasure to combine the modern elements of style and design to antique structures. We find it creates the perfect balance: light and solid, old and new at the same time.
-
-        h5 Common Areas
-
-        p.
-          You can enjoy the beauty of the lush gardens and tropical foliage throughout Ubud Mana from your private villa and also enjoy time in the common kitchen/dining area and adjacent lounge furnished with comfortable sofas that extend the pool deck. The décor of the villas and common areas is simple, tasteful and elegant.
-
-        p.
-          The infinity saltwater pool is soft and velvety. Feel free to practice yoga in the yoga-fitness room with beautiful and uniquely finished hardwood floors, floor to ceiling mirrors, resistance bands, free weights, chin up bar and yoga mats. We encourage guests to climb up the spiral staircase to the green roof of the fitness room to enjoy sunsets on the rooftop lounge that is sheltered with passion fruit vines.
-
-        h5 Chi and Prana
-
-        p.
-          They are both Joglos, traditional Javanese houses,  They each (sleeps 2) are  a cozy, charming one room villa with hardwood floors, whitewashed teakwood throughout, floor to ceiling windows, plenty of cabinet space, kitchenette (with stove and fridge) and air-conditioning. The room is furnished with a beautiful 4-poster king-sized bed made from recycled wood. The open-air, en-suite bathroom is bright and spacious with standing rainfall shower, separate bathtub and natural limestone walls. Bathe under blue sky and tropical tree leaves. You can dine, lounge and read on the lovely furnished balcony overlooking lush garden and jungle.
+          Tucked away in a tranquil little pocket of Penestanan village just outside Ubud it is a complex of three villas overlooking wild, beautiful jungle and has a shared common area, salt water pool, yoga studio and green roof lounge. A happy place.
 
         h5 Tao
 
         p.
-          Our largest and most striking of the three villas is Joglo Raj. Beautiful, expansive and bright. It is best described as a combination of modern NYC loft and beautiful, rustic antique wooden house (joglo). The ceiling of this antique Javanese joglo peaks at 9 meters with whitewashed teakwood throughout. All the furniture including the beautiful 4-poster king-sized bed made from recycled wood is handcrafted. The joglo is air-conditioned with terrazzo floors, comfortable lounge area with sofa, TV/DVD player, breakfast bar, walk-in closet and folding glass doors that opens to a large terrace overlooking the pool.
+          Beautiful, expansive and bright our largest and most striking villa is called Tao. All the furniture including the beautiful 4-poster king-size bed were handcrafted using recycled wood. The Joglo is air-conditioned with terrazzo floors, comfortable lounge area, TV/DVD player, breakfast bar, walk-in closet and folding glass doors that opens to a large terrace overlooking the pool.
 
         p.
           The open-air, en-suite bathroom is huge and bright with rainfall shower, separate bath and natural limestone walls. A bonus is the enormous mirror that covers one wall of the bathroom.
+
+        h5 Chi & Prana
+
+        p.
+          Cozy, charming one room villas with hardwood floors and whitewashed teakwood throughout. They have floor to ceiling windows, plenty of cabinet space and air-conditioning. The room is furnished with a beautiful 4-poster king-size bed made from recycled wood, a kitchenette with stove and fridge, breakfast bar and lounge area. The open-air, en-suite bathroom is bright and spacious with standing rainfall shower, separate bathtub and natural limestone walls. Bathe under blue sky and tropical tree leaves. You can dine, lounge and read on the lovely furnished balcony overlooking lush garden and jungle.
+
+        h5 Common Areas
+
+        p.
+          Enjoy the beauty of the gardens and tropical foliage from your private villa or from the common kitchen/dining area and adjacent lounge furnished with comfortable sofas that extend the pool deck. The décor of the villas and common areas is simple, tasteful and elegant.
+
+        p.
+          Dive in to the soft and velvety infinity salt water pool or feel free to practice yoga in the yoga-fitness room with beautiful and uniquely finished hardwood floors, floor to ceiling mirrors, resistance bands, free weights, chin up bar and yoga mats. We encourage guests to climb up the spiral staircase to the green roof above the yoga studio to enjoy sunsets on the rooftop lounge that is sheltered with passion fruit vines.
+
       section#gallery
         h4
           a(href='#gallery' title='Gallery Permalink') Gallery
