@@ -55,6 +55,7 @@ extends(src='../layout.sgr')
           span.address.small
             img.icon(src="/assets/img/icon/home.svg" width="16" height="16")
             | Penestanan Klod, Ubud, Bali, 80571
+        img.map-preview
 
   block(name='footer')
     include(src='../_footer.sgr')
