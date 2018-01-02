@@ -23,7 +23,7 @@ module.exports = {
   deploy: {
     production: {
       s3: {
-        domain: 'manaubud.com',
+        domain: 'manaveda.com',
         credentials: {
           profile: 'mana'
         },
@@ -31,7 +31,7 @@ module.exports = {
         region: 'ap-southeast-1',
         error: 'production/404.html',
         redirects: [
-          'www.manaubud.com'
+          'www.manaveda.com'
         ],
         publish: false
       }

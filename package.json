@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "muji",
   "license": "MIT",
-  "homepage": "https://manaubud.com",
+  "homepage": "https://manaveda.com",
   "repository": "",
   "bugs": "",
   "keywords": [
@@ -23,7 +23,7 @@
     "makestatic-page-id": "^1.0.0",
     "makestatic-preset-optimize": "^1.1.0",
     "makestatic-preset-parse": "^1.0.21",
-    "postcss-loader": "^1.3.2",
+    "postcss-loader": "^2.0.9",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
     "standard": "^8.6.0",
