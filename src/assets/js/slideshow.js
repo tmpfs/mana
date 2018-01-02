@@ -1,9 +1,11 @@
-const list = require('./slides')
+const config = require('./slides')
 
 class SlideShow {
   constructor (options = {}) {
     const autoStart = options.autoStart !== undefined ? options.autoStart : false;
     const element = document.getElementById('slider')
+
+    this.playing = false
 
     // no slideshow on this page
     if (!element) {
@@ -11,22 +13,25 @@ class SlideShow {
     }
 
     const type = document.querySelector('body').getAttribute('data-id')
-    let slides = list[type]
+    let slides = config[type]
     // no slides configured for this page
     if (!slides) {
       return
     }
 
-    console.log('configuring slideshow')
-
     // Set up slideshow images
-    let wrap = document.querySelector('.swipe-wrap')
+    const wrap = document.querySelector('.swipe-wrap')
     let div
     let slide
     let url
     for (let i = 0; i < slides.length; i++) {
       url = '/assets/img/slides/' + type + '/' + slides[i]
-      slide = this.element('div', { class: 'slide', style: 'background-image: url("' + url + '")' })
+      slide = this.element('div',
+        {
+          class: 'slide',
+          style: 'background-image: url("' + url + '")'
+        }
+      )
       wrap.appendChild(slide)
     }
 
@@ -53,15 +58,14 @@ class SlideShow {
     // the top of the page
     if (autoStart) {
       window.addEventListener('scroll', () => {
-        var top = window.pageYOffset || document.documentElement.scrollTop;
+        var top = window.pageYOffset || document.documentElement.scrollTop
         if (this.playing && top !== 0) {
-          this.stop();
+          this.stop()
         } else if (!this.playing && top === 0) {
-          this.start();
+          this.start()
         }
       })
     }
-
   }
 
 
@@ -86,7 +90,6 @@ class SlideShow {
       this.playing = false
     }
   }
-
 }
 
 module.exports = SlideShow

@@ -31,10 +31,17 @@ class Scroll {
 
   scrollToId(id) {
     id = id.replace(/^#/, '');
-    var el = document.getElementById(id);
+    const el = document.getElementById(id);
     if (el) {
-      var bounds = el.getBoundingClientRect();
-      this.scrollToTop(bounds.top);
+      const bounds = el.getBoundingClientRect()
+      // This fixes an issue when the first permalink
+      // is already at the correct scroll position
+      // and it is clicked again it would go to the top
+      // of the page which we don't want
+      if (bounds.top === 0 && id !== 'top') {
+        return
+      }
+      this.scrollToTop(bounds.top)
     }
   }
 
