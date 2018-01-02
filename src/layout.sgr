@@ -21,7 +21,7 @@ html(lang='en')
     block(name='stylesheets')
       link(rel='stylesheet' href='/assets/css/style.css')
 
-  body#top(data-id='{{pageId}}')
+  body#top(data-id='{{pageId}}', class='{{pageId}}')
     block(name='header')
     block(name='content')
     block(name='footer')
