@@ -2,7 +2,7 @@ ul.features
   li
     span
       img.icon(src='/assets/img/icon/bed.svg' width="16" height="16")
-      | 3 Bedroom
+      | 4 Bedroom
     span
       img.icon(src='/assets/img/icon/location-arrow.svg' width="16" height="16")
       | Penestanan, Ubud
@@ -13,8 +13,3 @@ ul.features
     span
       img.icon(src='/assets/img/icon/tint.svg' width="16" height="16")
       | Salt water pool
-  li
-    span
-      img.icon(src='/assets/img/icon/heart.svg' width="16" height="16")
-      | Yoga Studio
-    span &nbsp;
