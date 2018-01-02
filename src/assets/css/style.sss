@@ -22,6 +22,10 @@
   margin-bottom: 2rem
   opacity: 0.6
 
+.social a
+  text-decoration: none
+  border: 0
+
 h2
   display: inline-block
   padding-bottom: 0.5rem
@@ -212,6 +216,16 @@ header .logo > span
 section.page
   padding-top: var(--header-height)
 
+.sitemap li a
+  color: #336666
+
+footer nav:last-child
+  text-align: right
+  justify-content: flex-end
+
+.top
+  margin-bottom: 2rem
+
 @media screen and (max-width: 719px)
   body p, .room-nav
     font-size: 1.4rem
@@ -278,6 +292,15 @@ section.page
   .features li span
     margin-right: 0 !important
     flex: 1 0
+
+  footer nav
+    flex-direction: row
+
+  footer > nav > span:not(:last-child):after
+    display: inline-block
+    content: '⊛'
+    margin: 0 0.5rem
+    color: #999
 
     /*
   .features

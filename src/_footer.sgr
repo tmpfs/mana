@@ -1,11 +1,11 @@
 footer
   nav
     span
-      a(href='/info/' title='Local Info') Info
+      a(href='/about/' title='About Mana') About
+    span
+      a(href='/info/' title='Local Information') Info
     span
       a(href='/contact/' title='Contact Us') Contact
-    span
-      a(href='/sitemap/' title='Sitemap') Sitemap
   nav
     span
       a(href='tel:+6281236340887') +6281236340887
@@ -13,8 +13,18 @@ footer
       a(href='tel:+6282146376989') +6282146376989
     span
       a(href='mailto:info@ubudmana.com') info@ubudmana.com
+
 div.social.center
-  img.icon(src='/assets/img/icon/twitter.svg' width="16" height="16")
-  img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16")
-  img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16")
-  img.icon(src='/assets/img/icon/facebook.svg' width="16" height="16")
+  a(href='#twitter' title='Twitter')
+    img.icon(src='/assets/img/icon/twitter.svg' width="16" height="16")
+  a(href='#pinterest' title='Pinterest')
+    img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16")
+  a(href='#instagram' title='Instagram')
+    img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16")
+  a(href='#facebook' title='Facebook')
+    img.icon(src='/assets/img/icon/facebook.svg' width="16" height="16")
+  a(href='/sitemap/' title='Sitemap')
+    img.icon(src='/assets/img/icon/sitemap.svg' width="16" height="16")
+
+div.top.center.small
+  a(href='#top' title='Top of the page') Top

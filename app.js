@@ -1,8 +1,8 @@
 const parse = require('makestatic-preset-parse')
 
 module.exports = {
-  input: 'src',
-  output: 'public',
+  input: __dirname + '/src',
+  output: __dirname + '/public',
 
   server: {
     ghostMode: false
