@@ -1,5 +1,7 @@
 extends(src='layout.sgr')
   block(name='content')
-    article
-      h2 Page Not Found
-      p(mdi) The page you are looking for could not be found, start from the [home page](/).
+    section.page.not-found
+      h1
+        a(href="/" title="Home")
+          img(src="/assets/img/logo-dark.png")
+          span Page Not Found

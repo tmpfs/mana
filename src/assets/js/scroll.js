@@ -39,19 +39,20 @@ class Scroll {
   }
 
   scrollToTop(val) {
-    let start = this.getScrollPosition().top
-    let iteration = 0
-    let duration = 50
-    let diff = val === 0 ? -start : val
-    let requestAnimationFrame = window.requestAnimationFrame ||
+    const start = this.getScrollPosition().top
+    const duration = 50
+    const diff = val === 0 ? -start : val
+    const requestAnimationFrame = window.requestAnimationFrame ||
       window.mozRequestAnimationFrame ||
       window.webkitRequestAnimationFrame ||
       window.msRequestAnimationFrame;
 
+    let iteration = 0
+
     // perform the animation
     function doScroll() {
-      var value = easeOutQuad(iteration, start, diff, duration)
-      var amount = value < 0 ? -value : value
+      const value = easeOutQuad(iteration, start, diff, duration)
+      const amount = value < 0 ? -value : value
       window.scrollTo(0, amount)
       if (iteration >= duration) {
         window.scrollTo(0, Math.floor(amount))
