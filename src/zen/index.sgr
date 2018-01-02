@@ -6,7 +6,7 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div.slideshow(class='{{ pageId }}')
+    div#slider.swipe(class='{{ pageId }}')
     include(src='../_room-nav.sgr')
     main
       section#info

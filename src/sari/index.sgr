@@ -6,7 +6,7 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div.slideshow(class='{{ pageId }}')
+    div#slider.swipe(class='{{ pageId }}')
     include(src='../_room-nav.sgr')
     main
       section#info
@@ -23,7 +23,7 @@ extends(src='../layout.sgr')
 
         p.
           The salt water infinity pool is overlooking the jungle and river below, alongside the pool is an outdoor kitchen for entertaining.
-          
+
         p.
           The villa is set on a quiet no through road with a few other high end villas and is just a short walk to the centre of Ubud.
       section#map

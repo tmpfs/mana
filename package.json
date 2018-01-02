@@ -37,6 +37,7 @@
   "dependencies": {
     "makestatic-deploy-s3": "^1.0.18",
     "makestatic-graph-resources": "^1.1.9",
-    "makestatic-sitemap": "^1.2.2"
+    "makestatic-sitemap": "^1.2.2",
+    "raw-loader": "^0.5.1"
   }
 }
