@@ -12,6 +12,11 @@
 .small
   font-size: 1.4rem
 
+.swipe
+  overflow: hidden
+  position: relative
+  height: 100%
+
 .icon
   vertical-align: text-bottom
   margin-right: 0.5rem
@@ -36,10 +41,10 @@ h2
   background-size: cover
   background-position: center center
 
-.mana-ubud .gallery
+.zen .gallery
   background-image: url('/assets/img/gallery/ubud/main.jpg')
 
-.mana-sari .gallery
+.sari .gallery
   background-image: url('/assets/img/gallery/sari/main.jpg')
 
 .banner
@@ -48,14 +53,17 @@ h2
   background-position: center center
 
 .contact .banner
-  background-image: url('/assets/img/fruit-plate.jpg')
+  background-image: url('/assets/img/page/contact.jpg')
 
 .sitemap .banner
-  background-image: url('/assets/img/ubud-mana-aerial-view.jpg')
+  background-image: url('/assets/img/page/sitemap.jpg')
 
 .info .banner
-  background-image: url('/assets/img/ubud-mana-roof-garden.jpg')
+  background-image: url('/assets/img/page/info.jpg')
   background-position: bottom center
+
+.about .banner
+  background-image: url('/assets/img/page/about.jpg')
 
 .slideshow
   position: relative
@@ -66,11 +74,11 @@ h2
   /* background-attachment: fixed */
   background-position: center center
 
-.slideshow.mana-ubud
+.slideshow.zen
   background-image: url('/assets/img/modern-interior.jpg')
 
-.slideshow.mana-sari
-  background-image: url('/assets/img/mana-sari-pool-view.jpg')
+.slideshow.sari
+  background-image: url('/assets/img/sari-pool-view.jpg')
 
 .logo
   text-align: left
@@ -181,7 +189,7 @@ header .logo > span
   background: var(--dark)
   color: var(--light)
 
-.locations .mana-sari .img, .locations .mana-ubud .img
+.locations .sari .img, .locations .zen .img
   /* margin: 0 2rem */
   position: relative
   width: auto
@@ -203,13 +211,13 @@ header .logo > span
     background: var(--dark)
     color: var(--light)
 
-.locations .mana-sari .img
-  background-image: url('/assets/img/mana-sari-patio.jpg')
+.locations .sari .img
+  background-image: url('/assets/img/splash/sari.jpg')
   background-size: cover
   background-position: center center
 
-.locations .mana-ubud .img
-  background-image: url('/assets/img/modern-interior.jpg')
+.locations .zen .img
+  background-image: url('/assets/img/splash/zen.jpg')
   background-size: cover
   background-position: center center
 
@@ -278,7 +286,7 @@ footer nav:last-child
   .locations > div:not(:last-child)
     margin-bottom: 8rem !important
 
-  .locations .mana-sari .img, .locations .mana-ubud .img
+  .locations .sari .img, .locations .zen .img
     height: 640px
 
   .features

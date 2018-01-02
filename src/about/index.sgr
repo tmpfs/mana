@@ -1,0 +1,26 @@
+extends(src='../layout.sgr')
+  block(name='title')
+    title About Mana
+  block(name='description')
+    meta(name='description' content='About us and our creations')
+  block(name='header')
+    include(src='../_header.sgr')
+  block(name='content')
+    main
+      section.page
+        h1 We care about our environment
+        div.banner
+        h4 Mana
+        p.
+          Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create. 
+        h4 Style
+        p.
+          Our signature design style is to refurbish the antique Indonesian teakwood house to create a unique and striking blend of modernity and tradition. The up-cycled whitewashed wood and high ceilings bring light, brightness and a contemporary feeling. 
+
+        p.
+          As a designer, it is a pleasure to combine the modern elements of style and design to antique structures. We find it creates the perfect balance: light and solid, old and new at the same time. 
+        h4 Environment
+        p.
+          Our villas are surrounded by tropical gardens including organic gardens growing veggies, fruits and herbs.
+  block(name='footer')
+    include(src='../_footer.sgr')

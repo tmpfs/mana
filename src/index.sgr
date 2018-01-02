@@ -18,7 +18,7 @@ extends(src='layout.sgr')
       h1 We love creating beautiful harmonious spaces that inspire
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
-        div.mana-sari
+        div#sari.sari
           //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
 
           .img
@@ -27,20 +27,20 @@ extends(src='layout.sgr')
               | book a room
           //- p Jalan Gunung Sari, Bali, Ubud, 80571, Indonesia
           //- https://www.google.co.id/maps/@-8.50766,115.27314,14z?hl=en
-          include(src='_sari_features.sgr')
+          include(src='./sari/_features.sgr')
           nav
-            a(href='/mana-sari/' title='Photos and Information') Explore
-        div.mana-ubud
+            a(href='/sari/' title='Photos and Information') Explore
+        div#zen.zen
           //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
           .img
             h4 Zen
-            a.book(href='/mana-ubud/' title='Make a booking')
+            a.book(href='/zen/' title='Make a booking')
               | book a room
           //- p Penestanan Klod, Ubud, 80571, Indonesia
           //- https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en
-          include(src='_ubud_features.sgr')
+          include(src='./zen/_features.sgr')
           nav
-            a(href='/mana-ubud/' title='Photos and Information') Explore
+            a(href='/zen/' title='Photos and Information') Explore
       p.small.
         Book directly with the promo code MANA123 to save 5%
   block(name='footer')
