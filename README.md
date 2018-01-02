@@ -1,3 +1,3 @@
-## mana
+## Mana Veda
 
-Ubud mana villas
+Mana Veda villas website.
