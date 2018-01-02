@@ -15,7 +15,7 @@ extends(src='layout.sgr')
         div#sari.sari
           .img
             h4
-              a.permalink(href='#sari') Sari
+              a(href='#sari') Sari
             a.book(href='https://app-apac.thebookingbutton.com/properties/manasari12direct' title='Make a booking')
               | book a room
           //- p Jalan Gunung Sari, Bali, Ubud, 80571, Indonesia
@@ -26,7 +26,7 @@ extends(src='layout.sgr')
         div#zen.zen
           .img
             h4
-              a.permalink(href='#zen') Zen
+              a(href='#zen') Zen
             a.book(href='/zen/' title='Make a booking')
               | book a room
           //- p Penestanan Klod, Ubud, 80571, Indonesia

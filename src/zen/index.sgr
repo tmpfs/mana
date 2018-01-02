@@ -1,6 +1,6 @@
 extends(src='../layout.sgr')
   block(name='title')
-    title Mana Ubud
+    title Mana Zen
   block(name='description')
     meta(name='description' content='Luxury villas in Penestanan Village')
   block(name='header')
