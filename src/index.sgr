@@ -4,13 +4,7 @@ extends(src='layout.sgr')
   block(name='description')
     meta(name='description' content='Luxury modern villas')
   block(name='header')
-    //-include(src='_header.sgr')
   block(name='content')
-
-    //-div
-      //-img(src="/assets/img/logo-dark.png" width="128" height="128")
-      //-h1(style='display: block; margin-top: 0') MANAVEDA
-
     div.logo
       img(src="/assets/img/logo-dark.png" width="32" height="32")
       span MANA
@@ -19,10 +13,9 @@ extends(src='layout.sgr')
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
         div#sari.sari
-          //- p Mana Sari has two bedrooms just minutes from Ubud center on a quiet street overlooking a small river and jungle.
-
           .img
-            h4 Sari
+            h4
+              a.permalink(href='#sari') Sari
             a.book(href='https://app-apac.thebookingbutton.com/properties/manasari12direct' title='Make a booking')
               | book a room
           //- p Jalan Gunung Sari, Bali, Ubud, 80571, Indonesia
@@ -31,9 +24,9 @@ extends(src='layout.sgr')
           nav
             a(href='/sari/' title='Photos and Information') Explore
         div#zen.zen
-          //- p Mana Ubud is located in Penestanan village and has three bedrooms overlooking the jungle surrounding a nearby river.
           .img
-            h4 Zen
+            h4
+              a.permalink(href='#zen') Zen
             a.book(href='/zen/' title='Make a booking')
               | book a room
           //- p Penestanan Klod, Ubud, 80571, Indonesia
