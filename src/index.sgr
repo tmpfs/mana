@@ -14,8 +14,7 @@ extends(src='layout.sgr')
       div.locations
         div#sari.sari
           .img
-            h4
-              a(href='#sari') Sari
+            h4 Sari
             a.book(href='https://app-apac.thebookingbutton.com/properties/manasari12direct' title='Make a booking')
               | book a villa
           include(src='./sari/_features.sgr')
@@ -23,8 +22,7 @@ extends(src='layout.sgr')
             a(href='/sari/' title='Photos and Information') Explore Mana Sari
         div#boutique.boutique
           .img
-            h4
-              a(href='#boutique') Boutique
+            h4 Boutique
             a.book(href='/boutique/' title='Make a booking')
               | book a villa
           include(src='./boutique/_features.sgr')
