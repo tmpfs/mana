@@ -6,10 +6,10 @@ ul.features
     span
       img.icon(src='/assets/img/icon/light/location-arrow.svg' width="16" height="16")
       | Central Ubud
-  li
-    span
-      img.icon(src='/assets/img/icon/light/wifi.svg' width="16" height="16")
-      | Wifi
-    span
-      img.icon(src='/assets/img/icon/light/tint.svg' width="16" height="16")
-      | Salt water pool
+  //-li
+    //-span
+      //-img.icon(src='/assets/img/icon/light/wifi.svg' width="16" height="16")
+      //-| Wifi
+    //-span
+      //-img.icon(src='/assets/img/icon/light/tint.svg' width="16" height="16")
+      //-| Salt water pool
