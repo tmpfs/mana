@@ -5,6 +5,8 @@ footer
     span
       a(href='/the-experience/' title='The Experience') The Experience
     span
+      a(href='/ubud-guide/' title='Ubud Guide') Ubud Guide
+    span
       a(href='/contact/' title='Contact Us') Contact Us
   //-nav
     //-span
