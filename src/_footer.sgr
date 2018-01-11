@@ -10,13 +10,13 @@ footer
       a(href='/contact/' title='Contact Us') Contact Us
 
 div.social.center
-  a(href='#twitter' title='Twitter')
+  a(href='https://twitter.com/manavedabali' title='Twitter')
     img.icon(src='/assets/img/icon/twitter.svg' width="16" height="16")
-  a(href='#pinterest' title='Pinterest')
+  a(href='https://id.pinterest.com/ubudmana/' title='Pinterest')
     img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16")
-  a(href='#instagram' title='Instagram')
+  a(href='https://www.instagram.com/ubudmana/' title='Instagram')
     img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16")
-  a(href='#facebook' title='Facebook')
+  a(href='https://www.facebook.com/ubudmana/' title='Facebook')
     img.icon(src='/assets/img/icon/facebook.svg' width="16" height="16")
   a(href='/sitemap/' title='Sitemap')
     img.icon(src='/assets/img/icon/sitemap.svg' width="16" height="16")
