@@ -20,7 +20,7 @@ extends(src='layout.sgr')
               | book a villa
           include(src='./sari/_features.sgr')
           nav
-            a(href='/sari/' title='Photos and Information') Explore
+            a(href='/sari/' title='Photos and Information') Explore Mana Sari
         div#boutique.boutique
           .img
             h4
@@ -29,6 +29,6 @@ extends(src='layout.sgr')
               | book a villa
           include(src='./boutique/_features.sgr')
           nav
-            a(href='/boutique/' title='Photos and Information') Explore
+            a(href='/boutique/' title='Photos and Information') Explore Mana Boutique
   block(name='footer')
     include(src='_footer.sgr')
