@@ -6,13 +6,13 @@ footer
       a(href='/info/' title='Local Information') Info
     span
       a(href='/contact/' title='Contact Us') Contact
-  nav
-    span
-      a(href='tel:+6281236340887') +6281236340887
-    span
-      a(href='tel:+6282146376989') +6282146376989
-    span
-      a(href='mailto:info@ubudmana.com') info@ubudmana.com
+  //-nav
+    //-span
+      //-a(href='tel:+6281236340887') +6281236340887
+    //-span
+      //-a(href='tel:+6282146376989') +6282146376989
+    //-span
+      //-a(href='mailto:info@ubudmana.com') info@ubudmana.com
 
 div.social.center
   a(href='#twitter' title='Twitter')
