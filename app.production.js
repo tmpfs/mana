@@ -33,7 +33,11 @@ module.exports = {
         redirects: [
           'www.manaveda.com'
         ],
-        publish: false
+        publish: false,
+        cloudfront: {
+          key: 'cloudfront_distribution_production',
+          invalidate: true
+        }
       }
     }
   }
