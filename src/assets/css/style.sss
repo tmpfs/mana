@@ -111,8 +111,8 @@ h2
 
 .logo
   text-align: left
-  margin-top: 2rem
-  margin-left: 2rem
+  padding-top: 2rem
+  padding-left: 2rem
   padding-bottom: 0
   font-size: 2.4rem
 
@@ -141,6 +141,7 @@ header nav:last-child
 
 header .logo
   margin: 0 0 0 2rem
+  padding: 0
   color: var(--light)
   font-size: 1.8rem
   white-space: pre
@@ -278,6 +279,11 @@ footer nav
   margin-top: 4rem
   display: flex
 
+.contact-container > .form
+  background: var(--dark)
+  color: var(--white)
+  padding: 2rem
+
 .contact-container > div
   flex: 1 0
 
@@ -290,10 +296,26 @@ footer nav
   font-size: 1.4rem
   flex: none
 
+.sidebar h4:first-child
+  margin-top: 0
+
+.sidebar h4
+  text-decoration: underline
+
+.sidebar .icon
+  margin-right: 1rem
+
+.sidebar p
+  font-size: 1.2rem
+
+.sidebar span.address
+  display: inline-block
+
 .contact-container ul
   list-style-type: none
   margin: 0
   padding: 0
+
 
 @media screen and (max-width: 719px)
   body p, .room-nav, blockquote
@@ -338,6 +360,11 @@ footer nav
 
   .contact-container
     flex-direction: column
+    margin-top: 2rem
+
+  .contact-container > .sidebar
+    margin-right: 0
+    margin-bottom: 2rem
 
 @media screen and (min-width: 720px)
   h1

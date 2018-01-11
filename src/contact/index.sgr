@@ -10,12 +10,14 @@ extends(src='../layout.sgr')
       section.page
         h1 We enjoy satisfying our visitors
         div.banner
+        //- p However you prefer to get in touch we are here to help.
         div.contact-container
           div.sidebar
+            h4 Telephone & Email
             ul
               li
                 img.icon(src='/assets/img/icon/light/whatsapp.svg' width="16" height="16")
-                a(href='tel:+?????????????') +?????????????
+                a(href='tel:+6287860878782') +6287860878782
               li
                 img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16")
                 a(href='tel:+6281236340887') +6281236340887
@@ -25,7 +27,22 @@ extends(src='../layout.sgr')
               li
                 img.icon(src='/assets/img/icon/light/envelope.svg' width="16" height="16")
                 a(href='mailto:info@ubudmana.com') info@ubudmana.com
-          div
+            h4 Mana Sari
+            p
+              span.address Jalan Gunung Sari, Ubud, Bali, 80571
+              //-br
+              //-img.icon(src='/assets/img/icon/light/location-arrow.svg' width="16" height="16")
+              //-a(href='https://www.google.co.id/maps/@-8.50766,115.27314,14z?hl=en')
+                //-| Open interactive map
+
+            h4 Mana Boutique
+            p
+              span.address Penestanan Klod, Ubud, Bali, 80571
+              //-br
+              //-img.icon(src='/assets/img/icon/light/location-arrow.svg' width="16" height="16")
+              //-a(href='https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en')
+                //-| Open interactive map
+          div.form
             //- p If you prefer enter your details and we'll get back to you as soon as possible.
             form
               //- label(for='name') Name
