@@ -21,14 +21,14 @@ extends(src='layout.sgr')
           include(src='./sari/_features.sgr')
           nav
             a(href='/sari/' title='Photos and Information') Explore
-        div#zen.zen
+        div#boutique.boutique
           .img
             h4
-              a(href='#zen') Zen
-            a.book(href='/zen/' title='Make a booking')
+              a(href='#boutique') Boutique
+            a.book(href='/boutique/' title='Make a booking')
               | book a villa
-          include(src='./zen/_features.sgr')
+          include(src='./boutique/_features.sgr')
           nav
-            a(href='/zen/' title='Photos and Information') Explore
+            a(href='/boutique/' title='Photos and Information') Explore
   block(name='footer')
     include(src='_footer.sgr')

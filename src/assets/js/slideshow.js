@@ -19,6 +19,8 @@ class SlideShow {
       return
     }
 
+    console.log(slides)
+
     // Set up slideshow images
     const wrap = document.querySelector('.swipe-wrap')
     let div

@@ -1,8 +1,8 @@
 extends(src='../layout.sgr')
   block(name='title')
-    title Mana Zen
+    title Mana Boutique
   block(name='description')
-    meta(name='description' content='Luxury villas in Penestanan Village')
+    meta(name='description' content='Boutique villas in Penestanan Village')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
@@ -15,7 +15,7 @@ extends(src='../layout.sgr')
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
         p.
-          Mana Zen is a historical treasure redefined, blending the beautiful Javanese antique wooden house (Joglo) with modern loft style living to create a luxurious gem.
+          Mana Boutique is a historical treasure redefined, blending the beautiful Javanese antique wooden house (Joglo) with modern loft style living to create a luxurious gem.
 
         p.
           Tucked away in a tranquil little pocket of Penestanan village just outside Ubud it is a complex of three villas overlooking wild, beautiful jungle and has a shared common area, salt water pool, yoga studio and green roof lounge. A happy place.

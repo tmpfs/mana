@@ -4,6 +4,6 @@ header
       img(src="/assets/img/logo-light.png" width="32" height="32")
       span MANA
   nav
-    a(href='/zen/' title='Mana Zen Villas' class='{{pageId === "zen" ? "selected" : ""}}') Zen
     a(href='/sari/' title='Mana Sari Villas'  class='{{pageId === "sari" ? "selected" : ""}}') Sari
+    a(href='/boutique/' title='Mana Boutique Villas' class='{{pageId === "boutique" ? "selected" : ""}}') Boutique
 

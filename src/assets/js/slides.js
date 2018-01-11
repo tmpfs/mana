@@ -12,7 +12,7 @@ module.exports = {
     '10.apartment-bathroom.jpg',
     '11.common-area.jpg',
     '12.joglo-patio-common-area.jpg'],
-  zen: [
+  boutique: [
     '01.pool-evening.jpg',
     '02.modern-interior.jpg',
     '03.common-area.jpg',
