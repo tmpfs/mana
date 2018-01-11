@@ -13,20 +13,14 @@ extends(src='layout.sgr')
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
         div#sari.sari
-          .img
-            h4 Sari
-            a.book(href='https://app-apac.thebookingbutton.com/properties/manasari12direct' title='Make a booking')
-              | book a villa
+          a(href='/sari/')
+            span.img
+              h4 Explore Mana Sari
           include(src='./sari/_features.sgr')
-          nav
-            a(href='/sari/' title='Photos and Information') Explore Mana Sari
         div#boutique.boutique
-          .img
-            h4 Boutique
-            a.book(href='/boutique/' title='Make a booking')
-              | book a villa
+          a(href='/boutique/')
+            span.img
+              h4 Explore Mana Boutique
           include(src='./boutique/_features.sgr')
-          nav
-            a(href='/boutique/' title='Photos and Information') Explore Mana Boutique
   block(name='footer')
     include(src='_footer.sgr')
