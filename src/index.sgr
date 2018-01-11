@@ -16,11 +16,11 @@ extends(src='layout.sgr')
           a(href='/sari/')
             span.img
               h4 Explore Mana Sari
-              include(src='./sari/_features.sgr')
+              include(src='./sari/_features_light.sgr')
         div#boutique.boutique
           a(href='/boutique/')
             span.img
               h4 Explore Mana Boutique
-              include(src='./boutique/_features.sgr')
+              include(src='./boutique/_features_light.sgr')
   block(name='footer')
     include(src='_footer.sgr')
