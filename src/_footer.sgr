@@ -8,13 +8,6 @@ footer
       a(href='/ubud-guide/' title='Ubud Guide') Ubud Guide
     span
       a(href='/contact/' title='Contact Us') Contact Us
-  //-nav
-    //-span
-      //-a(href='tel:+6281236340887') +6281236340887
-    //-span
-      //-a(href='tel:+6282146376989') +6282146376989
-    //-span
-      //-a(href='mailto:info@ubudmana.com') info@ubudmana.com
 
 div.social.center
   a(href='#twitter' title='Twitter')

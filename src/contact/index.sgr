@@ -10,28 +10,32 @@ extends(src='../layout.sgr')
       section.page
         h1 We enjoy satisfying our visitors
         div.banner
-        p
-          | Please send us an email to&nbsp;
-          a(href='mailto:info@ubudmana.com') info@ubudmana.com
-          | &nbsp;or call us on&nbsp;
-          a(href='tel:+6281236340887') +6281236340887
-          | &nbsp;or&nbsp;
-          a(href='tel:+6282146376989') +6282146376989
-          | .
-        //-hr
-        //-p(mdi) If you are thinking of moving to Bali or looking for a long-term property our team can help make that happen.
-        hr
-        div
-          //- p If you prefer enter your details and we'll get back to you as soon as possible.
-          form
-            //- label(for='name') Name
-            input(type='text' name='name' id='name' placeholder='Your name')
-            //- label(for='email') Email
-            input(type='email' name='email' id='email' placeholder='Your email address')
-            //-label(for='comment') Comment
-            textarea#comment(placeholder='Your message' rows='6')
-            div.actions
-              input(type='reset' name='reset' value='clear')
-              input(type='submit' name='submit' value='send')
+        div.contact-container
+          div.sidebar
+            ul
+              li
+                img.icon(src='/assets/img/icon/light/whatsapp.svg' width="16" height="16")
+                a(href='tel:+?????????????') +?????????????
+              li
+                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16")
+                a(href='tel:+6281236340887') +6281236340887
+              li
+                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16")
+                a(href='tel:+6282146376989') +6282146376989
+              li
+                img.icon(src='/assets/img/icon/light/envelope.svg' width="16" height="16")
+                a(href='mailto:info@ubudmana.com') info@ubudmana.com
+          div
+            //- p If you prefer enter your details and we'll get back to you as soon as possible.
+            form
+              //- label(for='name') Name
+              input(type='text' name='name' id='name' placeholder='Your name')
+              //- label(for='email') Email
+              input(type='email' name='email' id='email' placeholder='Your email address')
+              //-label(for='comment') Comment
+              textarea#comment(placeholder='Your message' rows='6')
+              div.actions
+                input(type='reset' name='reset' value='clear')
+                input(type='submit' name='submit' value='send')
   block(name='footer')
     include(src='../_footer.sgr')
