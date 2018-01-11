@@ -38,5 +38,7 @@
     "build": "makestatic --clean --env production",
     "lint": "standard src/js/**/*.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "photoswipe": "^4.1.2"
+  }
 }

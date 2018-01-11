@@ -3,6 +3,10 @@ extends(src='../layout.sgr')
     title Mana Sari
   block(name='description')
     meta(name='description' content='Luxury villas minutes from Ubud Centre')
+  block(name='stylesheets')
+    link(rel='stylesheet' href='/assets/css/style.css')
+    link(rel='stylesheet' href='/assets/css/photoswipe.css')
+    link(rel='stylesheet' href='/assets/css/default-skin/default-skin.css')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
@@ -32,6 +36,7 @@ extends(src='../layout.sgr')
         h4
           a(href='#gallery' title='Gallery Permalink') Gallery
         div.gallery
+        include(src='../_gallery.sgr')
       section#reviews
         h4
           a(href='#reviews' title='Reviews Permalink') Reviews

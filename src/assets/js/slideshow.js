@@ -1,4 +1,4 @@
-const config = require('./slides')
+const config = require('./_slides')
 
 class SlideShow {
   constructor (options = {}) {

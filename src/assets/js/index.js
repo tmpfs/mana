@@ -1,5 +1,6 @@
 const Scroll = require('./scroll')
 const SlideShow = require('./slideshow')
+const Gallery = require('./gallery')
 
 /**
  *  mana
@@ -8,17 +9,9 @@ const SlideShow = require('./slideshow')
  */
 class Application {
   start () {
-    this.scroller = new Scroll();
-    this.slideshow = new SlideShow({ autoStart: true });
-
-    //const frames = Array.from(document.querySelectorAll('iframe'))
-      //console.log(frames)
-    //frames.forEach((frame) => {
-      //frame.onload = () => {
-        //frame.style.height = frame.contentWindow.document.body.scrollHeight + 'px';
-        //console.log(frame.style.height)
-      //}
-    //})
+    this.scroller = new Scroll()
+    this.slideshow = new SlideShow({ autoStart: true })
+    this.gallery = new Gallery({ autoStart: true })
   }
 }
 
