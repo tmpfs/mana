@@ -1,11 +1,11 @@
 footer
   nav
     span
-      a(href='/about/' title='About Mana') About
+      a(href='/our-style/' title='Our Style & Design') Our Style
     span
-      a(href='/info/' title='Local Information') Info
+      a(href='/the-experience/' title='The Experience') The Experience
     span
-      a(href='/contact/' title='Contact Us') Contact
+      a(href='/contact/' title='Contact Us') Contact Us
   //-nav
     //-span
       //-a(href='tel:+6281236340887') +6281236340887

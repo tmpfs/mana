@@ -99,12 +99,13 @@ h2
 .sitemap .banner
   background-image: url('/assets/img/page/sitemap.jpg')
 
-.info .banner
-  background-image: url('/assets/img/page/info.jpg')
+.our-style .banner
+  background-image: url('/assets/img/page/our-style.jpg')
+
+.the-experience .banner
+  background-image: url('/assets/img/page/the-experience.jpg')
   background-position: bottom center
 
-.about .banner
-  background-image: url('/assets/img/page/about.jpg')
 
 .logo
   text-align: left
@@ -255,10 +256,10 @@ section.page
 
 footer
   margin-top: 2rem
+  text-align: center
 
-footer nav:last-child
-  text-align: right
-  justify-content: flex-end
+footer nav
+  display: inline-block
 
 .top
   margin-bottom: 2rem
@@ -297,6 +298,9 @@ footer nav:last-child
   section
     margin-bottom: 2rem
     padding-top: 2rem
+
+  footer nav a
+    display: block
 
 @media screen and (min-width: 720px)
   h1
