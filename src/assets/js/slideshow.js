@@ -19,8 +19,6 @@ class SlideShow {
       return
     }
 
-    console.log(slides)
-
     // Set up slideshow images
     const wrap = document.querySelector('.swipe-wrap')
     let div
@@ -40,7 +38,8 @@ class SlideShow {
     // Configure swipe component
     this.swipe = new Swipe(element, {
       startSlide: 0,
-      auto: 3000,
+      auto: 5000,
+      speed: 600,
       draggable: true,
       autoRestart: autoStart,
       continuous: true,

@@ -18,24 +18,25 @@
     "babel-loader": "^6.3.2",
     "babel-preset-env": "*",
     "makestatic-css-standard": "^1.0.0",
+    "makestatic-deploy-s3": "^1.0.18",
+    "makestatic-graph-resources": "^1.1.9",
     "makestatic-html-standard": "^1.0.0",
     "makestatic-inline-css": "^1.0.3",
     "makestatic-page-id": "^1.0.0",
     "makestatic-preset-optimize": "^1.1.0",
     "makestatic-preset-parse": "^1.0.21",
+    "makestatic-sitemap": "^1.2.2",
     "postcss-loader": "^2.0.9",
+    "raw-loader": "^0.5.1",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
     "standard": "^8.6.0",
-    "webpack": "^2.2.1",
-    "makestatic-deploy-s3": "^1.0.18",
-    "makestatic-graph-resources": "^1.1.9",
-    "makestatic-sitemap": "^1.2.2",
-    "raw-loader": "^0.5.1"
+    "webpack": "^2.2.1"
   },
   "scripts": {
     "clean": "rm -rf public",
     "build": "makestatic --clean --env production",
     "lint": "standard src/js/**/*.js"
-  }
+  },
+  "dependencies": {}
 }
