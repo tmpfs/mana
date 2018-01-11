@@ -11,7 +11,7 @@ extends(src='../layout.sgr')
     include(src='../_room-nav.sgr')
     main
       section#book
-        iframe(class="ibe ibefr" style="border: medium none; width: 100%; overflow: hidden; height: 600px;" scrolling="no" src="https://app-apac.thebookingbutton.com/properties/manasari12direct?skin=0")
+        iframe(class="ibe ibefr" style="border: none; width: 100%; overflow: hidden;" scrolling="no" src="//app-apac.thebookingbutton.com/properties/manasari12direct?skin=0")
         //-div.ibe(data-widget='embed' data-region='app-apac' data-channelcode='manasari12direct')
       section#info
         h4
