@@ -29,10 +29,11 @@ conf.deploy = {
       redirects: [
         'www.manaveda.com'
       ],
-      publish: false,
+      publish: true,
       cloudfront: {
         key: 'cloudfront_distribution_stage',
-        invalidate: true
+        invalidate: true,
+        paths: ['/*']
       }
     }
   }
