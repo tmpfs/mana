@@ -65,4 +65,5 @@ extends(src='../layout.sgr')
 
   block(name='javascript')
     script(src='/assets/js/vendor/swipe.js' defer)
+    script(src='//widget.siteminder.com/ibe.min.js' defer)
     script(src='/assets/js/main.js' defer)
