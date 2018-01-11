@@ -21,6 +21,13 @@ html(lang='en')
     block(name='stylesheets')
       link(rel='stylesheet' href='/assets/css/style.css')
 
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-112304862-1")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-112304862-1');
+
   body#top(data-id='{{pageId}}' class='{{pageId}}')
     block(name='header')
     block(name='content')

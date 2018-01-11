@@ -26,7 +26,7 @@ extends(src='../layout.sgr')
                 a(href='tel:+6282146376989') +6282146376989
               li
                 img.icon(src='/assets/img/icon/light/envelope.svg' width="16" height="16")
-                a(href='mailto:info@ubudmana.com') info@ubudmana.com
+                a(href='mailto:reservations@manaveda.com') reservations@manaveda.com
             h4 Mana Sari
             p
               span.address Jalan Gunung Sari, Ubud, Bali, 80571

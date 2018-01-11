@@ -1,0 +1,18 @@
+extends(src='../../layout.sgr')
+  block(name='title')
+    title Mana Sari
+  block(name='description')
+    meta(name='description' content='Luxury villas minutes from Ubud Centre')
+  block(name='header')
+    include(src='../../_header.sgr')
+  block(name='content')
+    main
+      section#book
+        iframe(class="ibe ibefr" style="border: none; width: 100%; height: 100vh;" scrolling="no" src="//app-apac.thebookingbutton.com/properties/manasari12direct?skin=0")
+        //-div.ibe(data-widget='embed' data-region='app-apac' data-channelcode='manasari12direct')
+  block(name='footer')
+    include(src='../../_footer.sgr')
+
+  block(name='javascript')
+    script(src='//widget.siteminder.com/ibe.min.js' defer)
+    script(src='/assets/js/main.js' defer)
