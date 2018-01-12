@@ -11,7 +11,7 @@ class Application {
   start () {
     this.scroller = new Scroll()
     this.slideshow = new SlideShow({ autoStart: true })
-    this.gallery = new Gallery({ autoStart: true })
+    this.gallery = new Gallery()
   }
 }
 

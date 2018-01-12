@@ -38,6 +38,35 @@ a
   background-size: cover
   background-position: center center
 
+figure
+  margin: 0
+  padding: 0
+
+.gallery
+  display: flex
+
+.gallery img
+  display: inline-block
+
+.gallery figcaption
+  display: none
+
+.gallery .large img:first-child
+  width: 280px
+
+.gallery .small
+  flex: 1 0
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  padding: 0 0 0 1rem
+
+.gallery .small img
+  width: 136px
+
+.gallery a, .gallery a:hover
+  border: 0
+
 .map-preview
   display: block
   width: 100%
@@ -76,17 +105,6 @@ h2
   display: inline-block
   padding-bottom: 0.5rem
   border-bottom: 1px solid currentColor
-
-.gallery
-  min-height: 240px
-  background-size: cover
-  background-position: center center
-
-.boutique .gallery
-  background-image: url('/assets/img/gallery/boutique/main.jpg')
-
-.sari .gallery
-  background-image: url('/assets/img/gallery/sari/main.jpg')
 
 .banner
   min-height: 240px
@@ -365,6 +383,17 @@ footer nav
   .contact-container > .sidebar
     margin-right: 0
     margin-bottom: 2rem
+
+  .gallery
+    flex-direction: column
+
+  .gallery .small
+    padding-left: 0
+    flex-wrap: wrap
+
+  // Less gallery thumnbils on small screens
+  .gallery .small :nth-child(n+5)
+    display: none
 
 @media screen and (min-width: 720px)
   h1

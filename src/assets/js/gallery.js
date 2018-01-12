@@ -3,40 +3,65 @@ const PhotoSwipeUI = require('./photoswipe/photoswipe-ui-default')
 
 class ImageGallery {
 
-  constructor (options = {}) {
-    this.options = options
-    if (options.autoStart) {
-      this.start()
-    }
+  constructor () {
+    this.configure()
   }
 
-  start (item, state) {
+  configure () {
+    const gallery = document.querySelector('.gallery')
     const pswp = document.querySelector('.pswp')
 
-    if (!pswp) {
-      console.log('no gallery on page')
+    // No gallery elements for this page
+    if (!gallery || !pswp) {
       return
     }
-
 
     const config = require('./_gallery')
     const type = document.querySelector('body').getAttribute('data-id')
     let items = config[type]
+
     // no gallery configured for this page
     if (!items) {
       return
     }
 
-    console.dir(items)
+    const links = Array.from(gallery.querySelectorAll('a'))
+    links.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault()
+        const el = e.currentTarget
+        console.log(el)
+        const href = el.getAttribute('href')
+        let index = 0
+        for (let i = 0; i < items.length; i++) {
 
-    const options = {
+          //console.log(items[i])
+
+          if (items[i].src === href) {
+            index = i
+            break
+          }
+        }
+
+        //console.log('show index: ' + index)
+
+        this.show({index, items, pswp})
+      })
+    })
+
+  }
+
+  show (options = {}) {
+    const {index, items, pswp} = options
+    const opts = {
+      index,
       history: false,
       galleryPIDS: true,
       escKey: true,
       closeOnScroll: false
     }
 
-    this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, options)
+    this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, opts)
     this.gallery.listen('close', () => {
       this.close()
     })
@@ -49,7 +74,6 @@ class ImageGallery {
         this.gallery = null
       })
       this.gallery.close()
-      //this.options.back()
     }
   }
 }

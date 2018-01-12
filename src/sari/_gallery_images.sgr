@@ -1,0 +1,57 @@
+div.gallery(itemscope itemtype='http://schema.org/ImageGallery')
+  div.large
+    //- Primary gallery image
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/01.joglo-front.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/01.joglo-front.jpg' itemprop='thumbnail' alt='Image description')
+        //-meta(itemprop='width' content='300')
+        //-meta(itemprop='height' content='600')
+
+        figcaption(itemprop='caption description')
+          | Long image description
+          span(itemprop='copyrightHolder') Photo: AP
+
+  //- Small gallery thumbnails
+  div.small
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/02.joglo-interior.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/02.joglo-interior.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/03.joglo-lounge.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/03.joglo-lounge.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/04.joglo-kitchen.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/04.joglo-kitchen.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/05.joglo-kitchen-interior.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/05.joglo-kitchen-interior.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/06.joglo-bathroom.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/06.joglo-bathroom.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/07.joglo-patio-view.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/07.joglo-patio-view.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/08.apartment-interior.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/08.apartment-interior.jpg' itemprop='thumbnail' alt='Image description')
+
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='/assets/img/gallery/sari/09.apartment-interior-staircase.jpg' itemprop='contentUrl')
+        img(src='/assets/img/gallery/sari/09.apartment-interior-staircase.jpg' itemprop='thumbnail' alt='Image description')
+
+  //- Hidden gallery elements
+  div.hidden
+    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
+      a(href='large-image-1.jpg' itemprop='contentUrl')
+        figcaption(itemprop='caption description')
+          | Long image description 1
+      a(href='large-image-2.jpg' itemprop='contentUrl')
+        figcaption(itemprop='caption description')
+          | Long image description 2
+
