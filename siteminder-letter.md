@@ -8,7 +8,7 @@ I am using the embed functionality [documented here](https://docs.google.com/doc
 
 ### Widget UX
 
-When the widget (or direct link) loads the calendar view is automtically displayed which obscures the pricing and description. Is there a way to disable this? If so how? From a user experience point of view my client and I both agree it would be better to see the prices and property details first and allow the person to select their dates before showing the calendar view.
+When the widget (or direct link) loads the calendar view is automatically displayed which obscures the pricing and description. Is there a way to disable this? If so how? From a user experience point of view my client and I both agree it would be better to see the prices and property details first and allow the person to select their dates before showing the calendar view.
 
 ### Intermittent Performance Issues
 
