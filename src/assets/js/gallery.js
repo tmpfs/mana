@@ -44,7 +44,7 @@ class ImageGallery {
         let index = 0
 
         for (let i = 0; i < items.length; i++) {
-          if (items[i].src === href) {
+          if (items[i].msrc === href) {
             index = i
             break
           }
@@ -63,8 +63,7 @@ class ImageGallery {
       history: false,
       galleryPIDS: true,
       escKey: true,
-      closeOnScroll: false,
-      showHideOpacity: true
+      closeOnScroll: false
     }
 
     const opts = Object.assign({}, defaults, options.options)
