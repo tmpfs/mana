@@ -7,8 +7,7 @@ extends(src='../../layout.sgr')
     include(src='../../_header.sgr')
   block(name='content')
     main
-      section#book
-        iframe(class="ibe ibefr" style="border: none; width: 100%; height: 100vh;" scrolling="no" src="//app-apac.thebookingbutton.com/properties/manasari12direct?skin=0")
+      iframe(class="ibe ibefr" style="border: none; width: 100%; height: 100vh;" scrolling="no" src="//app-apac.thebookingbutton.com/properties/manasari12direct?skin=0")
   block(name='footer')
     include(src='../../_footer.sgr')
   block(name='javascript')
