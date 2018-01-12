@@ -11,7 +11,7 @@ class ImageGallery {
   }
 
   start (item, state) {
-    var pswp = document.querySelector('.pswp')
+    const pswp = document.querySelector('.pswp')
 
     if (!pswp) {
       console.log('no gallery on page')
@@ -19,16 +19,23 @@ class ImageGallery {
     }
 
 
-    var items = require('./_gallery.json')
+    const config = require('./_gallery')
+    const type = document.querySelector('body').getAttribute('data-id')
+    let items = config[type]
+    // no gallery configured for this page
+    if (!items) {
+      return
+    }
 
     console.dir(items)
 
-    var options = {
+    const options = {
       history: false,
       galleryPIDS: true,
       escKey: true,
       closeOnScroll: false
     }
+
     this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, options)
     this.gallery.listen('close', () => {
       this.close()

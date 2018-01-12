@@ -48,7 +48,8 @@ extends(src='../layout.sgr')
       section#gallery
         h4
           a(href='#gallery' title='Gallery Permalink') Gallery
-        div.gallery
+        //-div.gallery
+        include(src='../_gallery.sgr')
       section#reviews
         h4
           a(href='#reviews' title='Reviews Permalink') Reviews
