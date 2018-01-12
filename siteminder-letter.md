@@ -18,6 +18,14 @@ Sometimes it takes a very long time to load your application, often when refresh
 
 This is a very strange one. At times the URL (only when embedded in an iframe) will respond with a 404 error (your custom error page) whilst the direct link continues to function as expected. I have been unable to reproduce the problem using `curl` or a normal browser session. Any ideas?
 
+### XML Error
+
+Just got this new error on a refresh and the widget completely fails to load:
+
+> XML Parsing Error: no root element found
+> Location: https://app-apac.thebookingbutton.com/api/v2/reloaded/properties/manasari12direct/rate_plans?check_in_date=12-01-2018&check_out_date=13-01-2018
+> Line Number 1, Column 1:
+
 ## Medium Priority
 
 ### Widget Styling
@@ -32,6 +40,8 @@ In my opinion this should be the default behaviour as nested scrollbars on a web
 
 ### Loading Icon Glitch
 
+![preloader bug](/bad-preloader-firefox.png)
+
 In Firefox sometimes the font awesome icon you use for the preload does not display correctly (the font has yet to be loaded I imagine). I suggest using an SVG image or alternative solution that fixes this issue.
 
 ### Redux Error
@@ -39,3 +49,4 @@ In Firefox sometimes the font awesome icon you use for the preload does not disp
 You really should fix this. Good for you using react / redux but this sort of thing shouldn't be hitting production code.
 
 > You are currently using minified code outside of NODE_ENV === 'production'. This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or DefinePlugin for webpack (http://stackoverflow.com/questions/30030031) to ensure you have the correct code for your production build.
+
