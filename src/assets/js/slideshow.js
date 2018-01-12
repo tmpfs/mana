@@ -3,14 +3,14 @@ const config = require('./_slides')
 class SlideShow {
   constructor (options = {}) {
     const autoStart = options.autoStart !== undefined ? options.autoStart : false;
-    const element = document.getElementById('slider')
-
-    this.playing = false
+    const element = document.querySelector('.swipe')
 
     // no slideshow on this page
     if (!element) {
       return
     }
+
+    this.playing = false
 
     const type = document.querySelector('body').getAttribute('data-id')
     let slides = config[type]

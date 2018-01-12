@@ -10,8 +10,9 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div#slider.swipe(data-id='{{ pageId }}')
+    div.swipe(data-id='{{ pageId }}')
       div.swipe-wrap
+    include(src='../_room-book.sgr')
     include(src='../_room-nav.sgr')
     main
       section#info

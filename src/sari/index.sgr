@@ -10,11 +10,9 @@ extends(src='../layout.sgr')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div#slider.swipe(data-id='{{ pageId }}')
+    div.swipe(data-id='{{ pageId }}')
       div.swipe-wrap
-    a.book(href='book/')
-      img.icon(src='/assets/img/icon/light/calendar.svg' width="16" height="16")
-      | Check availability & book now
+      include(src='../_room-book.sgr')
     include(src='../_room-nav.sgr')
     main
       section#info
