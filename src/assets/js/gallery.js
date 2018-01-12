@@ -30,22 +30,27 @@ class ImageGallery {
       link.addEventListener('click', (e) => {
         e.preventDefault()
         const el = e.currentTarget
-        console.log(el)
         const href = el.getAttribute('href')
+        const options = {
+          getThumbBoundsFn: function() {
+            const thumbnail = el.querySelector('img')
+            const pageYScroll = window.pageYOffset || document.documentElement.scrollTop
+            const pageXScroll = window.pageXOffset || document.documentElement.scrollLeft
+            const rect = thumbnail.getBoundingClientRect()
+            return {x: rect.left + pageXScroll, y: rect.top + pageYScroll, w:rect.width}
+          }
+        }
+
         let index = 0
+
         for (let i = 0; i < items.length; i++) {
-
-          //console.log(items[i])
-
           if (items[i].src === href) {
             index = i
             break
           }
         }
 
-        //console.log('show index: ' + index)
-
-        this.show({index, items, pswp})
+        this.show({index, items, pswp, options})
       })
     })
 
@@ -53,13 +58,16 @@ class ImageGallery {
 
   show (options = {}) {
     const {index, items, pswp} = options
-    const opts = {
+    const defaults = {
       index,
       history: false,
       galleryPIDS: true,
       escKey: true,
-      closeOnScroll: false
+      closeOnScroll: false,
+      showHideOpacity: true
     }
+
+    const opts = Object.assign({}, defaults, options.options)
 
     this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, opts)
     this.gallery.listen('close', () => {
