@@ -117,17 +117,32 @@ figure
 
 .map-preview
   display: block
+  border: 0
+  position: relative
   width: 100%
   height: auto
   min-height: 240px
   background-size: cover
   background-position: center center
+  &:hover
+    border: 0
 
 .sari .map-preview
   background-image: url('/assets/img/map/sari.jpg')
 
 .boutique .map-preview
   background-image: url('/assets/img/map/boutique.jpg')
+
+.map-preview .cta
+  position: absolute
+  padding: 0.5rem 0.5rem 0.5rem 1rem
+  text-transform: uppercase
+  font-size: 1.4rem
+  left: 0
+  bottom: 0
+  right: 0
+  background: rgba(0,0,0,0.7)
+  color: var(--light)
 
 .not-found a
   border: 0

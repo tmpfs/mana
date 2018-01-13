@@ -71,10 +71,9 @@ extends(src='../layout.sgr')
           span.address.small
             img.icon(src="/assets/img/icon/home.svg" width="16" height="16")
             | Jalan Gunung Sari, Ubud, Bali, 80571
-        a(href='https://goo.gl/maps/DrLZfDjuHSo')
-          img.map-preview
-        p.small
-          | Tap for interactive map.
+        a.map-preview(href='https://goo.gl/maps/DrLZfDjuHSo')
+          span.small.cta
+            | tap for interactive map
 
   block(name='footer')
     include(src='../_footer.sgr')
