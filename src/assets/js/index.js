@@ -1,6 +1,7 @@
 const Scroll = require('./scroll')
 const SlideShow = require('./slideshow')
 const Gallery = require('./gallery')
+const Contact = require('./contact')
 
 /**
  *  mana
@@ -12,6 +13,15 @@ class Application {
     this.scroller = new Scroll()
     this.slideshow = new SlideShow({ autoStart: true })
     this.gallery = new Gallery()
+
+    // Configure contact form redirect
+    const form = document.querySelector('form.contact')
+    if (form) {
+      const redirect = form.querySelector('input[type="hidden"][name="redirect"]')
+      if (redirect) {
+        this.contact = new Contact(form, redirect)
+      }
+    }
   }
 }
 

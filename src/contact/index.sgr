@@ -44,13 +44,14 @@ extends(src='../layout.sgr')
                 //-| Open interactive map
           div.form
             //- p If you prefer enter your details and we'll get back to you as soon as possible.
-            form
+            form.contact(action='http://localhost:3001/contact' method='post')
+              input(type='hidden' name='redirect' value='')
               //- label(for='name') Name
               input(type='text' name='name' id='name' placeholder='Your name')
               //- label(for='email') Email
               input(type='email' name='email' id='email' placeholder='Your email address')
               //-label(for='comment') Comment
-              textarea#comment(placeholder='Your message' rows='6')
+              textarea(placeholder='Your message' rows='6' name='message')
               div.actions
                 input(type='reset' name='reset' value='clear')
                 input(type='submit' name='submit' value='send')
