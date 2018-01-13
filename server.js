@@ -82,8 +82,11 @@ function handler (req, res) {
           return reply(500, err.message)
         }
 
-        if (res && res.errors && res.errors.length) {
-          return reply(400, res.errors[0].message)
+        if (res) {
+          res.errors = res.errors.map((e) => {
+            return e.message
+          })
+          return reply(400, res)
         }
 
         const msg = template({vars: source}, {})

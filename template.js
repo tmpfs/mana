@@ -1,6 +1,7 @@
 const template = (options, input = {}) => {
   const {vars} = options
 
+  // For the reply link body remove newlines
   vars.body = vars.message.replace(/\r?\n+/g, ' ')
 
   input.subject = 'Website Contact (manaveda.com)'

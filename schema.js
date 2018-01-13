@@ -1,9 +1,17 @@
+function empty (cb) {
+  if (this.value.trim() === '') {
+    this.raise('%s may not be empty', this.field)
+  }
+  cb()
+}
+
 const contact = {
   type: 'object',
   fields: {
-    name: {type: 'string', required: true},
+    name: [{type: 'string', required: true}, empty],
     email: [
       {type: 'string', required: true},
+      empty,
       function (cb) {
         // simple email validation
         const ptn =/^[^@]+@.+\..+/
@@ -13,7 +21,7 @@ const contact = {
         cb()
       }
     ],
-    message: {type: 'string', required: true}
+    message: [{type: 'string', required: true}, empty]
   }
 }
 

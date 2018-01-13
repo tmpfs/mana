@@ -44,6 +44,12 @@ extends(src='../layout.sgr')
                 //-| Open interactive map
           div.form
             //- p If you prefer enter your details and we'll get back to you as soon as possible.
+            p.success.hidden
+              | Thanks, your message has been sent.
+            div.error.hidden
+              span Please correct these errors:
+              ul.fields.hidden
+            p.fetch.hidden
             form.contact(action='http://localhost:3001/contact' method='post')
               input(type='hidden' name='redirect' value='')
               //- label(for='name') Name
@@ -53,7 +59,6 @@ extends(src='../layout.sgr')
               //-label(for='comment') Comment
               textarea(placeholder='Your message' rows='6' name='message')
               div.actions
-                input(type='reset' name='reset' value='clear')
                 input(type='submit' name='submit' value='send')
   block(name='footer')
     include(src='../_footer.sgr')

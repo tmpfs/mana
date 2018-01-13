@@ -397,6 +397,34 @@ footer nav
   margin: 0
   padding: 0
 
+.hidden
+  display: none
+
+.disabled
+  pointer-events: none
+  opacity: 0.5
+
+.form p
+  color: var(--light)
+
+.form > p
+  margin-top: 0
+  padding: 1rem
+  font-size: 1.4rem
+
+.form p.error, .form p.fetch, div.error
+  background: red
+
+div.error
+  padding: 1rem
+  font-size: 1.4rem
+  color: var(--light)
+  margin-bottom: 1rem
+
+.form ul.fields
+  list-style-type: disc
+  margin: 2rem 2rem 1rem 2rem
+
 
 @media screen and (max-width: 719px)
   body p, .room-nav, blockquote
