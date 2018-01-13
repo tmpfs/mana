@@ -1,11 +1,13 @@
 const http = require('http')
-const server = http.createServer(handler)
 const qs = require('querystring')
 const dotenv = require('dotenv')
+const promise = require('bluebird')
+const conn = require('emailjs/email')
 const Schema = require('async-validate')
 
 dotenv.config({path: __dirname + '/.env', silent: true})
 
+const server = http.createServer(handler)
 const ENDPOINT = '/contact'
 const MIME = 'application/json'
 
@@ -17,6 +19,58 @@ Schema.plugin([
 
 const schema = new Schema(require('./schema'))
 
+const template = (options, input = {}) => {
+  const {vars} = options
+  inputsubject = 'Mana Website Contact'
+  input.text = `Hello,
+
+Contact received from the Mana website.
+
+Name: ${vars.name}
+Email: ${vars.email}
+
+${vars.message}
+
+Mana Team
+https://manaveda.com
+reservations@manaveda.com
+`
+  input.attachment =
+   [
+      {
+        data:
+          `<html>
+            <p>Hello,</p>
+            <p>Contact received from the Mana website.</p>
+            <p>Name: <b>${vars.name}</b></p>
+            <p>Email: <b>${vars.email}</b></p>
+            <p>${vars.message}</p>
+            <p>Thanks,</p>
+            <p>Mana Team<br />https://manaveda.com<br />reservations@manaveda.com</p>
+          </html>`,
+        alternative: true
+      }
+   ]
+
+  return input
+}
+
+const email = (options = {}) => {
+  const server 	= conn.server.connect({
+    user: process.env.SMTP_USER,
+    password: process.env.SMTP_PASSWORD,
+    host: process.env.SMTP_SERVER,
+    ssl: true
+  })
+
+  options.to = process.env.SMTP_FROM
+  options.from = options.from || process.env.SMTP_FROM
+
+  console.log(options)
+
+  const fn = promise.promisify(server.send, {context: server})
+  return fn(options)
+}
 
 function handler (req, res) {
 
@@ -62,8 +116,18 @@ function handler (req, res) {
           return reply(400, res.errors[0].message)
         }
 
-        console.log('send contact info')
-        return reply(200)
+        const msg = template({vars: source}, {})
+
+        // So that receivers can reply directly
+        //msg.from = source.email
+
+        return email(msg)
+          .then(() => {
+            return reply(200, 'Message sent')
+          })
+          .catch((e) => {
+            return reply(500, e.message)
+          })
       })
     })
 
