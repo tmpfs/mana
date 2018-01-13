@@ -20,9 +20,6 @@ class Contact {
     }
 
     function response (res, packet) {
-
-      console.log(packet)
-
       if (packet.code === 200) {
         return yes.classList.remove('hidden')
       } else if (packet.code === 400) {
@@ -46,6 +43,7 @@ class Contact {
 
     form.addEventListener('submit', (e) => {
       e.preventDefault()
+      e.stopImmediatePropagation()
 
       resetErrors()
 
@@ -57,13 +55,12 @@ class Contact {
 
       const opts = {
         method: 'post',
-        body: values
+        body: values,
+        mode: 'cors'
       }
 
-      console.log('sending')
-      console.log(values)
-
       form.classList.add('disabled')
+
       fetch(action, opts)
         .then((res) => {
           return res.json()
@@ -72,10 +69,12 @@ class Contact {
               response(res, result)
             })
         })
-      .catch((e) => {
-        form.classList.remove('disabled')
-        return fetchError(e)
-      })
+        .catch((e) => {
+          form.classList.remove('disabled')
+          return fetchError(e)
+        })
+
+      return false
     })
   }
 }

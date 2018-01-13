@@ -47,7 +47,8 @@ function handler (req, res) {
     const len = Buffer.byteLength(payload)
     res.setHeader('Content-Type', MIME)
     res.setHeader('Content-Length', len)
-    res.write(payload)
+    console.log('[%s] %s (%s bytes)', status, new Date().toISOString(), len)
+    res.end(payload)
   }
 
   const method = req.method
@@ -56,8 +57,13 @@ function handler (req, res) {
     return reply(405, 'Method not allowed')
   }
 
+  const contentType = req.headers['content-type']
 
-  if (url === ENDPOINT) {
+  if (!/^multipart\/form-data/.test(contentType)) {
+    return reply(400, 'Bad content type')
+  }
+
+    if (url === ENDPOINT) {
     const origin = req.headers['origin']
     const whitelist = [
       'http://localhost:1111',
@@ -72,6 +78,11 @@ function handler (req, res) {
     const form = new multiparty.Form()
     form.parse(req, function(err, fields, files) {
       const source = fields
+
+      if (!source) {
+        return reply(400, 'No post data')
+      }
+
       for (let k in source) {
         // Unwrap array values
         source[k] = source[k][0]
@@ -83,10 +94,10 @@ function handler (req, res) {
         }
 
         if (res) {
-          res.errors = res.errors.map((e) => {
+          const errors = res.errors.map((e) => {
             return e.message
           })
-          return reply(400, res)
+          return reply(400, {errors})
         }
 
         const msg = template({vars: source}, {})
@@ -96,10 +107,10 @@ function handler (req, res) {
 
         return email(msg)
           .then(() => {
-            if (source.redirect) {
-              res.setHeader('Location', source.redirect)
-              return reply(200)
-            }
+            //if (source.redirect) {
+              //res.setHeader('Location', source.redirect)
+              //return reply(200)
+            //}
             return reply(200, 'Message sent')
           })
           .catch((e) => {
