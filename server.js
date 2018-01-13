@@ -22,12 +22,13 @@ const MIME = 'application/json'
 const schema = new Schema(require('./schema'))
 
 const email = (options = {}) => {
-  const server 	= conn.server.connect({
+  const auth = {
     user: process.env.SMTP_USER,
     password: process.env.SMTP_PASSWORD,
     host: process.env.SMTP_SERVER,
     ssl: true
-  })
+  }
+  const server 	= conn.server.connect(auth)
 
   options.to = process.env.SMTP_FROM
   options.from = options.from || process.env.SMTP_FROM

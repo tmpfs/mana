@@ -1,31 +1,27 @@
 const template = (options, input = {}) => {
   const {vars} = options
-  inputsubject = 'Mana Website Contact'
-  input.text = `Hello,
 
-Contact received from the Mana website.
+  vars.body = vars.message.replace(/\r?\n+/g, ' ')
 
-Name: ${vars.name}
+  input.subject = 'Website Contact (manaveda.com)'
+  input.text = `Name: ${vars.name}
 Email: ${vars.email}
 
-${vars.message}
+Message:
 
-Mana Team
-https://manaveda.com
-reservations@manaveda.com
+${vars.message}
 `
   input.attachment =
    [
       {
         data:
           `<html>
-            <p>Hello,</p>
-            <p>Contact received from the Mana website.</p>
             <p>Name: <b>${vars.name}</b></p>
             <p>Email: <b>${vars.email}</b></p>
+            <p>Message:</p>
             <p>${vars.message}</p>
-            <p>Thanks,</p>
-            <p>Mana Team<br />https://manaveda.com<br />reservations@manaveda.com</p>
+            <p><hr /></p>
+            <p><a href="mailto:${vars.email}?subject=Mana: Thank you for your enquiry&body=> ${vars.body}">Reply to ${vars.email}</a></p>
           </html>`,
         alternative: true
       }
