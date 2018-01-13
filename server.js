@@ -1,7 +1,11 @@
 const http = require('http')
 const server = http.createServer(handler)
 const qs = require('querystring')
+const dotenv = require('dotenv')
 const Schema = require('async-validate')
+
+dotenv.config({path: __dirname + '/.env', silent: true})
+
 const ENDPOINT = '/contact'
 const MIME = 'application/json'
 
@@ -12,6 +16,7 @@ Schema.plugin([
 ])
 
 const schema = new Schema(require('./schema'))
+
 
 function handler (req, res) {
 
