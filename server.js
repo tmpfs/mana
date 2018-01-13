@@ -11,7 +11,7 @@ Schema.plugin([
   require('async-validate/plugin/util')
 ])
 
-const template = require('./template')
+const template = require('./lib/template')
 
 dotenv.config({path: __dirname + '/.env', silent: true})
 
@@ -19,7 +19,7 @@ const server = http.createServer(handler)
 const ENDPOINT = '/contact'
 const MIME = 'application/json'
 
-const schema = new Schema(require('./schema'))
+const schema = new Schema(require('./lib/schema'))
 
 const email = (options = {}) => {
   const auth = {
@@ -63,7 +63,7 @@ function handler (req, res) {
     return reply(400, 'Bad content type')
   }
 
-    if (url === ENDPOINT) {
+  if (url === ENDPOINT) {
     const origin = req.headers['origin']
     const whitelist = [
       'http://localhost:1111',
@@ -129,7 +129,7 @@ function handler (req, res) {
 const listen = (port) => {
   port = port || process.env.PORT || 3001
   server.listen(port, () => {
-    console.log('listening on port %s', port)
+    console.log('[000] listening on port %s on %s', port, new Date().toISOString())
   })
 }
 
