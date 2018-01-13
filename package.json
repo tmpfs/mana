@@ -1,18 +1,22 @@
 {
   "name": "mana-veda",
   "description": "Mana veda villas",
+  "private": true,
   "version": "1.0.1",
   "author": "muji",
   "license": "MIT",
   "homepage": "https://manaveda.com",
-  "repository": "",
-  "bugs": "",
+  "repository": "https://github.com/tmpfs/mana",
+  "bugs": "https://github.com/tmpfs/mana/issues",
   "keywords": [
     "villa",
     "luxury",
     "mana",
     "ubud"
   ],
+  "dependencies": {
+    "async-validate": "^1.0.1"
+  },
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.3.2",
@@ -26,6 +30,7 @@
     "makestatic-preset-optimize": "^1.1.0",
     "makestatic-preset-parse": "^1.0.21",
     "makestatic-sitemap": "^1.2.2",
+    "photoswipe": "^4.1.2",
     "postcss-loader": "^2.0.9",
     "raw-loader": "^0.5.1",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
@@ -37,8 +42,5 @@
     "clean": "rm -rf public",
     "build": "makestatic --clean --env production",
     "lint": "standard src/js/**/*.js"
-  },
-  "dependencies": {
-    "photoswipe": "^4.1.2"
   }
 }

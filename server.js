@@ -1,8 +1,17 @@
 const http = require('http')
 const server = http.createServer(handler)
 const qs = require('querystring')
+const Schema = require('async-validate')
 const ENDPOINT = '/contact'
 const MIME = 'application/json'
+
+Schema.plugin([
+  require('async-validate/plugin/object'),
+  require('async-validate/plugin/string'),
+  require('async-validate/plugin/util')
+])
+
+const schema = new Schema(require('./schema'))
 
 function handler (req, res) {
 
@@ -35,8 +44,22 @@ function handler (req, res) {
     })
 
     req.on('end', function () {
-      const post = qs.parse(body.toString())
-      console.dir(post)
+      // NOTE: need to assign as the object returned from
+      // NOTE: qs.parse() does not have `hasOwnProperty`
+      const source = Object.assign({}, qs.parse(body.toString()))
+
+      schema.validate(source, (err, res) => {
+        if (err) {
+          return reply(500, err.message)
+        }
+
+        if (res && res.errors && res.errors.length) {
+          return reply(400, res.errors[0].message)
+        }
+
+        console.log('send contact info')
+        return reply(200)
+      })
     })
 
     // Do not fall through to 404 catch all
