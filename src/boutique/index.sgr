@@ -60,7 +60,7 @@ extends(src='../layout.sgr')
         h4
           a(href='#map' title='Map Permalink') Map
           span.address.small
-            img.icon(src="/assets/img/icon/home.svg" width="16" height="16")
+            img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")
             | Penestanan Klod, Ubud, Bali, 80571
         a.map-preview(href='https://www.google.co.id/maps/@-8.51188,115.25004,14z?hl=en')
           span.small.cta
