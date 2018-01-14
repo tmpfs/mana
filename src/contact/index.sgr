@@ -44,7 +44,7 @@ extends(src='../layout.sgr')
               span Please correct these errors:
               ul.fields.hidden
             p.fetch.hidden
-            form.contact(action='http://localhost:3001/contact' method='post')
+            form.contact(action='http://api.manaveda.com/contact' method='post')
               input(type='hidden' name='redirect' value='')
               input(type='text' name='name' id='name' placeholder='Your name')
               input(type='email' name='email' id='email' placeholder='Your email address')
