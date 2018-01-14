@@ -16,16 +16,16 @@ extends(src='../layout.sgr')
             h4 Telephone & Email
             ul
               li
-                img.icon(src='/assets/img/icon/light/whatsapp.svg' width="16" height="16")
+                img.icon(src='/assets/img/icon/light/whatsapp.svg' width="16" height="16" alt="Whatsapp")
                 a(href='tel:+6287860878782') +6287860878782
               li
-                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16")
+                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16" alt="Phone")
                 a(href='tel:+6281236340887') +6281236340887
               li
-                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16")
+                img.icon(src='/assets/img/icon/light/phone.svg' width="16" height="16" alt="Phone")
                 a(href='tel:+6282146376989') +6282146376989
               li
-                img.icon(src='/assets/img/icon/light/envelope.svg' width="16" height="16")
+                img.icon(src='/assets/img/icon/light/envelope.svg' width="16" height="16" alt="Mail")
                 a(href='mailto:reservations@manaveda.com') reservations@manaveda.com
             h4 Mana Sari
             p

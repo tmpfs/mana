@@ -3,5 +3,5 @@ extends(src='layout.sgr')
     section.page.not-found
       h1
         a(href="/" title="Home")
-          img(src="/assets/img/logo-dark.png")
+          img(src="/assets/img/logo-dark.png" alt="Logo")
           span Page Not Found
