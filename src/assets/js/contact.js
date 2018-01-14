@@ -14,6 +14,8 @@ class Contact {
     const fetchErr = document.querySelector('.form .fetch')
     const errFields = document.querySelector('.form ul.fields')
 
+    const again = document.querySelector('.form a.send')
+
     function fetchError (e) {
       fetchErr.classList.remove('hidden')
       fetchErr.innerHTML = 'The server may be unavailable or there may be a network problem,  please check your internet connection.'
@@ -21,6 +23,7 @@ class Contact {
 
     function response (res, packet) {
       if (packet.code === 200) {
+        form.classList.add('hidden')
         return yes.classList.remove('hidden')
       } else if (packet.code === 400) {
         errFields.classList.remove('hidden')
@@ -40,6 +43,21 @@ class Contact {
       fetchErr.classList.add('hidden')
       errFields.classList.add('hidden')
     }
+
+    function resetFields () {
+      fields.forEach((field) => {
+        const el = form.querySelector(`[name="${field}"]`)
+        el.value = ''
+      })
+    }
+
+    again.addEventListener('click', (e) => {
+      e.preventDefault()
+      yes.classList.add('hidden')
+      form.classList.remove('hidden')
+      resetErrors()
+      resetFields()
+    })
 
     form.addEventListener('submit', (e) => {
       e.preventDefault()
