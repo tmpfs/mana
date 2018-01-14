@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "async-validate": "^1.0.1",
-    "blubird": "^0.0.1-security",
     "bluebird": "^3.5.1",
     "dotenv": "^4.0.0",
     "emailjs": "^1.0.12",
