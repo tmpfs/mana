@@ -1,5 +1,3 @@
-const config = require('./_slides')
-
 class SlideShow {
   constructor (options = {}) {
     const autoStart = options.autoStart !== undefined ? options.autoStart : false;
@@ -11,48 +9,6 @@ class SlideShow {
     }
 
     this.playing = false
-
-    const type = document.querySelector('body').getAttribute('data-id')
-    let slides = config[type]
-    // no slides configured for this page
-    if (!slides) {
-      return
-    }
-
-    const width = Math.max(
-      document.documentElement.clientWidth, window.innerWidth || 0)
-
-    console.log('viewport width: ' + width)
-
-    let size
-    if (width <= 480) {
-      size  = 'sml'
-    } else if (width <= 640) {
-      size  = 'med'
-    } else if (width <= 1024) {
-      size  = 'lge'
-    } else if (width <= 1536) {
-      size  = 'big'
-    } else {
-      size = 'huge'
-    }
-
-    // Set up slideshow images
-    const wrap = document.querySelector('.swipe-wrap')
-    let div
-    let slide
-    let url
-    for (let i = 0; i < slides.length; i++) {
-      url = `/assets/img/slides/${type}/${size}/${slides[i]}`
-      //url = '/assets/img/slides/' + type + '/' + slides[i]
-      slide = this.element('div',
-        {
-          class: 'slide',
-          style: 'background-image: url("' + url + '")'
-        }
-      )
-      wrap.appendChild(slide)
-    }
 
     // Configure swipe component
     this.swipe = new Swipe(element, {
@@ -86,15 +42,6 @@ class SlideShow {
         }
       })
     }
-  }
-
-
-  element(name, attrs) {
-    const elm = document.createElement(name)
-    for (let k in attrs) {
-      elm.setAttribute(k, attrs[k])
-    }
-    return elm
   }
 
   start() {
