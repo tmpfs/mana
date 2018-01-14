@@ -19,13 +19,32 @@ class SlideShow {
       return
     }
 
+    const width = Math.max(
+      document.documentElement.clientWidth, window.innerWidth || 0)
+
+    console.log('viewport width: ' + width)
+
+    let size
+    if (width <= 480) {
+      size  = 'sml'
+    } else if (width <= 640) {
+      size  = 'med'
+    } else if (width <= 1024) {
+      size  = 'lge'
+    } else if (width <= 1536) {
+      size  = 'big'
+    } else {
+      size = 'huge'
+    }
+
     // Set up slideshow images
     const wrap = document.querySelector('.swipe-wrap')
     let div
     let slide
     let url
     for (let i = 0; i < slides.length; i++) {
-      url = '/assets/img/slides/' + type + '/' + slides[i]
+      url = `/assets/img/slides/${type}/${size}/${slides[i]}`
+      //url = '/assets/img/slides/' + type + '/' + slides[i]
       slide = this.element('div',
         {
           class: 'slide',
