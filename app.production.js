@@ -12,12 +12,33 @@ module.exports = {
   lifecycle: {
     parse: parse({css: false, js: false}),
     transform: [
+      require('makestatic-dom-version'),
       {
         test: /\.(html|sgr)$/,
         plugin: require('makestatic-inline-css')
       }
     ],
-    optimize: optimize()
+    verify: [
+      require('makestatic-verify-id')
+      // require('makestatic-verify-anchor'),
+      // require('makestatic-verify-link')
+    ],
+    emit: [
+      {
+        plugin: require('makestatic-fingerprint'),
+        rules: [/main\.js$/]
+      },
+      {
+        plugin: require('makestatic-sitemap'),
+        formats: ['xml'],
+        robots: true
+      }
+    ],
+    optimize: optimize(),
+    audit: [
+      require('makestatic-validate-html'),
+      require('makestatic-archive-zip')
+    ]
   },
 
   deploy: {

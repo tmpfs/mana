@@ -32,6 +32,9 @@ module.exports = {
   },
 
   lifecycle: {
+    build: [
+      require('makestatic-build-version')
+    ],
     parse: parse({js: false}),
     graph: require('makestatic-graph-resources'),
     transform: [

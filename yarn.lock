@@ -3310,6 +3310,19 @@ make-dir@^1.0.0:
   dependencies:
     pify "^3.0.0"
 
+makestatic-archive-zip@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/makestatic-archive-zip/-/makestatic-archive-zip-1.0.2.tgz#3a1dba380ef206cc73206011a6554797bb82652b"
+  dependencies:
+    when "^3.7.8"
+    yazl "^2.4.2"
+
+makestatic-build-version@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/makestatic-build-version/-/makestatic-build-version-1.0.3.tgz#f0a6e61655ffaf99ca7eb3430388f6677963dd95"
+  dependencies:
+    when "^3.7.8"
+
 makestatic-css-standard@^1.0.0:
   version "1.0.22"
   resolved "https://registry.yarnpkg.com/makestatic-css-standard/-/makestatic-css-standard-1.0.22.tgz#70a194217de3976dd6fc3f8b98001a750c8d5d30"
@@ -3329,6 +3342,16 @@ makestatic-deploy-s3@^1.0.18:
     s3-diff "^1.1.0"
     safe-merge "^1.1.3"
     when "^3.7.7"
+
+makestatic-dom-version@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/makestatic-dom-version/-/makestatic-dom-version-1.0.0.tgz#e3c7ee75e13951ebf4f6cb1fdad8453774c27854"
+  dependencies:
+    when "^3.7.8"
+
+makestatic-fingerprint@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/makestatic-fingerprint/-/makestatic-fingerprint-1.0.10.tgz#ef285d58f3df74a8cf8094a0e91af2f7b45713da"
 
 makestatic-graph-resources@^1.1.9:
   version "1.1.9"
@@ -3429,6 +3452,19 @@ makestatic-sitemap@^1.2.2:
   resolved "https://registry.yarnpkg.com/makestatic-sitemap/-/makestatic-sitemap-1.2.2.tgz#bc68ab4c511319a8604c10ddd7b7befc8ea56554"
   dependencies:
     entities "^1.1.1"
+
+makestatic-validate-html@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/makestatic-validate-html/-/makestatic-validate-html-1.2.6.tgz#6f0d546917c2887d55ba435a353a9ca9cf467a45"
+  dependencies:
+    string-repeater "^1.0.3"
+    vnu-jar "^17.2.1"
+    when "^3.7.8"
+    wordwrap "^1.0.0"
+
+makestatic-verify-id@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/makestatic-verify-id/-/makestatic-verify-id-1.0.9.tgz#374d3cf6f73302b66cf72e6cd40869944b1c8652"
 
 map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
@@ -5153,6 +5189,10 @@ stream-shift@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.0.tgz#d5c752825e5367e786f78e18e445ea223a155952"
 
+string-repeater@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string-repeater/-/string-repeater-1.0.3.tgz#7698ab164836df0871a48d32fca336119f99405f"
+
 string-width@^1.0.1, string-width@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -5703,6 +5743,10 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vnu-jar@^17.2.1:
+  version "17.11.1"
+  resolved "https://registry.yarnpkg.com/vnu-jar/-/vnu-jar-17.11.1.tgz#2f2c932a47561e61f4ca41b93d065d5e74091b6a"
+
 ware@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/ware/-/ware-1.3.0.tgz#d1b14f39d2e2cb4ab8c4098f756fe4b164e473d4"
@@ -5750,7 +5794,7 @@ webpack@^2.2.1:
     webpack-sources "^1.0.1"
     yargs "^6.0.0"
 
-when@^3.7.7:
+when@^3.7.7, when@^3.7.8:
   version "3.7.8"
   resolved "https://registry.yarnpkg.com/when/-/when-3.7.8.tgz#c7130b6a7ea04693e842cdc9e7a1f2aa39a39f82"
 
@@ -5789,7 +5833,7 @@ wordwrap@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
 
-wordwrap@~1.0.0:
+wordwrap@^1.0.0, wordwrap@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
 
@@ -5888,6 +5932,12 @@ yauzl@^2.2.1:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.0.1"
+
+yazl@^2.4.2:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/yazl/-/yazl-2.4.3.tgz#ec26e5cc87d5601b9df8432dbdd3cd2e5173a071"
+  dependencies:
+    buffer-crc32 "~0.2.3"
 
 zephyr@~1.3.5:
   version "1.3.6"
