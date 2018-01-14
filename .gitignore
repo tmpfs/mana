@@ -3,5 +3,6 @@ node_modules
 public
 ref
 .env
+*.pem
 *.bak
 *.log
