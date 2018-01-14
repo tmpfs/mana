@@ -2,7 +2,7 @@ extends(src='../layout.sgr')
   block(name='title')
     title The Experience
   block(name='description')
-    meta(name='description' content='The Experience')
+    meta(name='description' content='The experience we deliver to you')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
