@@ -1,5 +1,13 @@
 version: '3.4'
 services:
+  web:
+    image: mana-nginx
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
   app:
     image: mana-api
     build:
@@ -9,3 +17,5 @@ services:
       - NODE_ENV=production
     ports:
       - "3001:3001"
+    links:
+      - web
