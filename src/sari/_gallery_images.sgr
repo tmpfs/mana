@@ -4,8 +4,6 @@ div.gallery(itemscope itemtype='http://schema.org/ImageGallery')
     figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
       a(href='/assets/img/gallery/sari/thumbs/01.joglo-front.jpg' itemprop='contentUrl')
         img(src='/assets/img/gallery/sari/thumbs/01.joglo-front.jpg' itemprop='thumbnail' alt='Joglo front')
-        figcaption(itemprop='caption description')
-          | Long image description
   //- Small gallery thumbnails
   div.small
     figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')

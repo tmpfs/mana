@@ -4,8 +4,6 @@ div.gallery(itemscope itemtype='http://schema.org/ImageGallery')
     figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
       a(href='/assets/img/gallery/boutique/thumbs/01.pool-evening.jpg' itemprop='contentUrl')
         img(src='/assets/img/gallery/boutique/thumbs/01.pool-evening.jpg' itemprop='thumbnail' alt='Pool evening')
-        figcaption(itemprop='caption description')
-          | Long image description
   //- Small gallery thumbnails
   div.small
     figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
