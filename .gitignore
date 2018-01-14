@@ -6,3 +6,4 @@ ref
 *.pem
 *.bak
 *.log
+*.pid
