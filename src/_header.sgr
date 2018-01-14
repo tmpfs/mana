@@ -1,7 +1,7 @@
 header
   nav
     a.logo(href='/' title='Home')
-      img(src="/assets/img/logo-light.png" width="32" height="32")
+      img(src="/assets/img/logo-light.png" width="32" height="32" alt="Logo")
       span MANA
   nav
     a(href='/sari/' title='Mana Sari Villas'  class='{{pageId === "sari" ? "selected" : ""}}') Sari

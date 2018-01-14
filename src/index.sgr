@@ -6,7 +6,7 @@ extends(src='layout.sgr')
   block(name='header')
   block(name='content')
     div.logo
-      img(src="/assets/img/logo-dark.png" width="32" height="32")
+      img(src="/assets/img/logo-dark.png" width="32" height="32" alt="Logo")
       span MANA
     .splash
       h1 We love creating beautiful harmonious spaces that inspire
