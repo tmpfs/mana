@@ -27,7 +27,9 @@ conf.deploy = {
       region: 'ap-southeast-1',
       error: 'stage/404.html',
       redirects: [
-        'www.manaveda.com'
+        'www.manaveda.com',
+        'manaubud.com',
+        'www.manaubud.com'
       ],
       publish: true,
       cloudfront: {
