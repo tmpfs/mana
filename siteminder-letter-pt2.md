@@ -16,7 +16,7 @@ Please note regarding the XML error that this is thrown when simply embedding an
 //app-apac.thebookingbutton.com/properties/manasari12direct?skin=0
 ```
 
-Please see the [screenshot of the error here](/siteminder-xml-error.png)
+![screenshot of the error here](/siteminder-xml-error.png)
 
 ## Medium Priority
 
