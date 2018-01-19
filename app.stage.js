@@ -29,7 +29,9 @@ conf.deploy = {
       redirects: [
         'www.manaveda.com',
         'manaubud.com',
-        'www.manaubud.com'
+        'www.manaubud.com',
+        'ubudmana.com',
+        'www.ubudmana.com'
       ],
       publish: true,
       cloudfront: {
