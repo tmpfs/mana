@@ -5,15 +5,14 @@ extends(src='../layout.sgr')
     meta(name='description' content='Boutique villas in Penestanan Village')
   block(name='stylesheets')
     link(rel='stylesheet' href='/assets/css/style.css')
-    link(rel='stylesheet' href='/assets/css/photoswipe.css')
-    link(rel='stylesheet' href='/assets/css/default-skin/default-skin.css')
   block(name='header')
     include(src='../_header.sgr')
   block(name='content')
-    div.swipe(data-id='{{ pageId }}')
-      div.swipe-wrap
+    link(rel='stylesheet' href='/assets/css/swiper.css')
+    div.swiper-container.swipe(data-id='{{ pageId }}')
+      div.swiper-wrapper.no-select
         include(src='../_slides.sgr')
-      //-include(src='../_room-book.sgr')
+
     include(src='../_room-nav.sgr')
     main
       section#info
@@ -70,6 +69,5 @@ extends(src='../layout.sgr')
     include(src='../_footer.sgr')
 
   block(name='javascript')
-    script(src='/assets/js/vendor/swipe.js' defer)
     script(src='//widget.siteminder.com/ibe.min.js' defer)
     script(src='/assets/js/main.js' defer)

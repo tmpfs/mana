@@ -1,5 +1,5 @@
-const PhotoSwipe = require('./photoswipe/photoswipe')
-const PhotoSwipeUI = require('./photoswipe/photoswipe-ui-default')
+//const PhotoSwipe = require('./photoswipe/photoswipe')
+//const PhotoSwipeUI = require('./photoswipe/photoswipe-ui-default')
 
 class ImageGallery {
 
@@ -68,11 +68,11 @@ class ImageGallery {
 
     const opts = Object.assign({}, defaults, options.options)
 
-    this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, opts)
-    this.gallery.listen('close', () => {
-      this.close()
-    })
-    this.gallery.init()
+    //this.gallery = new PhotoSwipe(pswp, PhotoSwipeUI, items, opts)
+    //this.gallery.listen('close', () => {
+      //this.close()
+    //})
+    //this.gallery.init()
   }
 
   close () {
