@@ -9,6 +9,10 @@ div.gallery
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/09.gladak-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/10.gladak-south-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/11.gladak-south-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/12.gladak-bathroom.jpg)")
     div.swiper-button-next.swiper-button-white
     div.swiper-button-prev.swiper-button-white
   div.swiper-container.gallery-thumbs
@@ -21,3 +25,7 @@ div.gallery
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/09.gladak-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/10.gladak-south-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/11.gladak-south-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/12.gladak-bathroom.jpg)")
