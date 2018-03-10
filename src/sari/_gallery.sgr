@@ -1,0 +1,23 @@
+div.gallery
+  div.swiper-container.gallery-top
+    div.swiper-wrapper
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
+    div.swiper-button-next.swiper-button-white
+    div.swiper-button-prev.swiper-button-white
+  div.swiper-container.gallery-thumbs
+    div.swiper-wrapper
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
