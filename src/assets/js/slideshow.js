@@ -2,7 +2,6 @@ import Swiper from 'swiper/dist/js/swiper.js'
 
 class SlideShow {
   constructor (options = {}) {
-    const autoStart = options.autoStart !== undefined ? options.autoStart : false;
     const element = document.querySelector('.slideshow')
 
     // no slideshow on this page
@@ -18,15 +17,15 @@ class SlideShow {
         //delay: 10000,
         //disableOnInteraction: false,
       //},
-
-      // Navigation arrows
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: false
+      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
-
+      }
     })
-
   }
 }
 

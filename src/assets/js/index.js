@@ -11,7 +11,7 @@ const Contact = require('./contact')
 class Application {
   start () {
     this.scroller = new Scroll()
-    this.slideshow = new SlideShow({ autoStart: true })
+    this.slideshow = new SlideShow()
     this.gallery = new Gallery()
 
     // Configure contact form redirect

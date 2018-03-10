@@ -13,6 +13,9 @@ extends(src='../layout.sgr')
       div.swiper-container.swipe(data-id='{{ pageId }}')
         div.swiper-wrapper.no-select
           include(src='../_slides.sgr')
+        div.swiper-button-next.swiper-button-white
+        div.swiper-button-prev.swiper-button-white
+        div.swiper-pagination
     include(src='../_room-nav.sgr')
     main
       section#info

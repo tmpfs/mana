@@ -290,7 +290,8 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #007aff;
+  /*background: #007aff;*/
+  background: #ffffff;
 }
 .swiper-container-vertical > .swiper-pagination-bullets {
   right: 10px;
@@ -637,6 +638,7 @@ button.swiper-pagination-bullet {
   width: 100%;
   background: black;
 }
+
 .gallery-thumbs {
   height: 20% !important;
   box-sizing: border-box;
