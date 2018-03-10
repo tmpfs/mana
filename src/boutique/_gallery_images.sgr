@@ -1,48 +1,23 @@
-div.gallery(itemscope itemtype='http://schema.org/ImageGallery')
-  //- Primary gallery image
-  div.large
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/01.pool-evening.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/01.pool-evening.jpg' itemprop='thumbnail' alt='Pool evening')
-  //- Small gallery thumbnails
-  div.small
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/02.modern-interior.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/02.modern-interior.jpg' itemprop='thumbnail' alt='Modern interior')
-
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/03.common-area.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/03.common-area.jpg' itemprop='thumbnail' alt='Common area')
-
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/04.joglo-front.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/04.joglo-front.jpg' itemprop='thumbnail' alt='Joglo front')
-
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/05.joglo-interior.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/05.joglo-interior.jpg' itemprop='thumbnail' alt='Joglo interior')
-
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/06.joglo-lounge.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/06.joglo-lounge.jpg' itemprop='thumbnail' alt='Joglo lounge')
-
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/07.joglo-interior-kitchen.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/07.joglo-interior-kitchen.jpg' itemprop='thumbnail' alt='Joglo interior kitchen')
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/08.joglo-bathroom.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/08.joglo-bathroom.jpg' itemprop='thumbnail' alt='Joglo bathroom')
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/09.gladak-front.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/09.gladak-front.jpg' itemprop='thumbnail' alt='Gladak front')
-  //- Hidden gallery elements
-  div.hidden
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/10.gladak-south-interior.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/10.gladak-south-interior.jpg' itemprop='thumbnail' alt='Gladak south interior')
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/11.gladak-south-lounge.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/11.gladak-south-lounge.jpg' itemprop='thumbnail' alt='Gladak south lounge')
-    figure(itemprop='associatedMedia' itemscope itemtype='http://schema.org/ImageObject')
-      a(href='/assets/img/gallery/boutique/thumbs/12.gladak-bathroom.jpg' itemprop='contentUrl')
-        img(src='/assets/img/gallery/boutique/thumbs/12.gladak-bathroom.jpg' itemprop='thumbnail' alt='Gladak bathroom')
+div.gallery
+  div.swiper-container.gallery-top
+    div.swiper-wrapper
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
+    div.swiper-button-next.swiper-button-white
+    div.swiper-button-prev.swiper-button-white
+  div.swiper-container.gallery-thumbs
+    div.swiper-wrapper
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
+      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")

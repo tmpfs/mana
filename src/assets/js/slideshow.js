@@ -25,6 +25,8 @@ class SlideShow {
       },
 
     })
+
+  }
 }
 
 module.exports = SlideShow

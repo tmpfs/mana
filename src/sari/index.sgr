@@ -59,7 +59,6 @@ extends(src='../layout.sgr')
         h4
           a(href='#gallery' title='Gallery Permalink') Gallery
         include(src='./_gallery_images.sgr')
-        include(src='../_gallery.sgr')
       section#reviews
         h4
           a(href='#reviews' title='Reviews Permalink') Reviews
