@@ -9,9 +9,10 @@ extends(src='../layout.sgr')
     include(src='../_header.sgr')
   block(name='content')
     link(rel='stylesheet' href='/assets/css/swiper.css')
-    div.swiper-container.swipe(data-id='{{ pageId }}')
-      div.swiper-wrapper.no-select
-        include(src='../_slides.sgr')
+    .slideshow
+      div.swiper-container.swipe(data-id='{{ pageId }}')
+        div.swiper-wrapper.no-select
+          include(src='../_slides.sgr')
     include(src='../_room-nav.sgr')
     main
       section#info
