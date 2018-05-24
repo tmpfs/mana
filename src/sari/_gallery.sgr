@@ -1,7 +1,8 @@
 div.gallery
   div.swiper-container.gallery-top
     div.swiper-wrapper
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/01.joglo-front.jpg)")
+      div.swiper-slide
+        img(src='/assets/img/gallery/sari/01.joglo-front.jpg' alt='Joglo Front')
       div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/02.joglo-interior.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/03.joglo-lounge.jpg)")
       div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/04.joglo-kitchen.jpg)")
