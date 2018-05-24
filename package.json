@@ -24,8 +24,9 @@
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
-    "babel-loader": "^6.3.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "*",
+    "json-loader": "^0.5.7",
     "makestatic-archive-zip": "^1.0.2",
     "makestatic-build-version": "^1.0.3",
     "makestatic-css-standard": "^1.0.0",
@@ -35,7 +36,7 @@
     "makestatic-graph-resources": "^1.1.9",
     "makestatic-html-standard": "^1.0.0",
     "makestatic-inline-css": "^1.0.3",
-    "makestatic-page-id": "^1.0.0",
+    "makestatic-page-id": "^2",
     "makestatic-preset-optimize": "^1.1.0",
     "makestatic-preset-parse": "^1.0.21",
     "makestatic-sitemap": "^1.2.2",
@@ -47,7 +48,8 @@
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
     "standard": "^8.6.0",
-    "webpack": "^2.2.1"
+    "webpack": "^4",
+    "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
     "clean": "rm -rf public",
