@@ -3,6 +3,128 @@
     .swiper-wrapper
 
       figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-001.jpg)")
+        figcaption Property 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-002.jpg)")
+        figcaption Property 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-003.jpg)")
+        figcaption Property 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-004.jpg)")
+        figcaption Property 004
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-005.jpg)")
+        figcaption Property 005
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-006.jpg)")
+        figcaption Property 006
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-007.jpg)")
+        figcaption Property 007
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-008.jpg)")
+        figcaption Property 008
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-009.jpg)")
+        figcaption Property 009
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-010.jpg)")
+        figcaption Property 010
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-011.jpg)")
+        figcaption Property 011
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-012.jpg)")
+        figcaption Property 012
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-013.jpg)")
+        figcaption Property 013
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-014.jpg)")
+        figcaption Property 014
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-015.jpg)")
+        figcaption Property 015
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-016.jpg)")
+        figcaption Property 016
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-017.jpg)")
+        figcaption Property 017
+
+      // --
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-001.jpg)")
+        figcaption Mani 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-002.jpg)")
+        figcaption Mani 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-003.jpg)")
+        figcaption Mani 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-004.jpg)")
+        figcaption Mani 004
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-005.jpg)")
+        figcaption Mani 005
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-006.jpg)")
+        figcaption Mani 006
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-007.jpg)")
+        figcaption Mani 007
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-008.jpg)")
+        figcaption Mani 008
+
+      // --
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-001.jpg)")
+        figcaption Chi 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-002.jpg)")
+        figcaption Chi 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-003.jpg)")
+        figcaption Chi 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-004.jpg)")
+        figcaption Chi 004
+
+      // --
+
+      figure.swiper-slide
         img(style="background-image:url(/assets/img/gallery/boutique/avani-001.jpg)")
         figcaption Avani 001
 
@@ -42,6 +164,99 @@
     .swiper-button-prev.swiper-button-white
   .swiper-container.gallery-thumbs
     .swiper-wrapper
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-001.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-002.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-003.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-004.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-005.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-006.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-007.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-008.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-009.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-010.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-011.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-012.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-013.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-014.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-015.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-016.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/property-017.jpg)")
+
+      // --
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-001.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-002.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-003.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-004.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-005.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-006.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-007.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/mani-008.jpg)")
+
+      // --
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-001.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-002.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-003.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-004.jpg)")
+
+      // --
 
       .swiper-slide
         img(style="background-image:url(/assets/img/gallery/boutique/avani-001.jpg)")
