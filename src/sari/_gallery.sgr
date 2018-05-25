@@ -1,32 +1,20 @@
-div.gallery
-  div.swiper-container.gallery-top
-    div.swiper-wrapper
-      div.swiper-slide
-        img(src='/assets/img/gallery/sari/01.joglo-front.jpg' alt='Joglo Front')
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/02.joglo-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/03.joglo-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/04.joglo-kitchen.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/05.joglo-kitchen-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/06.joglo-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/07.joglo-patio-view.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/08.apartment-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/09.apartment-interior-staircase.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/10.apartment-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/11.common-area.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/12.joglo-patio-common-area.jpg)")
-    div.swiper-button-next.swiper-button-white
-    div.swiper-button-prev.swiper-button-white
-  div.swiper-container.gallery-thumbs
-    div.swiper-wrapper
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/01.joglo-front.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/02.joglo-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/03.joglo-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/04.joglo-kitchen.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/05.joglo-kitchen-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/06.joglo-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/07.joglo-patio-view.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/08.apartment-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/09.apartment-interior-staircase.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/10.apartment-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/11.common-area.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/sari/12.joglo-patio-common-area.jpg)")
+.gallery
+  .swiper-container.gallery-top
+    .swiper-wrapper
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery-new/sari/garden-view.jpg)")
+        figcaption Garden View
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery-new/sari/infinity-pool.jpg)")
+        figcaption Infinity Pool
+
+    .swiper-button-next.swiper-button-white
+    .swiper-button-prev.swiper-button-white
+
+  .swiper-container.gallery-thumbs
+    .swiper-wrapper
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery-new/sari/garden-view.jpg)")
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery-new/sari/infinity-pool.jpg)")
