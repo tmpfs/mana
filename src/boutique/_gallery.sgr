@@ -1,31 +1,71 @@
-div.gallery
-  div.swiper-container.gallery-top
-    div.swiper-wrapper
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/09.gladak-front.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/10.gladak-south-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/11.gladak-south-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/12.gladak-bathroom.jpg)")
-    div.swiper-button-next.swiper-button-white
-    div.swiper-button-prev.swiper-button-white
-  div.swiper-container.gallery-thumbs
-    div.swiper-wrapper
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/01.pool-evening.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/02.modern-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/03.common-area.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/04.joglo-front.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/05.joglo-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/06.joglo-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/07.joglo-interior-kitchen.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/08.joglo-bathroom.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/09.gladak-front.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/10.gladak-south-interior.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/11.gladak-south-lounge.jpg)")
-      div.swiper-slide(style="background-image:url(/assets/img/gallery/boutique/12.gladak-bathroom.jpg)")
+.gallery
+  .swiper-container.gallery-top
+    .swiper-wrapper
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-001.jpg)")
+        figcaption Avani 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-002.jpg)")
+        figcaption Avani 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-003.jpg)")
+        figcaption Avani 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-004.jpg)")
+        figcaption Avani 004
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-005.jpg)")
+        figcaption Avani 005
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-006.jpg)")
+        figcaption Avani 006
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-007.jpg)")
+        figcaption Avani 007
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-008.jpg)")
+        figcaption Avani 008
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-009.jpg)")
+        figcaption Avani 009
+
+    .swiper-button-next.swiper-button-white
+    .swiper-button-prev.swiper-button-white
+  .swiper-container.gallery-thumbs
+    .swiper-wrapper
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-001.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-002.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-003.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-004.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-005.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-006.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-007.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-008.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/avani-009.jpg)")
