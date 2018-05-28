@@ -11,6 +11,10 @@ extends(src='../layout.sgr')
     link(rel='stylesheet' href='/assets/css/swiper.css')
     .slideshow
       div.swiper-container.swipe(data-id='{{ pageId }}')
+
+        a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
+          | Book now
+
         div.swiper-wrapper.no-select
           include(src='../_slides.sgr')
         div.swiper-button-next.swiper-button-white
