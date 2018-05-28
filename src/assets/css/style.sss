@@ -37,68 +37,41 @@ iframe
   position: relative
   height: 100%
 
-.swiper-container
-  position: relative
-
-.swiper-container a.book
+.booking
   position: absolute
-  z-index: 999999
-  left: 0
-  bottom: 0
+  bottom: 2rem
+  right: 2rem
+  z-index: 999
+
+.booking a.book
   display: block
   border: 0
   text-align: left
-  background: rgba(0,0,0,0.7)
+  //background: rgba(0,0,0,0.7)
+  background: var(--light)
   border-radius: 0
-  color: var(--light)
+  color: var(--dark)
   font-size: 1.2rem
   border: 0
   text-transform: uppercase
   margin: 0
   padding: 1rem
 
-/*
-.gallery .large a
-  display: inline-block
-  transition: all 0.3s ease-out
-  border: 4px solid var(--dark)
-  &:hover
-    border: 4px solid var(--light)
+a.book:hover
+  background: var(--dark)
+  color: var(--light)
 
-.gallery .small a
-  display: inline-block
-  transition: all 0.3s ease-out
-  border: 2px solid var(--dark)
-  &:hover
-    border: 2px solid var(--light)
- */
+.booking.sari a.book:before
+  content: '♥ mana sari — '
 
-
+.booking.boutique a.book:before
+  content: '♥ mana boutique — '
 
 .gallery img
   display: inline-block
-  /*
-  opacity: 0.7
-  transition: all 0.3s ease-out
-  &:hover
-    opacity: 1
-  */
 
 .gallery figcaption
   display: none
-
-.gallery .large img:first-child
-  width: 280px
-
-.gallery .small
-  flex: 1 0
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-between
-  padding: 0 0 0 1rem
-
-.gallery .small img
-  width: 136px
 
 .gallery a, .gallery a:hover
   border: 0

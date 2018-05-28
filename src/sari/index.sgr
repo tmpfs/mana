@@ -9,17 +9,20 @@ extends(src='../layout.sgr')
     include(src='../_header.sgr')
   block(name='content')
     link(rel='stylesheet' href='/assets/css/swiper.css')
+
+    .booking.sari
+      a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct')
+        | Book now
+
     .slideshow
       div.swiper-container.swipe(data-id='{{ pageId }}')
-
-        a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct' onclick='javascript:alert("foo")')
-          | Book now
 
         div.swiper-wrapper.no-select
           include(src='../_slides.sgr')
         div.swiper-button-next.swiper-button-white
         div.swiper-button-prev.swiper-button-white
         div.swiper-pagination
+
     include(src='../_room-nav.sgr')
     main
       section#info
