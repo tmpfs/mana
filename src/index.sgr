@@ -15,12 +15,16 @@ extends(src='layout.sgr')
         div#sari.sari
           a(href='/sari/')
             div.img
-              h4 Explore Mana Sari
+              h4
+                span Explore Mana Sari
+                span.desc Luxury Villa
               include(src='./sari/_features_light.sgr')
         div#boutique.boutique
           a(href='/boutique/')
             div.img
-              h4 Explore Mana Boutique
+              h4
+                span Explore Mana Boutique
+                span.desc Unique Cosy Hotel 
               include(src='./boutique/_features_light.sgr')
   block(name='footer')
     include(src='_footer.sgr')

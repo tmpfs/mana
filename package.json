@@ -44,7 +44,7 @@
     "makestatic-verify-id": "^1.0.9",
     "postcss-loader": "^2.0.9",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
-    "source-loader": "^0.2.0",
+    "source-loader": "^1.0.0",
     "standard": "^8.6.0",
     "webpack": "^4",
     "webpack-dev-server": "^3.1.4"

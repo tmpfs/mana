@@ -1,8 +1,7 @@
 header
-  nav
+  nav(style="background: white")
     a.logo(href='/' title='Home')
-      img(src="/assets/img/logo-light.png" width="32" height="32" alt="Logo")
-      span MANA
+      img(src="/assets/img/svg/MANDEVA-FINAL-10.svg" style="height: 220px; margin-top: -82px" alt="Logo")
   nav
     a(href='/sari/' title='Mana Sari Villas'  class='{{pageId === "sari" ? "selected" : ""}}') Sari
     a(href='/boutique/' title='Mana Boutique Villas' class='{{pageId === "boutique" ? "selected" : ""}}') Boutique

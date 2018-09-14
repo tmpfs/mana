@@ -8,7 +8,7 @@ extends(src='../layout.sgr')
   block(name='content')
     main
       section.page
-        h1 We want the best experience for you
+        h1 We enjoy making people happy 
         div.banner
         h4 Getting Around
         p.

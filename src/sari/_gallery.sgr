@@ -55,10 +55,6 @@
         figcaption Joglo Bathroom
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom.jpg)")
-        figcaption Joglo Bathroom
-
-      figure.swiper-slide
         img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom-mirror.jpg)")
         figcaption Joglo Bathroom Mirror
 
