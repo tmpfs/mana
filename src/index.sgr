@@ -7,7 +7,7 @@ extends(src='layout.sgr')
   block(name='content')
     div.home-splash
       div.logotype
-        object.graphic(data="/assets/img/svg/MANDEVA-FINAL-03a.svg" type="image/svg+xml")
+        object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
         h1 MANAVEDA
       h4 We love creating beautiful experiences and harmonious spaces that inspire
       small Scroll to explore and book a room at our boutique hotel or private villas

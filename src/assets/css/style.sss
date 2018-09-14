@@ -156,17 +156,6 @@ h2
 .ubud-guide .banner
   background-image: url('/assets/img/page/ubud-guide.jpg')
 
-.logo
-  text-align: left
-  padding-bottom: 0
-  font-size: 2.4rem
-
-.logo > *
-  vertical-align: middle
-
-.logo img
-  margin-right: 0.5rem
-
 form .actions
   text-align: right
 
@@ -177,6 +166,7 @@ header
 
 header nav
   flex: 1 0
+  background: white
 
 header nav a
   display: inline-block
@@ -185,15 +175,30 @@ header nav:last-child
   text-align: right
 
 header .logo
-  margin: 0 0 0 2rem
+  margin: 0 0 0 1rem
   padding: 0
   color: var(--light)
   font-size: 1.8rem
   white-space: pre
   display: flex
 
+.logo
+  text-align: left
+  padding-bottom: 0
+  font-size: 2.4rem
+
+.logo > *
+  vertical-align: middle
+  color: var(--accent)
+
+.logo img
+  height: 64px
+  margin-right: 0.5rem
+  display: inline-block
+
+
 header .logo img
-  margin-top: 13px
+  margin-top: -2px
 
 header .logo > span
   flex: 1 0
@@ -427,9 +432,9 @@ div.error
     right: 0
 
   header, header nav:last-child a, header .logo
-    height: 4rem
-    line-height: 4rem
-    font-size: 1.6rem
+    //height: 4rem
+    //line-height: 4rem
+    font-size: 1.4rem
 
   header .logo img
     margin-top: 3px
