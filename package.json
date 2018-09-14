@@ -43,7 +43,6 @@
     "makestatic-validate-html": "^1.2.6",
     "makestatic-verify-id": "^1.0.9",
     "postcss-loader": "^2.0.9",
-    "raw-loader": "^0.5.1",
     "reshape-loader": "makestatic/reshape-loader#webpack2",
     "source-loader": "^0.2.0",
     "standard": "^8.6.0",
