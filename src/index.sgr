@@ -6,11 +6,11 @@ extends(src='layout.sgr')
   block(name='header')
   block(name='content')
     div.home-splash
-      div
-        object(data="/assets/img/svg/MANDEVA-FINAL-03a.svg" type="image/svg+xml" style="width: 35vw")
+      div.logotype
+        object.graphic(data="/assets/img/svg/MANDEVA-FINAL-03a.svg" type="image/svg+xml")
         h1 MANAVEDA
-      h4 We love creating beautiful experiences and harmonious spaces that inspire.
-      small Scroll to explore and book a room
+      h4 We love creating beautiful experiences and harmonious spaces that inspire
+      small Scroll to explore and book a room at our boutique hotel or private villas
 
     .splash
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
