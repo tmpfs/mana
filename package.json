@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "async-validate": "^1.0.1",
+    "babel-core": "^6.26.3",
     "bluebird": "^3.5.1",
     "dotenv": "^4.0.0",
     "emailjs": "^1.0.12",
@@ -23,7 +24,6 @@
     "swiper": "^4.2.6"
   },
   "devDependencies": {
-    "babel-core": "^6.22.1",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "*",
     "json-loader": "^0.5.7",
