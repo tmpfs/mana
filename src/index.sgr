@@ -10,7 +10,9 @@ extends(src='layout.sgr')
         object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
         h1 MANAVEDA
       h4 We love creating beautiful experiences and harmonious spaces that inspire
-      small Scroll to explore and book a room at our boutique hotel or private villas
+      div.scroll-action
+        small Scroll to explore and book a room at our boutique hotel or private villas
+        img.down(src="/assets/img/icon/light/angle-down.svg" width="32")
 
     .splash
       p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
