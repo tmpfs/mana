@@ -14,21 +14,26 @@ extends(src='layout.sgr')
         small Scroll to explore and book a room at our boutique hotel or private villas
         img.down(src="/assets/img/icon/light/angle-down.svg" width="32")
 
+    div.what
+      p.leader Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create.
+
     .splash
-      p.leader Blending traditional Javanese teak architecture and modern design to create luxurious villas with a unique atmosphere set amidst the lush tropical foliage of Bali.
       div.locations
         div#sari.sari
           a(href='/sari/')
             div.img
               h4
-                span Explore Mana Sari
+                span Mana Sari
                 span.desc Luxury Villa
               include(src='./sari/_features_light.sgr')
+
+        div.what
+          p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere set amidst the lush tropical foliage of Bali.
         div#boutique.boutique
           a(href='/boutique/')
             div.img
               h4
-                span Explore Mana Boutique
+                span Mana Boutique
                 span.desc Unique Cosy Hotel
               include(src='./boutique/_features_light.sgr')
   block(name='footer')

@@ -228,7 +228,7 @@ header .logo img.logotype
   text-align: left
   width: 100%
   height: auto
-  padding: 0 2rem
+  padding: 0
 
 .splash .locations
   display: flex
@@ -236,7 +236,10 @@ header .logo img.logotype
 
 .splash .locations > div:not(:last-child)
   flex: 1 0
-  margin-bottom: 2rem
+  //margin-bottom: 2rem
+
+.splash .locations > div.img
+  min-height: 100%
 
 .splash .locations > div h4
   position: absolute
@@ -285,7 +288,8 @@ header .logo img.logotype
   position: relative
   width: auto
   display: block
-  height: 230px
+  //height: 230px
+  height: 100vh
   border: 0
 
 .img a.book
@@ -426,8 +430,8 @@ div.error
   p.leader
     margin-top: 0
     margin-bottom: 2rem
-    font-size: 1.4rem
-    line-height: 1.8rem
+    font-size: 1.8rem
+    line-height: 2rem
     max-width: none
     /* max-width: 50% */
     /* text-shadow: 1px 1px var(--dark) */
@@ -478,13 +482,10 @@ div.error
   p.leader
     margin-top: 0
     margin-bottom: 4rem
-    font-size: 2.6rem
-    line-height: 3rem
+    font-size: 4rem
+    line-height: 6rem
     max-width: 75%
     /* text-shadow: 1px 1px var(--dark) */
-
-  .locations > div:not(:last-child)
-    margin-bottom: 8rem !important
 
   .locations .sari .img, .locations .boutique .img
     height: 640px
