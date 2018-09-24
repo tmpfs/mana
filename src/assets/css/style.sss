@@ -199,6 +199,14 @@ header .logo
 header .logo img.logotype
   height: 16px
 
+.home-splash > .logotype
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.home-splash > .logotype > :first-child
+  margin-bottom: 3rem
+
 .features
   margin: 0
   padding: 1rem
@@ -405,6 +413,9 @@ div.error
   .home-splash > .logotype > .graphic
     width: 60vw
 
+  .home-splash > .logotype > :first-child
+    margin-bottom: 2rem
+
   h1
     font-size: 2.4rem
     margin-top: 2rem
@@ -427,7 +438,7 @@ div.error
   .locations .img h4
     right: 0
 
-  header, header nav:last-child a, header .logo
+  header, header nav:last-child a
     //height: 4rem
     //line-height: 4rem
     font-size: 1.4rem

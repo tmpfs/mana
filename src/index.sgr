@@ -1,15 +1,14 @@
 extends(src='layout.sgr')
   block(name='title')
-    title Mana Villas
+    title Manaveda
   block(name='description')
-    meta(name='description' content='Luxury modern villas')
+    meta(name='description' content='Boutique hotels and luxury modern villas')
   block(name='header')
   block(name='content')
     div.home-splash
       div.logotype
         object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
-        object.graphic.logotype(data="/assets/img/logotype.svg" type="image/svg+xml")
-        //-h1 MANAVEDA
+        object.graphic(data="/assets/img/logotype.svg" type="image/svg+xml")
       h4 We love creating beautiful experiences and harmonious spaces that inspire
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
