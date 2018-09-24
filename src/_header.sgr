@@ -1,8 +1,8 @@
 header
   nav
     a.logo(href='/' title='Home')
-      img(src="/assets/img/logo.svg" alt="Logo")
-      span MANAVEDA
+      img.graphic(src="/assets/img/logo.svg" alt="Logo")
+      img.logotype(src="/assets/img/logotype.svg" alt="Logotype")
   nav
     a(href='/sari/' title='Mana Sari Villas'  class='{{pageId === "sari" ? "selected" : ""}}') Sari
     a(href='/boutique/' title='Mana Boutique Villas' class='{{pageId === "boutique" ? "selected" : ""}}') Boutique

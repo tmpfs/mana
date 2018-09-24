@@ -8,7 +8,8 @@ extends(src='layout.sgr')
     div.home-splash
       div.logotype
         object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
-        h1 MANAVEDA
+        object.graphic.logotype(data="/assets/img/logotype.svg" type="image/svg+xml")
+        //-h1 MANAVEDA
       h4 We love creating beautiful experiences and harmonious spaces that inspire
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
