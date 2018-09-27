@@ -15,7 +15,7 @@ extends(src='layout.sgr')
         img.down(src="/assets/img/icon/light/angle-down.svg" width="32")
 
     div.what
-      p.leader Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create.
+      p.leader Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create
 
     .splash
       div.locations
@@ -31,7 +31,7 @@ extends(src='layout.sgr')
             include(src='./sari/_features_light.sgr')
 
         div.what
-          p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere.
+          p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere
         div#boutique.boutique
           div.img
             h4
