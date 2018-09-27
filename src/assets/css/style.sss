@@ -32,6 +32,11 @@ iframe
 .small
   font-size: 1.4rem
 
+a.explore
+  display: flex
+  background: transparent
+  height: 100%
+
 .address
   display: block
   font-size: 12px !important
@@ -52,8 +57,7 @@ iframe
   display: block
   border: 0
   text-align: left
-  //background: rgba(0,0,0,0.7)
-  background: var(--light)
+  background: var(--accent)
   border-radius: 0
   color: var(--dark)
   font-size: 1.2rem
@@ -62,15 +66,35 @@ iframe
   margin: 0
   padding: 1rem
 
-a.book:hover
-  background: var(--dark)
-  color: var(--light)
+.booking a.book:hover
+  background: var(--light)
+  color: var(--dark)
 
 .booking.sari a.book:before
   content: '♥ mana sari — '
 
 .booking.boutique a.book:before
   content: '♥ mana boutique — '
+
+.splash .locations a.book
+  display: block
+  text-shadow: none
+  border: 0
+  text-align: left
+  vertical-align: middle
+  //background: rgba(0,0,0,0.7)
+  background: var(--accent)
+  border-radius: 2px
+  color: var(--dark)
+  font-size: 1.2rem
+  border: 0
+  text-transform: uppercase
+  margin: 1rem
+  padding: 1rem
+
+.splash .locations a.book:hover
+  background: var(--light)
+  color: var(--dark)
 
 .gallery img
   display: inline-block
@@ -245,6 +269,7 @@ header .logo img.logotype
   position: absolute
   left: 0
   top: 0
+  right: 0
   background: rgba(0,0,0,0.6)
   margin: 0
   padding: 1rem !important
@@ -472,6 +497,19 @@ div.error
   // Less gallery thumnbils on small screens
   .gallery .small :nth-child(n+5)
     display: none
+
+  .what
+    //display: flex
+    //justify-content: center
+    //align-items: center
+    //background: white
+    //color: black
+    min-height: 60vh
+    //text-align: left
+
+  .what p
+    padding-top: 1rem
+    border-top: 1px solid var(--dark)
 
 @media screen and (min-width: 720px)
   h1

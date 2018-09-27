@@ -20,21 +20,27 @@ extends(src='layout.sgr')
     .splash
       div.locations
         div#sari.sari
-          a(href='/sari/')
-            div.img
-              h4
-                span Mana Sari
-                span.desc Luxury Villa
-              include(src='./sari/_features_light.sgr')
+          div.img
+            h4
+              span Mana Sari
+              span.desc Luxury Villa
+              span 
+                a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
+                  | Book now
+            a.explore(href='/sari/' title='Explore Mana Sari') &nbsp;
+            include(src='./sari/_features_light.sgr')
 
         div.what
-          p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere set amidst the lush tropical foliage of Bali.
+          p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere.
         div#boutique.boutique
-          a(href='/boutique/')
-            div.img
-              h4
-                span Mana Boutique
-                span.desc Unique Cosy Hotel
-              include(src='./boutique/_features_light.sgr')
+          div.img
+            h4
+              span Mana Boutique
+              span.desc Unique Cosy Hotel
+              span
+                a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
+                  | Book now
+            a.explore(href='/boutique/' title='Explore Mana Boutique') &nbsp;
+            include(src='./boutique/_features_light.sgr')
   block(name='footer')
     include(src='_footer.sgr')
