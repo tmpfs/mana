@@ -21,6 +21,11 @@ a
   border-bottom: 1px solid transparent
   transition: all .3s ease-in-out
 
+a.light
+  color: var(--light)
+  font-size: inherit
+  text-decoration: underline
+
 figure
   margin: 0
   padding: 0
@@ -28,6 +33,9 @@ figure
 iframe
   height: calc(100vh - var(--header-height))
   padding-top: var(--header-height)
+
+.not-found
+  padding-bottom: 2rem
 
 .small
   font-size: 1.4rem
@@ -56,6 +64,7 @@ a.explore
 .location-nav .book-direct
   display: flex
   margin: 0 2rem
+  //max-width: 920px
   //flex-direction: row
   justify-content: space-between
   align-items: center
@@ -196,10 +205,10 @@ header
   text-align: left
   display: flex
   white-space: pre
+  background: white
 
 header nav
   flex: 1 0
-  background: white
 
 header nav a
   display: inline-block
@@ -445,6 +454,20 @@ div.error
   list-style-type: disc
   margin: 2rem 2rem 1rem 2rem
 
+@media screen and (max-width: 479px)
+  header
+    text-align: center
+    flex-direction: column
+    align-items: center
+    white-space: none
+
+  header nav:last-child a
+    //height: 4rem
+    line-height: 1
+    height: auto
+    padding: 1rem
+    font-size: 1.4rem
+
 @media screen and (max-width: 719px)
   body p, .room-nav, blockquote
     font-size: 1.4rem
@@ -480,6 +503,7 @@ div.error
   header, header nav:last-child a
     //height: 4rem
     //line-height: 4rem
+    //padding: .25rem
     font-size: 1.4rem
 
   section

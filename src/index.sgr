@@ -23,7 +23,7 @@ extends(src='layout.sgr')
           div.img
             h4
               span Mana Sari
-              span.desc Luxury Villa
+              span.desc Private Villa
               span 
                 a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
                   | Book now
