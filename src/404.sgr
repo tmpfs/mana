@@ -1,7 +1,12 @@
 extends(src='layout.sgr')
   block(name='content')
-    section.page.not-found
-      h1
-        a(href="/" title="Home")
-          img(src="/assets/img/logo-dark.png" alt="Logo")
-          span Page Not Found
+    div.home-splash.not-found
+        div.logotype
+          object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
+          object.graphic(data="/assets/img/logotype.svg" type="image/svg+xml")
+        h4 Page Not Found
+
+        div.scroll-action
+          small
+            | Start from the 
+            a.light(href='/') home page
