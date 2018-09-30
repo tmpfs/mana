@@ -48,13 +48,21 @@ a.explore
   height: 100%
 
 .booking
-  position: absolute
-  bottom: 2rem
-  right: 2rem
-  z-index: 999
+  //position: absolute
+  //bottom: 2rem
+  //right: 2rem
+  //z-index: 999
 
-.booking a.book
-  display: block
+.location-nav .book-direct
+  display: flex
+  margin: 0 2rem
+  //flex-direction: row
+  justify-content: space-between
+  align-items: center
+
+a.book
+  //flex: 0
+  display: inline-block
   border: 0
   text-align: left
   background: var(--accent)
@@ -65,16 +73,17 @@ a.explore
   text-transform: uppercase
   margin: 0
   padding: 1rem
+  white-space: pre
 
-.booking a.book:hover
+a.book:hover
   background: var(--light)
   color: var(--dark)
 
 .booking.sari a.book:before
-  content: '♥ mana sari — '
+  //content: '♥ mana sari — '
 
 .booking.boutique a.book:before
-  content: '♥ mana boutique — '
+  //content: '♥ mana boutique — '
 
 .splash .locations a.book
   display: block
