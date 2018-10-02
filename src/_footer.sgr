@@ -14,7 +14,7 @@ div.social.center
     img.icon(src='/assets/img/icon/twitter.svg' width="16" height="16" alt="Twitter")
   a(href='https://id.pinterest.com/ubudmana/' title='Pinterest')
     img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16" alt="Pinterest")
-  a(href='https://www.instagram.com/ubudmana/' title='Instagram')
+  a(href='https://www.instagram.com/manaveda.bali/' title='Instagram')
     img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16" alt="Instagram")
   a(href='https://www.facebook.com/ubudmana/' title='Facebook')
     img.icon(src='/assets/img/icon/facebook.svg' width="16" height="16" alt="Facebook")
