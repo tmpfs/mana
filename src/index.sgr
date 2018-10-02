@@ -5,7 +5,7 @@ extends(src='layout.sgr')
     meta(name='description' content='Boutique hotels and luxury modern villas')
   block(name='header')
   block(name='content')
-    div.home-splash
+    a.home-splash(href='#sari')
       div.logotype
         object.graphic(data="/assets/img/logo.svg" type="image/svg+xml")
         object.graphic(data="/assets/img/logotype.svg" type="image/svg+xml")
