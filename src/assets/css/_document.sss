@@ -204,13 +204,17 @@ input[type="email"],
 textarea
   margin-bottom: 2rem
   font-size: 1.6rem
-  padding: 1rem
+  padding: 1rem 1rem 1rem 0
   background: var(--light)
-  border-bottom: 2px solid var(--dark)
+  border-bottom: 1px solid var(--dark)
+  transition: border-bottom .5s ease-out
+  &:focus
+    border-bottom: 1px solid var(--accent)
 
 textarea
   width: 100%
   max-width: 100%
+  resize: none
 
 input[type="submit"],
 input[type="reset"]
