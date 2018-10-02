@@ -10,7 +10,6 @@ extends(src='../layout.sgr')
       section.page
         h1 We enjoy satisfying our visitors
         div.banner
-        //- p However you prefer to get in touch we are here to help.
         div.contact-container
           div.sidebar
             h4 Telephone & Email
