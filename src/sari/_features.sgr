@@ -13,3 +13,11 @@ ul.features
     span
       img.icon(src='/assets/img/icon/tint.svg' width="16" height="16" alt="Pool")
       | Salt water pool
+  li
+    span
+      img.icon(src='/assets/img/icon/snowflake-o.svg' width="16" height="16" alt="Air conditioning")
+      | Air conditioning
+    span
+      img.icon(src='/assets/img/icon/arrows.svg' width="16" height="16" alt="Square metres")
+      | 625 m
+      sup 2
