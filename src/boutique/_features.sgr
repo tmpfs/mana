@@ -12,4 +12,4 @@ ul.features
       | Wifi
     span
       img.icon(src='/assets/img/icon/tint.svg' width="16" height="16" alt="Pool")
-      | Salt water pool
+      | Ionised pool

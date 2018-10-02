@@ -12,7 +12,7 @@ extends(src='layout.sgr')
       h4 We love creating beautiful experiences and harmonious spaces that inspire
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
-        img.down(src="/assets/img/icon/light/angle-down.svg" width="32")
+        img.down(src="/assets/img/icon/angle-down.svg" width="32")
 
     div.what
       p.leader Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create
