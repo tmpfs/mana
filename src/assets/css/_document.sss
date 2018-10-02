@@ -12,6 +12,8 @@
   --text-color: #000
   --header-height: 60px
   --accent: #09d1aa
+  --teak: #958757
+  --cream: #eee8d5
 
   /* v2 monochrome */
   --light: #fff
@@ -206,7 +208,7 @@ textarea
   font-size: 1.6rem
   padding: 1rem 1rem 1rem 0
   background: var(--light)
-  border-bottom: 1px solid var(--dark)
+  border-bottom: 2px solid var(--dark)
   transition: border-bottom .5s ease-out
   &:focus
     border-bottom: 1px solid var(--accent)
@@ -249,7 +251,8 @@ input + label
   padding: 1rem
   background: var(--light)
   color: var(--dark)
-  border-bottom: 2px solid rgba(0,0,0,0.4)
+  border-bottom: 2px solid var(--cream) 
+  //border-bottom: 2px solid var(--teak)
   &:hover, &.selected
     background: var(--light)
     color: var(--accent)
@@ -279,7 +282,6 @@ input + label
 
 .home-splash > .logotype > .graphic
   width: 25vw
-  pointer-events: none
 
 .home-splash h1
   color: var(--accent)
