@@ -8,19 +8,22 @@ extends(src='../layout.sgr')
   block(name='content')
     main
       section.page
-        h1 We blend with nature 
+        h1 We aim to harmonize with nature
         div.banner
-        h4 Mana
-        p.
-          Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create.
-        h4 Style
-        p.
-          Our signature design style is to refurbish the antique Indonesian teakwood house to create a unique and striking blend of modernity and tradition. The up-cycled whitewashed wood and high ceilings bring light, brightness and a contemporary feeling.
 
+        h4 Our Style
         p.
-          As a designer, it is a pleasure to combine the modern elements of style and design to antique structures. We find it creates the perfect balance: light and solid, old and new at the same time.
-        h4 Environment
+          We believe in Kaizen, the Japanese word for continuous improvement. Beginning with ourselves, we aim to improve the web of life that surrounds us.  
         p.
-          Our villas are surrounded by tropical gardens including organic gardens growing veggies, fruits and herbs.
+          We co-create spaces with craftspeople, wood workers, designers, friends resulting in a synergy of collaborative creative expression.  
+        p.
+          Respecting and working with the natural environment, we design and work with traditional teak houses that are over a hundred years old and infuse them with expressions of modernity and comfort.  We feel it's a beautiful rebirth.
+
+        h4 Our Environment
+        p.
+          Situated in the tropical nature of Ubud, foliage and fauna surround us and we share our space with frogs, geckos and spiders. These creatures are a part of life in Bali. We appreciate nature and believe in the right of all of it's inhabitants to exist. It is common to see geckos indoors. They are beautiful animals and prefer to be high up; in Bali they are considered to be symbols of good luck.  
+        p.
+          We don’t fog our houses and  gardens with harsh chemicals as many places do. The health of our staff  and guests is important to us.  
+
   block(name='footer')
     include(src='../_footer.sgr')
