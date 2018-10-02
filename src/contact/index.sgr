@@ -33,6 +33,7 @@ extends(src='../layout.sgr')
             p
               span.address Penestanan Klod, Ubud, Bali, 80571
           div.form
+            h4 Send us a message
             p.success.hidden
               | Thanks, your message has been sent to the Mana Team, we will get back to you shortly.
               br
