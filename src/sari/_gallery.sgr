@@ -3,76 +3,92 @@
     .swiper-wrapper
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-front-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/09.jpg)")
         figcaption Joglo Front View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-terrace.jpg)")
-        figcaption Joglo Terrace
+        img(style="background-image:url(/assets/img/gallery/sari/22.jpg)")
+        figcaption Pool and Joglo
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-interior-view.jpg)")
-        figcaption Joglo Interior View
+        img(style="background-image:url(/assets/img/gallery/sari/01.jpg)")
+        figcaption Joglo Sleeping Area
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/garden-view.jpg)")
-        figcaption Garden View
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/pool-common-area.jpg)")
-        figcaption Pool Common Area
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/pool-joglo-front.jpg)")
-        figcaption Pool Joglo Front
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/infinity-pool.jpg)")
-        figcaption Infinity Pool
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-terrace-table-view.jpg)")
-        figcaption Joglo Terrace Table View
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/common-area-view.jpg)")
-        figcaption Common Area View
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-interior.jpg)")
-        figcaption Joglo Interior
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-kitchen.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/02.jpg)")
         figcaption Joglo Kitchen
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-breakfast-bar.jpg)")
-        figcaption Joglo Breakfast Bar
+        img(style="background-image:url(/assets/img/gallery/sari/03.jpg)")
+        figcaption Root artwork
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom.jpg)")
-        figcaption Joglo Bathroom
+        img(style="background-image:url(/assets/img/gallery/sari/04.jpg)")
+        figcaption Sofa View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom-mirror.jpg)")
-        figcaption Joglo Bathroom Mirror
+        img(style="background-image:url(/assets/img/gallery/sari/05.jpg)")
+        figcaption Patio View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathtub.jpg)")
-        figcaption Joglo Bathtub
+        img(style="background-image:url(/assets/img/gallery/sari/06.jpg)")
+        figcaption Patio View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/spare-room-bed.jpg)")
-        figcaption Guest House
+        img(style="background-image:url(/assets/img/gallery/sari/07.jpg)")
+        figcaption Swimming Pool View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/spare-room-bed-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/08.jpg)")
+        figcaption Swimming Pool View
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/10.jpg)")
+        figcaption Buddha Statue
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/11.jpg)")
+        figcaption Common Area View
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/12.jpg)")
+        figcaption Towel Detail
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/13.jpg)")
         figcaption Guest House View
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/towel-presentation-detail.jpg)")
-        figcaption Towel Presentation
+        img(style="background-image:url(/assets/img/gallery/sari/14.jpg)")
+        figcaption Deck View
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/15.jpg)")
+        figcaption Pool and Common Area
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/16.jpg)")
+        figcaption Guest House Bedroom
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/17.jpg)")
+        figcaption Guest House Bed
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/18.jpg)")
+        figcaption Guest House View
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/19.jpg)")
+        figcaption Guest House Bathroom
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/20.jpg)")
+        figcaption Guest House Bathtub
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/21.jpg)")
+        figcaption Aerial View
 
     .swiper-button-next.swiper-button-white
     .swiper-button-prev.swiper-button-white
@@ -81,55 +97,70 @@
     .swiper-wrapper
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-front-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/09.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-terrace.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/22.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-interior-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/01.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/garden-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/02.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/pool-common-area.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/03.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/pool-joglo-front.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/04.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/infinity-pool.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/05.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-terrace-table-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/06.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/common-area-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/07.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-interior.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/08.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-kitchen.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/10.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-breakfast-bar.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/11.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/12.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathroom-mirror.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/13.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/joglo-bathtub.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/14.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/spare-room-bed.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/15.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/spare-room-bed-view.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/16.jpg)")
 
       .swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/towel-presentation-detail.jpg)")
+        img(style="background-image:url(/assets/img/gallery/sari/17.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/18.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/19.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/20.jpg)")
+
+      .swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/21.jpg)")
+
+
+
