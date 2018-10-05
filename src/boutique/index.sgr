@@ -10,10 +10,6 @@ extends(src='../layout.sgr')
   block(name='content')
     link(rel='stylesheet' href='/assets/css/swiper.css')
 
-    //-.booking.boutique
-      //-a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
-        //-| Book now
-
     .slideshow
       div.swiper-container.swipe(data-id='{{ pageId }}')
         div.swiper-wrapper.no-select
