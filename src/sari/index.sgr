@@ -10,10 +10,6 @@ extends(src='../layout.sgr')
   block(name='content')
     link(rel='stylesheet' href='/assets/css/swiper.css')
 
-    //-.booking.sari
-      //-a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct')
-        //-| Book now
-
     .slideshow
       div.swiper-container.swipe(data-id='{{ pageId }}')
 
@@ -50,6 +46,12 @@ extends(src='../layout.sgr')
 
         p.
           Note that we live in the jungle alongside wildlife such as geckos, spiders and frogs. Please don’t be surprised if you see them around the villa, they are harmless and will not bother you.
+
+        div.book-direct
+          p Book direct, it's better for everyone!
+          div
+            a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct')
+              | Book now
 
         h5 Amenities
 

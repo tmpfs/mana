@@ -4,8 +4,3 @@ div.location-nav
     a(href="#gallery" title="Gallery") Gallery
     a(href="#reviews" title="Reviews") Reviews
     a(href="#map" title="Map") Map
-  div.book-direct
-    p Book direct, it's better for everyone!
-    div
-      a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct')
-        | Book now

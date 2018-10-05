@@ -10,9 +10,9 @@ extends(src='../layout.sgr')
   block(name='content')
     link(rel='stylesheet' href='/assets/css/swiper.css')
 
-    .booking.boutique
-      a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
-        | Book now
+    //-.booking.boutique
+      //-a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
+        //-| Book now
 
     .slideshow
       div.swiper-container.swipe(data-id='{{ pageId }}')
@@ -42,6 +42,13 @@ extends(src='../layout.sgr')
 
         p.
           Our team is made up of local Balinese people who are professional, kind and caring. They provide personal service to all of our guests. As your host we are available to give you additional help you may need such as arranging excursions, taxi drivers, laundry, airport transfers among others. 
+
+
+        div.book-direct
+          p Book direct, it's better for everyone!
+          div
+            a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
+              | Book now
 
         h5 Mani Joglo
         p.
