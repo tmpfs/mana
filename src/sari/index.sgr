@@ -51,6 +51,8 @@ extends(src='../layout.sgr')
         p.
           Note that we live in the jungle alongside wildlife such as geckos, spiders and frogs. Please don’t be surprised if you see them around the villa, they are harmless and will not bother you.
 
+        h5 Amenities
+
         dl
           dt Rooms
           dd 2 Bathroom, 2 Bedroom, 1 Dining Room, 1 Kitchen, 1 Living Room 
@@ -61,7 +63,7 @@ extends(src='../layout.sgr')
           dt Outside
           dd Private Balcony, Private Terrace, Private Garden, Private Saltwater Pool
           dt Entertainment
-          dd Broadband Internet, Flatscreen TV (Satellite)
+          dd Broadband Internet, Flatscreen Satellite TV
           dt Sanitary
           dd Bidet, Hair Dryer, Shower, Towel-Set
           dt Parking

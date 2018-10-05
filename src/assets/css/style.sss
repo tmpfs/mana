@@ -111,8 +111,15 @@ a.book:hover
   background: var(--light)
   color: var(--dark)
 
+dl
+  margin-left: 2rem
+  font-size: 1.6rem
+
 dd
   margin-left: 2rem
+
+dd:not(:last-child)
+  margin-bottom: 0.5rem
 
 .gallery img
   display: inline-block
@@ -476,6 +483,12 @@ div.error
 @media screen and (max-width: 719px)
   body p, .room-nav, blockquote, dl
     font-size: 1.4rem
+
+  dl
+    margin-left: 0
+
+  dd
+    margin-left: 1rem
 
   .home-splash > .logotype > .graphic
     width: 60vw
