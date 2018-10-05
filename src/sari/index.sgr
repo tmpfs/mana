@@ -51,6 +51,27 @@ extends(src='../layout.sgr')
         p.
           Note that we live in the jungle alongside wildlife such as geckos, spiders and frogs. Please don’t be surprised if you see them around the villa, they are harmless and will not bother you.
 
+        dl
+          dt Rooms
+          dd 2 Bathroom, 2 Bedroom, 1 Dining Room, 1 Kitchen, 1 Living Room 
+          dt Sleeping
+          dd Bed linen, 1 Queen Bed, 1 King Bed
+          dt Cooking
+          dd Blender, Cooking utensils, Kitchen Stove, Oven, Refrigerator, Spices, Toaster
+          dt Outside
+          dd Private Balcony, Private Terrace, Private Garden, Private Saltwater Pool
+          dt Entertainment
+          dd Broadband Internet, Flatscreen TV (Satellite)
+          dt Sanitary
+          dd Bidet, Hair Dryer, Shower, Towel-Set
+          dt Parking
+          dd Roofed Carport
+          dt Policies
+          dd Breakfast included, Accessible 24/7, Housekeeping Included
+          dt Check-in
+          dd 2:00pm
+          dt Check-out
+          dd 12:00pm (noon)
 
         h5 Guest access
         p.
