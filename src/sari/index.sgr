@@ -70,6 +70,8 @@ extends(src='../layout.sgr')
           dd Bidet, Hair Dryer, Shower, Towel-Set
           dt Parking
           dd Roofed Carport
+          dt Miscellaneous
+          dd Air conditioning, safe
           dt Policies
           dd Breakfast included, Accessible 24/7, Housekeeping Included
           dt Check-in

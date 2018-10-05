@@ -46,6 +46,26 @@ extends(src='../layout.sgr')
             a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
               | Book now
 
+        h5 Amenities
+
+        dl
+          dt Cooking
+          dd Blender, Cooking utensils, Kitchen Stove, Oven, Refrigerator, Spices, Toaster
+          dt Outside
+          dd Ionised Infinity Pool, Green Rooftop Lounge, Common Lounge Area, Common Outside Kitchen, Private Furnished Balconies
+          dt Entertainment
+          dd Broadband Internet, Flatscreen Satellite TV
+          dt Sanitary
+          dd Bidet, Hair Dryer, Shower, Towel-Set 
+          dt Miscellaneous
+          dd Air Conditioning, Safe
+          dt Policies
+          dd Breakfast included, Accessible 24/7, Housekeeping Included 
+          dt Check-in
+          dd 2:00pm
+          dt Check-out
+          dd 12:00pm (noon) 
+
         h5 Mani Joglo
         p.
           Beautiful, expansive and bright, a home away from home. It is our largest and most striking villa (110 sq. Meter). All furniture was handcrafted using recycled wood and natural materials. This villa has a comfortable lounge area, open kitchen with breakfast bar table, large walk-in closet  and large semi-open bathroom built with natural stone floors and walls with terrazzo bathtub and separate rainfall shower. Folding glass doors open to a large terrace that overlooks the pool and garden.
