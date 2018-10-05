@@ -67,16 +67,30 @@ extends(src='../layout.sgr')
           dd 12:00pm (noon) 
 
         h5 Mani Joglo
+        ul.highlights
+          li King Size Bed 
+          li Sleeps 2+ 
+          li Walk-In Closet 
+          li Lounge Area 
+          li Kitchen + Breakfast Bar
         p.
           Beautiful, expansive and bright, a home away from home. It is our largest and most striking villa (110 sq. Meter). All furniture was handcrafted using recycled wood and natural materials. This villa has a comfortable lounge area, open kitchen with breakfast bar table, large walk-in closet  and large semi-open bathroom built with natural stone floors and walls with terrazzo bathtub and separate rainfall shower. Folding glass doors open to a large terrace that overlooks the pool and garden.
 
 
         h5 Chi & Prana Joglos
+        ul.highlights
+          li Queen Size Bed 
+          li Sleeps 2 
+          li Kitchenette 
         p.
           Each of these rustic, charming villas sleep two, with hardwood floors and whitewashed teak floors, floor to ceiling windows, plenty of cabinet space, king-sized bed, kitchenette and open air en-suite bathroom with terrazzo bathtub and separate rainfall shower.  You can dine, lounge and read on the lovely furnished balcony overlooking lush garden and jungle. 
 
 
         h5 Avani
+        ul.highlights
+          li Queen Size Bed
+          li Sleeps 2 
+          li Kitchenette + Bar Table
         p.
           Avani is our newest addition to the hotel completed in 2018. It is light and bright and built in a modern style. The adjoining bathroom is semi-open with a rainfall shower. 
 
