@@ -78,12 +78,19 @@ a.book:hover
   background: var(--light)
   color: var(--dark)
 
+.business-info
+  margin-bottom: 2rem
+
 .business-address, .business-tel, .business-link
   font-size: 1.4rem
   &::before
     margin-left: 4rem
 
 .business-address
+  white-space: pre
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
   &::before
     display: inline-block
     width: 16px

@@ -17,13 +17,43 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
-              span Moksa Plant-based Restaurant
+              | Moksa Plant-based Restaurant
             .business-address
-              span Puskesmas Ubud II, Gang Damai, Sayan, Ubud
+              | Puskesmas Ubud II, Gang Damai, Sayan, Ubud
             .business-tel
               a(href='tel://+6281339774787') +62 813 3977 4787
             .business-link
               a(href='https://moksaubud.com') moksaubud.com
+
+          .business-info
+            .business-name
+              | Zest Ubud
+            .business-address
+              | Jalan Penestanan Kelod No.8, Penestanan, Ubud
+            .business-tel
+              a(href='tel://+6282340065048') +62 823 4006 5048
+            .business-link
+              a(href='http://www.zestubud.com') zestubud.com
+
+          .business-info
+            .business-name
+              | Sayuri Healing Food Café
+            .business-address
+              | JL Sukma kesuma no 2 , Br Tebesaya, Peliatan, Ubud
+            .business-tel
+              a(href='tel://')
+            .business-link
+              a(href='')
+
+          .business-info
+            .business-name
+              span
+            .business-address
+              span
+            .business-tel
+              a(href='tel://')
+            .business-link
+              a(href='')
 
   block(name='footer')
     include(src='../_footer.sgr')
