@@ -523,13 +523,24 @@ div.error
   list-style-type: disc
   margin: 2rem 2rem 1rem 2rem
 
-@media screen and (max-width: 479px)
+@media screen and (max-width: 320px)
   header
-    text-align: center
-    flex-direction: column
+    display: block
+  header nav:first-child
+    display: flex
+    justify-content: center
     align-items: center
-    white-space: none
+    margin-top: 1rem
+    margin-bottom: 1rem
 
+  header nav:last-child
+    display: flex
+
+  header nav:last-child a
+    display: inline-block
+
+
+@media screen and (max-width: 479px)
   header nav:last-child a
     //height: 4rem
     line-height: 1
@@ -577,10 +588,17 @@ div.error
     right: 0
 
   header, header nav:last-child a
+
+    flex: 1 0
+    text-align: center
+    //display: inline-block
     //height: 4rem
     //line-height: 4rem
     //padding: .25rem
     font-size: 1.4rem
+
+  header
+    //display: block
 
   section
     margin-bottom: 2rem

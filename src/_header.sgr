@@ -1,8 +1,8 @@
 header
   nav
     a.logo(href='/' title='Home')
-      img.graphic(src="/assets/img/logo.svg" alt="Logo")
-      img.logotype(src="/assets/img/logotype.svg" alt="Logotype")
+      img.graphic(src="/assets/img/logo.svg" alt="")
+      img.logotype(src="/assets/img/logotype.svg" alt="")
   nav
     a(href='/sari/' title='Mana Sari Villas'  class='{{pageId === "sari" ? "selected" : ""}}') Sari
     a(href='/boutique/' title='Mana Boutique Villas' class='{{pageId === "boutique" ? "selected" : ""}}') Boutique
