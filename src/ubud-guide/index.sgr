@@ -41,9 +41,9 @@ extends(src='../layout.sgr')
             .business-address
               | JL Sukma kesuma no 2 , Br Tebesaya, Peliatan, Ubud
             .business-tel
-              a(href='tel://')
+              a(href='tel://+6282240485154') +62 822 4048 5154
             .business-link
-              a(href='')
+              a(href='http://www.sayurihealingfood.com/') sayurihealingfood.com
 
           .business-info
             .business-name
