@@ -57,11 +57,25 @@ a.explore
 
 .book-direct
   display: flex
-  padding: 0 1rem
-  background: var(--charcoal)
-  color: var(--light)
+  padding: 0 1rem 1rem 0
+  //background: var(--charcoal)
+  //color: var(--light)
   justify-content: space-between
   align-items: center
+
+.book-direct p
+  white-space: pre
+
+.book-direct img
+  width: 32px
+  height: 32px
+  display: inline-block
+  vertical-align: middle
+
+.book-direct p span
+  margin-top: 2px
+  display: inline-block
+  vertical-align: middle
 
 .business-info
   margin-bottom: 2rem
@@ -128,7 +142,7 @@ a.explore
   background: var(--charcoal)
   padding: 0 1rem
 
-a.primary, a.book
+a.primary, a.book, a.secondary
   display: inline-block
   white-space: pre
   text-shadow: none
@@ -145,6 +159,12 @@ a.primary, a.book
   margin: 1rem 0 1rem 1rem
   padding: 1rem
   transition: all 0.5s ease-out
+  &:hover
+    background: var(--light)
+    color: var(--dark)
+
+a.secondary
+  background: var(--teak)
   &:hover
     background: var(--light)
     color: var(--dark)

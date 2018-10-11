@@ -27,7 +27,7 @@ extends(src='layout.sgr')
           div.options
             a.primary(href='/sari/' title='Explore Mana Sari')
               | Explore Sari
-            a.primary(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
+            a.secondary(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
               | Book now
 
     div.what
@@ -43,7 +43,7 @@ extends(src='layout.sgr')
           div.options
             a.primary(href='/boutique/' title='Explore Mana Boutique')
               | Explore Boutique
-            a.primary(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
+            a.secondary(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
               | Book now
   block(name='footer')
     include(src='_footer.sgr')
