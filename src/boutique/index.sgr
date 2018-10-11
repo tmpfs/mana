@@ -2,7 +2,7 @@ extends(src='../layout.sgr')
   block(name='title')
     title Mana Boutique
   block(name='description')
-    meta(name='description' content='Boutique villas in Penestanan Village')
+    meta(name='description' content='Cosy hotel in Penestanan Village')
   block(name='stylesheets')
     link(rel='stylesheet' href='/assets/css/style.css')
   block(name='header')
@@ -23,21 +23,21 @@ extends(src='../layout.sgr')
         h4
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
-        
-        p.
-          Mana Boutique is a luxurious oasis tucked away in a tranquil, little pocket of Penestanan village 10 minutes from central Ubud. It is a complex of four villas overlooking wild, beautiful jungle with shared common lounge area, kitchen and ionised infinity pool. A happy and relaxing place. 
 
         p.
-          The traditional rice paddy fields are just a stroll away. There are many restaurants and cafes within a 10 minute walk that offer local cuisine along with raw vegan options. It is a neighborhood for everyone. 
+          Mana Boutique is a luxurious oasis tucked away in a tranquil, little pocket of Penestanan village 10 minutes from central Ubud. It is a complex of four villas overlooking wild, beautiful jungle with shared common lounge area, kitchen and ionised infinity pool. A happy and relaxing place.
 
         p.
-          There are numerous food delivery options available and massages can be arranged at the villa with some notice. Cantika Zest spa is a short walk from the hotel; advanced booking is recommended and Boutique guests receive a 10% discount. 
+          The traditional rice paddy fields are just a stroll away. There are many restaurants and cafes within a 10 minute walk that offer local cuisine along with raw vegan options. It is a neighborhood for everyone.
 
         p.
-          Our oasis is a tropical environment and we respect the flora and fauna that surrounds us. We try to harmonize with nature as best we can. The hotel is home to two cats and jungle inhabitants such as frogs, geckos and spiders. If any one of them turns up in your villa remember that they are harmless and we can happily co-exist. 
+          There are numerous food delivery options available and massages can be arranged at the villa with some notice. Cantika Zest spa is a short walk from the hotel; advanced booking is recommended and Boutique guests receive a 10% discount.
 
         p.
-          Our team is made up of local Balinese people who are professional, kind and caring. They provide personal service to all of our guests. As your host we are available to give you additional help you may need such as arranging excursions, taxi drivers, laundry, airport transfers among others. 
+          Our oasis is a tropical environment and we respect the flora and fauna that surrounds us. We try to harmonize with nature as best we can. The hotel is home to two cats and jungle inhabitants such as frogs, geckos and spiders. If any one of them turns up in your villa remember that they are harmless and we can happily co-exist.
+
+        p.
+          Our team is made up of local Balinese people who are professional, kind and caring. They provide personal service to all of our guests. As your host we are available to give you additional help you may need such as arranging excursions, taxi drivers, laundry, airport transfers among others.
 
 
         div.book-direct
@@ -56,22 +56,22 @@ extends(src='../layout.sgr')
           dt Entertainment
           dd Broadband Internet, Flatscreen Satellite TV
           dt Sanitary
-          dd Bidet, Hair Dryer, Shower, Towel-Set 
+          dd Bidet, Hair Dryer, Shower, Towel-Set
           dt Miscellaneous
           dd Air Conditioning, Safe
           dt Policies
-          dd Breakfast included, Accessible 24/7, Housekeeping Included 
+          dd Breakfast included, Accessible 24/7, Housekeeping Included
           dt Check-in
           dd 2:00pm
           dt Check-out
-          dd 12:00pm (noon) 
+          dd 12:00pm (noon)
 
         h5 Mani Joglo
         ul.highlights
-          li King Size Bed 
-          li Sleeps 2+ 
-          li Walk-In Closet 
-          li Lounge Area 
+          li King Size Bed
+          li Sleeps 2+
+          li Walk-In Closet
+          li Lounge Area
           li Kitchen + Breakfast Bar
         p.
           Beautiful, expansive and bright, a home away from home. It is our largest and most striking villa (110 sq. Meter). All furniture was handcrafted using recycled wood and natural materials. This villa has a comfortable lounge area, open kitchen with breakfast bar table, large walk-in closet  and large semi-open bathroom built with natural stone floors and walls with terrazzo bathtub and separate rainfall shower. Folding glass doors open to a large terrace that overlooks the pool and garden.
@@ -79,20 +79,20 @@ extends(src='../layout.sgr')
 
         h5 Chi & Prana Joglos
         ul.highlights
-          li Queen Size Bed 
-          li Sleeps 2 
-          li Kitchenette 
+          li Queen Size Bed
+          li Sleeps 2
+          li Kitchenette
         p.
-          Each of these rustic, charming villas sleep two, with hardwood floors and whitewashed teak floors, floor to ceiling windows, plenty of cabinet space, king-sized bed, kitchenette and open air en-suite bathroom with terrazzo bathtub and separate rainfall shower.  You can dine, lounge and read on the lovely furnished balcony overlooking lush garden and jungle. 
+          Each of these rustic, charming villas sleep two, with hardwood floors and whitewashed teak floors, floor to ceiling windows, plenty of cabinet space, king-sized bed, kitchenette and open air en-suite bathroom with terrazzo bathtub and separate rainfall shower.  You can dine, lounge and read on the lovely furnished balcony overlooking lush garden and jungle.
 
 
         h5 Avani
         ul.highlights
           li Queen Size Bed
-          li Sleeps 2 
+          li Sleeps 2
           li Kitchenette + Bar Table
         p.
-          Avani is our newest addition to the hotel completed in 2018. It is light and bright and built in a modern style. The adjoining bathroom is semi-open with a rainfall shower. 
+          Avani is our newest addition to the hotel completed in 2018. It is light and bright and built in a modern style. The adjoining bathroom is semi-open with a rainfall shower.
 
       section#gallery
         h4
