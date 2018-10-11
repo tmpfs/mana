@@ -13,7 +13,7 @@ extends(src='../layout.sgr')
 
         section.links
 
-          h2 Health conscious dining
+          h2 Health Conscious Dining
 
           .business-info
             .business-name
@@ -47,9 +47,51 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
-              span
+              | The Elephant
             .business-address
-              span
+              | Jalan Raya Sanggingan, Hotel Taman Indrakila, Sayan, Ubud
+            .business-tel
+              a(href='tel://+6285100161907') +62 851 0016 1907
+            .business-link
+              a(href='http://www.elephantbali.com/') elephantbali.com
+
+          .business-info
+            .business-name
+              | Clear Café
+            .business-address
+              | Jl. Hanoman No.8, Ubud
+            .business-tel
+              a(href='tel://+6287862197585') +62 878 6219 7585
+            .business-link
+              a(href='http://clearcafebali.com/open/') clearcafebali.com
+
+          .business-info
+            .business-name
+              | Alchemy
+            .business-address
+              | Jalan Penestanan Kelod No.75, Sayan, Ubud
+            .business-tel
+              a(href='tel://+62361971981') +62 361 971981
+            .business-link
+              a(href='https://www.facebook.com/AlchemyBali/') facebook.com/AlchemyBali
+
+          h2 Casual Dining
+
+          .business-info
+            .business-name
+              | La Pacha Mama
+            .business-address
+              | Jl. Raya Penestanen Kelod 1, Sayan, Ubud
+            .business-tel
+              a(href='tel://+623619080225') +62 361 9080225
+            .business-link
+              a(href='http://www.la-pacha-mama.com/ ') la-pacha-mama.com
+
+          .business-info
+            .business-name
+              |
+            .business-address
+              |
             .business-tel
               a(href='tel://')
             .business-link
