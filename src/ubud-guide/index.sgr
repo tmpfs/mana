@@ -11,7 +11,7 @@ extends(src='../layout.sgr')
         h1 We believe in sharing knowledge
         div.banner
 
-        section.links
+        section.guide
 
           h2 Health Conscious Dining
 
