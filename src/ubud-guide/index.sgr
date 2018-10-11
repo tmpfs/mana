@@ -1,0 +1,29 @@
+extends(src='../layout.sgr')
+  block(name='title')
+    title Ubud Guide
+  block(name='description')
+    meta(name='description' content='More about Ubud and the local area')
+  block(name='header')
+    include(src='../_header.sgr')
+  block(name='content')
+    main
+      section.page
+        h1 We believe in sharing knowledge
+        div.banner
+
+        section.links
+
+          h2 Health conscious dining
+
+          .business-info
+            .business-name
+              span Moksa Plant-based Restaurant
+            .business-address
+              span Puskesmas Ubud II, Gang Damai, Sayan, Ubud
+            .business-tel
+              a(href='tel://+6281339774787') +62 813 3977 4787
+            .business-link
+              a(href='https://moksaubud.com') moksaubud.com
+
+  block(name='footer')
+    include(src='../_footer.sgr')

@@ -78,6 +78,53 @@ a.book:hover
   background: var(--light)
   color: var(--dark)
 
+.business-address, .business-tel, .business-link
+  font-size: 1.4rem
+  &::before
+    margin-left: 4rem
+
+.business-address
+  &::before
+    display: inline-block
+    width: 16px
+    height: 16px
+    margin: 0 0.5rem 0 0
+    content: ''
+    vertical-align: middle
+    background-image: url('/assets/img/icon/home.svg')
+    background-size: 16px 16px
+    background-position: center
+    background-repeat: no-repeat
+
+.business-tel
+  &::before
+    display: inline-block
+    width: 16px
+    height: 16px
+    margin: 0 0.5rem 0 0
+    content: ''
+    vertical-align: middle
+    background-image: url('/assets/img/icon/phone.svg')
+    background-size: 16px 16px
+    background-position: center
+    background-repeat: no-repeat
+
+.business-link
+  &::before
+    display: inline-block
+    width: 16px
+    height: 16px
+    margin: 0 0.5rem 0 0
+    content: ''
+    vertical-align: middle
+    background-image: url('/assets/img/icon/external-link.svg')
+    background-size: 16px 16px
+    background-position: center
+    background-repeat: no-repeat
+
+.business-link
+  text-transform: uppercase
+
 .splash .locations a, .splash.locations a:hover
   border-bottom: 0
 
