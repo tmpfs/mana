@@ -24,11 +24,11 @@ extends(src='layout.sgr')
             h4
               span Mana Sari
               span.desc Private Villa
-              span 
-                a.book(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
-                  | Book now
-            a.explore(href='/sari/' title='Explore Mana Sari') &nbsp;
-            //-include(src='./sari/_features_light.sgr')
+          div.options
+            a.primary(href='/sari/' title='Explore Mana Sari')
+              | Explore Sari
+            a.primary(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
+              | Book now
 
     div.what
       p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere
@@ -40,10 +40,10 @@ extends(src='layout.sgr')
             h4
               span Mana Boutique
               span.desc Unique Cosy Hotel
-              span
-                a.book(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
-                  | Book now
-            a.explore(href='/boutique/' title='Explore Mana Boutique') &nbsp;
-            //-include(src='./boutique/_features_light.sgr')
+          div.options
+            a.primary(href='/boutique/' title='Explore Mana Boutique')
+              | Explore Boutique
+            a.primary(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
+              | Book now
   block(name='footer')
     include(src='_footer.sgr')
