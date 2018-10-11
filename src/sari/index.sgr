@@ -20,26 +20,26 @@ extends(src='../layout.sgr')
         div.swiper-pagination
 
     include(src='../_room-nav.sgr')
-    main
+    main.location
       section#info
-        h4
+        h2
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
 
         p.
-          Mana Sari is a luxurious, tasteful and tranquil private villa yet only 5 minutes from Ubud center close to restaurants, shops and amenities. Every part of our spacious two bedroom villa was designed with love and care. 
+          Mana Sari is a luxurious, tasteful and tranquil private villa yet only 5 minutes from Ubud center close to restaurants, shops and amenities. Every part of our spacious two bedroom villa was designed with love and care.
 
         p.
           It is a romantic and serene villa designed and built for comfort; all furniture and elements were custom made. It blends a traditional Javanese teak house (Joglo) with modern architecture and is infused with light.
 
         p.
-          The master suite is an airy, bright joglo house that has an enormous open air en-suite bathroom with beautifully made terrazzo bathtub, rainfall shower and natural stone walls adjoined to a spacious and bright walk-in closet. Folding doors open on to a large terrace that is furnished with a dining table and lounge area that overlooks the saltwater pool. 
+          The master suite is an airy, bright joglo house that has an enormous open air en-suite bathroom with beautifully made terrazzo bathtub, rainfall shower and natural stone walls adjoined to a spacious and bright walk-in closet. Folding doors open on to a large terrace that is furnished with a dining table and lounge area that overlooks the saltwater pool.
 
         p.
           The second bedroom is a modern design that has a beautiful bright bathroom with terrazzo bathtub, rainfall shower and a private terrace overlooking the jungle ravine. The green roof above is a good place to lounge or meditate.
 
         p.
-          The 11 meter infinity saltwater pool is in the center of the property; the sound of the river flowing below is serene and tranquil. 
+          The 11 meter infinity saltwater pool is in the center of the property; the sound of the river flowing below is serene and tranquil.
 
         p.
           The villa has a pool kitchen for entertaining where the staff usually prepare breakfast.
@@ -57,7 +57,7 @@ extends(src='../layout.sgr')
 
         dl
           dt Rooms
-          dd 2 Bathroom, 2 Bedroom, 1 Dining Room, 1 Kitchen, 1 Living Room 
+          dd 2 Bathroom, 2 Bedroom, 1 Dining Room, 1 Kitchen, 1 Living Room
           dt Sleeping
           dd Bed linen, 1 Queen Bed, 1 King Bed
           dt Cooking
@@ -81,7 +81,7 @@ extends(src='../layout.sgr')
 
         h5 Guest access
         p.
-          Mana Sari is a private villa so access is all yours. We are here to help when you need it. Our staff is professional, friendly and warm; they work from 8:00am until 3:00pm but can be dismissed earlier if you want privacy. 
+          Mana Sari is a private villa so access is all yours. We are here to help when you need it. Our staff is professional, friendly and warm; they work from 8:00am until 3:00pm but can be dismissed earlier if you want privacy.
         p.
           There are numerous food delivery options available and massages can be arranged at the villa with some notice.
 
@@ -91,16 +91,17 @@ extends(src='../layout.sgr')
           Upon arrival you will be greeted at the villa and provided with a local mobile phone programmed with useful numbers for drivers and contact people. You will receive a welcome letter listing tips for attractions, spas, restaurants and cafes.
 
       section#gallery
-        h4
+        h2
           a(href='#gallery' title='Gallery Permalink') Gallery
         include(src='./_gallery.sgr')
       section#reviews
-        h4
+        h2
           a(href='#reviews' title='Reviews Permalink') Reviews
         include(src='_reviews.sgr')
       section#map
-        h4
+        h2
           a(href='#map' title='Map Permalink') Map
+        div
           span.address.small
             img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")
             | Jalan Gunung Sari, Ubud, Bali, 80571

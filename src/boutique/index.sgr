@@ -18,9 +18,9 @@ extends(src='../layout.sgr')
         div.swiper-button-prev.swiper-button-white
         div.swiper-pagination
     include(src='../_room-nav.sgr')
-    main
+    main.location
       section#info
-        h4
+        h2
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
 
@@ -95,15 +95,15 @@ extends(src='../layout.sgr')
           Avani is our newest addition to the hotel completed in 2018. It is light and bright and built in a modern style. The adjoining bathroom is semi-open with a rainfall shower.
 
       section#gallery
-        h4
+        h2
           a(href='#gallery' title='Gallery Permalink') Gallery
         include(src='./_gallery.sgr')
       section#reviews
-        h4
+        h2
           a(href='#reviews' title='Reviews Permalink') Reviews
         include(src='_reviews.sgr')
       section#map
-        h4
+        h2
           a(href='#map' title='Map Permalink') Map
           span.address.small
             img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")

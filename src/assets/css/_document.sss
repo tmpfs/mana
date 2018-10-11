@@ -55,6 +55,9 @@ h1, h2, h3, h4, h5, h6
 h3
   font-size: 1.8rem
 
+h2 a, h2 a:hover
+  border-bottom: 0
+
 header
   text-transform: uppercase
   position: absolute
@@ -121,7 +124,7 @@ main
   overflow: hidden
   padding: 0 2rem
 
-section
+section:first-child
   padding-top: var(--header-height-max)
   margin-bottom: 4rem
 
@@ -132,7 +135,7 @@ section > h4:first-child
 blockquote
   margin: 0
   padding: 0 1rem
-  display: inline-block
+  //display: inline-block
 
 blockquote::before
   content: '❝'
