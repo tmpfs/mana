@@ -54,7 +54,7 @@ a.explore
 .book-direct
   display: flex
   padding: 0 1rem
-  background: var(--dark)
+  background: var(--charcoal)
   color: var(--light)
   justify-content: space-between
   align-items: center
@@ -66,17 +66,17 @@ a.book
   text-align: left
   background: var(--accent)
   border-radius: 0
-  color: var(--dark)
+  color: var(--light)
   font-size: 1.2rem
   border: 0
   text-transform: uppercase
   margin: 0
   padding: 1rem
   white-space: pre
-
-a.book:hover
-  background: var(--light)
-  color: var(--dark)
+  transition: all 0.5s ease-out
+  &:hover
+    background: var(--light)
+    color: var(--dark)
 
 .business-info
   margin-bottom: 2rem
@@ -147,7 +147,7 @@ a.book:hover
   //background: rgba(0,0,0,0.7)
   background: var(--accent)
   border-radius: 2px
-  color: var(--dark)
+  color: var(--light)
   font-size: 1.2rem
   border: 0
   text-transform: uppercase
