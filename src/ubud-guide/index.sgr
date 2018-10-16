@@ -509,23 +509,117 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
-              |
+              | Pura Gunung Kawi Temple
             .business-address
-              |
-            .business-tel
-              a(href='tel://')
+              | Banjar Penaka, Tampaksiring, Kabupaten Gianyar
             .business-link
-              a(href='')
+              a(href='http://www.penaka.com/about') penaka.com/about
 
           .business-info
             .business-name
-              |
+              | Tirta Empul Temple
             .business-address
-              |
-            .business-tel
-              a(href='tel://')
+              | Jl. Raya Tampaksiring, Sanding, Tampaksiring
             .business-link
-              a(href='')
+              a(href='http://www.balilocaltourguide.com/') balilocaltourguide.com
+
+          .business-info
+            .business-name
+              | Nungnung Waterfall
+            .business-address
+              | Desa Plaga, Belok/Sidan, Petang
+            .business-link
+              a(href='http://www.badungtourism.com/') badungtourism.com
+
+          .business-info
+            .business-name
+              | Tegenungan Waterfall
+            .business-address
+              | Jl. Ir. Sutami, Kemenuh, Sukawati
+            .business-link
+              a(href='http://www.tegenunganwaterfall.com/') tegenunganwaterfall.com
+
+          .business-info
+            .business-name
+              | GreenKubu Café
+            .business-address
+              | Jalan Cinta, Br Pejengaji, Tegallalang
+            .business-tel
+              a(href='tel://+6285737222705') +62 857 3722 2705
+            .business-link
+              a(href='http://greenkubu-cafe.business.site/') greenkubu-cafe.business.site
+
+          .business-info
+            .business-name
+              | Sacred Monkey Forest Sanctuary
+            .business-address
+              | Jl. Monkey Forest, Ubud
+            .business-link
+              a(href='http://www.monkeyforestubud.com/') monkeyforestubud.com
+
+          .business-info
+            .business-name
+              | Jungle Fish Bali
+            .business-address
+              | Jl. Raya Sebali, Kelusa, Payangan, Kabupaten Gianyar
+            .business-tel
+              a(href='tel://+623618989104') +62 361 8989104
+            .business-link
+              a(href='http://www.junglefishbali.com/') junglefishbali.com
+
+          .business-info
+            .business-name
+              | Ubud Bali Rafting
+            .business-address
+              | Jl. Raya Sayan, Sayan, Ubud
+            .business-tel
+              a(href='tel://+6282237806199') +62 822 3780 6199
+            .business-link
+              a(href='http://www.ubudraftingadventure.com/') ubudraftingadventure.com
+
+          .business-info
+            .business-name
+              | Greenbike Cycling Tour
+            .business-address
+              | Jalan Pejengaji, Tegallalang, Ubud
+            .business-tel
+              a(href='tel://+6285101699692') +62 851 0169 9692
+            .business-link
+              a(href='https://www.greenbiketour.com/tour/cycling-tour-best-bike-tour-bali/') greenbiketour.com/tour/cycling-tour-best-bike-tour-bali/
+
+          .business-info
+            .business-name
+              | Paon Bali Cooking Class
+            .business-address
+              | Jalan Raya Laplapan, Petulu, Ubud
+            .business-tel
+              a(href='tel://+6281337939095') +62 813 3793 9095
+            .business-link
+              a(href='http://www.paon-bali.com/') paon-bali.com
+
+          .business-info
+            .business-name
+              | Campuhan Ridge Walk
+            .business-address
+              | Kelusa, Payangan, Jl. Raya Campuan, Sayan, Ubud
+
+          .business-info
+            .business-name
+              | Tegallalang Rice Terrace
+            .business-address
+              | Jalan Tegallalang, Tegallalang
+
+          .business-info
+            .business-name
+              | Goa Gajah
+            .business-address
+              | Jl. Raya Goa, Ubud
+
+          .business-info
+            .business-name
+              | Tibumana Waterfall
+            .business-address
+              | Jalan Desa Apuan, Apuan, Susut, Apuan, Susut
 
           h2 Useful Places
 
