@@ -505,6 +505,8 @@ extends(src='../layout.sgr')
             .business-tel
               a(href='tel://+62361975193') +62 361 975193
 
+          h2 Activities
+
           .business-info
             .business-name
               |
@@ -514,6 +516,74 @@ extends(src='../layout.sgr')
               a(href='tel://')
             .business-link
               a(href='')
+
+          .business-info
+            .business-name
+              |
+            .business-address
+              |
+            .business-tel
+              a(href='tel://')
+            .business-link
+              a(href='')
+
+          h2 Useful Places
+
+          .business-info
+            .business-name
+              | Ubud Care
+            .business-address
+              | Jalan Sukma No.37, Br. Tebasaya, Peliatan, Ubud
+            .business-tel
+              a(href='tel://+6282188882273') +62 821 8888 2273
+            .business-link
+              a(href='http://www.ubudcare.com/') ubudcare.com
+
+          .business-info
+            .business-name
+              | Hubud Coworking Space
+            .business-address
+              | Jl. Monkey Forest No.88X, Ubud
+            .business-tel
+              a(href='tel://+62361978073') +62 361 978073
+            .business-link
+              a(href='http://www.hubud.org/') hubud.org
+
+          .business-info
+            .business-name
+              | Outpost Coworking Space
+            .business-address
+              | Jl. Raya Nyuh Kuning, Mas, Ubud
+            .business-tel
+              a(href='tel://+623619080584') +62 361 9080584
+            .business-link
+              a(href='http://outpost-asia.com/') outpost-asia.com
+
+          .business-info
+            .business-name
+              | Pepito Tebongkang
+            .business-address
+              | Jl. Raya Tebongkang, Singakerta, Ubud
+            .business-link
+              a(href='http://www.pepitosupermarket.com/') pepitosupermarket.com
+
+          .business-info
+            .business-name
+              | Delta Dewata
+            .business-address
+              | Jalan Raya Andong No.14, Ubud
+
+          .business-info
+            .business-name
+              | Bintang Supermarket
+            .business-address
+              | Jl. Raya Sanggingan No.45, Campuan, Ubud
+
+          .business-info
+            .business-name
+              | Coco Mart
+            .business-address
+              | Jl. Raya Singakerta No.7, Singakerta, Ubud
 
   block(name='footer')
     include(src='../_footer.sgr')
