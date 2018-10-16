@@ -643,7 +643,7 @@ button.swiper-pagination-bullet {
   height: 20% !important;
   box-sizing: border-box;
   padding: 10px 0;
-  background: black;
+  background: #34282C;
 }
 .gallery-thumbs .swiper-slide {
   width: 25% !important;
