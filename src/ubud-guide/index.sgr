@@ -245,6 +245,88 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Mudra Café
+            .business-address
+              | No.22, Jl. Goutama Sel., Ubud
+            .business-tel
+              a(href='tel:/+6285738950883/') +62 857 3895 0883
+            .business-link
+              a(href='http://mudrabali.com/ ') mudrabali.com
+
+          .business-info
+            .business-name
+              | Seniman Coffee Studio
+            .business-address
+              | Jalan Sriwedari No. 5, Banjar Taman Kelod, Ubud
+            .business-tel
+              a(href='tel://+62361972085') +62 361 972085
+            .business-link
+              a(href='http://www.senimancoffee.com/ ') senimancoffee.com
+
+          .business-info
+            .business-name
+              | Arak Coffee
+            .business-address
+              | Jl. Raya Penestanan No.8, Sayan, Ubud
+            .business-tel
+              a(href='tel://+6282340584378') +62 823 4058 4378
+            .business-link
+              a(href='http://arakcoffee-cafe.business.site/') arakcoffee-cafe.business.site
+
+          .business-info
+            .business-name
+              | Bali Bohemia
+            .business-address
+              | Nyuh Kuning, Jl. Nyuh Bojog, Ubud
+            .business-tel
+              a(href='tel://+62361978631') +62 361 978631
+            .business-link
+              a(href='http://www.balibohemia.com/') balibohemia.com
+
+          .business-info
+            .business-name
+              | Laughing Buddha Bar
+            .business-address
+              | Jl. Monkey Forest, Ubud
+            .business-tel
+              a(href='tel://+62361970928') +62 361 970928
+            .business-link
+              a(href='http://laughingbuddhabali.com/') laughingbuddhabali.com
+
+          .business-info
+            .business-name
+              | No Más Bar
+            .business-address
+              | Jalan Monkey Forest, Ubud
+            .business-tel
+              a(href='tel://+623619080800') +62 361 9080800
+            .business-link
+              a(href='http://nomasubud.com/ ') nomasubud.com
+
+          .business-info
+            .business-name
+              | XL Shisha Lounge
+            .business-address
+              | Jalan Monkey Forest No.129, Ubud
+            .business-tel
+              a(href='tel://+623619080745') +62 361 9080745
+            .business-link
+              a(href='http://www.xlshishalounge.com/ ') xlshishalounge.com
+
+          .business-info
+            .business-name
+              | CP Lounge Ubud
+            .business-address
+              | Jl. Wenara Wana No.15, Ubud
+            .business-tel
+              a(href='tel://+62361978954') +62 361 978954
+            .business-link
+              a(href='http://cp-lounge.com/ ') cp-lounge.com
+
+          h2 Yoga
+
+          .business-info
+            .business-name
               |
             .business-address
               |
