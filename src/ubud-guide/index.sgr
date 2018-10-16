@@ -441,13 +441,69 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
-              |
+              | Agung Rai Museum of Art (ARMA)
             .business-address
-              |
+              | Jl. Raya Pengosekan Ubud, Ubud
             .business-tel
-              a(href='tel://')
+              a(href='tel://+62361976659') +62 361 976659
             .business-link
-              a(href='')
+              a(href='http://www.armabali.com/museum/') armabali.com/museum/
+
+          .business-info
+            .business-name
+              | Neka Art Museum
+            .business-address
+              | Jalan Raya Sanggingan Campuhan, Kedewatan, Ubud
+            .business-tel
+              a(href='tel://+62361975074') +62 361 975074
+            .business-link
+              a(href='http://www.museumneka.com/') museumneka.com
+
+          .business-info
+            .business-name
+              | The Blanco Renaissance Museum
+            .business-address
+              | Jalan Raya Penestanan No.8, Sayan, Ubud
+            .business-tel
+              a(href='tel://+62361975502') +62 361 975502
+            .business-link
+              a(href='http://www.blancomuseum.com/') blancomuseum.com
+
+          .business-info
+            .business-name
+              | Puri Saren Agung (Ubud Palace)
+            .business-address
+              | Jl. Raya, Ubud
+            .business-tel
+              a(href='tel://+62361975057') +62 361 975057
+            .business-link
+              a(href='http://ubudpalace.com/') ubudpalace.com
+
+          .business-info
+            .business-name
+              | Puri Lukisan Museum
+            .business-address
+              | Jl. Raya Ubud, Ubud
+
+          .business-info
+            .business-name
+              | Saraswati temple
+            .business-address
+              | Jl. Kajeng, Ubud
+
+          .business-info
+            .business-name
+              | Pura Desa
+            .business-address
+              | Jl. Raya Ubud No.35
+
+          .business-info
+            .business-name
+              | Oka Kartini, Shadow Puppet Show
+            .business-address
+              | Jalan Raya Ubud, Ubud
+            .business-tel
+              a(href='tel://+62361975193') +62 361 975193
 
           .business-info
             .business-name
