@@ -369,6 +369,78 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Karsa Spa
+            .business-address
+              | Jl. Markandia, Banyar Bangkiang Sidem, Keliki, Tegallalang, Kelusa, Payangan
+            .business-tel
+              a(href='tel://+6281353392013') +62 813 5339 2013
+            .business-link
+              a(href='http://www.karsaspa.com/') karsaspa.com
+
+          .business-info
+            .business-name
+              | Ubud Bodyworks Centre
+            .business-address
+              | Jl Hanoman, No. 25, Padang Tegal, Ubud
+            .business-tel
+              a(href='tel://+62361971393') +62 361 971393
+            .business-link
+              a(href='http://www.ubudbodyworks.com/') ubudbodyworks.com
+
+          .business-info
+            .business-name
+              | Taksu Spa
+            .business-address
+              | Jl. Goutama Selatan, Ubud
+            .business-tel
+              a(href='tel://+62361971490') +62 361 971490
+            .business-link
+              a(href='http://www.taksuspa.com/') taksuspa.com
+
+          .business-info
+            .business-name
+              | Cantika Natural Spa
+            .business-address
+              | Jl. Sok Wayah, Ubud
+            .business-tel
+              a(href='tel://+6281339729980') +62 813 3972 9980
+            .business-link
+              a(href='http://www.cantikazestbali.com/') cantikazestbali.com
+
+          .business-info
+            .business-name
+              | Ubud Sari Health Resort
+            .business-address
+              | Jalan Kajeng No.35, Ubud
+            .business-tel
+              a(href='tel://+62361974393') +62 361 974393
+            .business-link
+              a(href='http://ubudsari.com/') ubudsari.com
+
+          .business-info
+            .business-name
+              | AmrtaSiddhi Ayurvedic Center
+            .business-address
+              | Jalan Nyuh Bojog, Mas, Ubud
+            .business-tel
+              a(href='tel://+62361973193') +62 361 973193
+            .business-link
+              a(href='http://www.amrtasiddhi.com/') amrtasiddhi.com
+
+          .business-info
+            .business-name
+              | Kush Ayurvedic Rejuvenation Center
+            .business-address
+              | Jl Sukuma, Peliatan, Ubud
+            .business-tel
+              a(href='tel://+62361971236') +62 361 971236
+            .business-link
+              a(href='http://www.theyogabarn.com/kush ') theyogabarn.com/kush
+
+          h2 Culture
+
+          .business-info
+            .business-name
               |
             .business-address
               |
