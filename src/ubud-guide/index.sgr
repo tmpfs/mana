@@ -99,6 +99,130 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Kagemusha, Japanese Restaurant
+            .business-address
+              | Jl. Nyuh Bojog, Mas, Ubud
+            .business-tel
+              a(href='tel://+62361973134') +62 361 973134
+            .business-link
+              a(href='https://www.facebook.com/Restaurant-Kagemusha-683217795078849/ ') facebook.com/Restaurant-Kagemusha-683217795078849/
+
+          .business-info
+            .business-name
+              | Kebun Bistro
+            .business-address
+              | Jl. Hanoman No.44, Ubud
+            .business-tel
+              a(href='tel://+62361972490') +62 361 972490
+            .business-link
+              a(href='http://www.kebunbistro.com/') kebunbistro.com
+
+          .business-info
+            .business-name
+              | Taco Casa
+            .business-address
+              | Jalan Raya Pengosekan, Ubud
+            .business-tel
+              a(href='tel://+6281224222357') +62 812 2422 2357
+            .business-link
+              a(href='http://www.tacocasabali.com/') tacocasabali.com
+
+          .business-info
+            .business-name
+              | Kafe
+            .business-address
+              | Jalan Hanoman No. 44B, Padangtegal, Ubud
+            .business-tel
+              a(href='tel://+628111793455') +62 811 1793 455
+            .business-link
+              a(href='http://www.balispirit.com/kafe') balispirit.com/kafe
+
+          h2 Fine Dining
+
+          .business-info
+            .business-name
+              | Kubu At Mandapa
+            .business-address
+              | Jalan Raya Kedewatan, Banjar Kedewatan, Ubud
+            .business-tel
+              a(href='tel://+623614792777') +62 361 4792777
+            .business-link
+              a(href='http://www.ritzcarlton.com/en/hotels/indonesia/mandapa/dining/kubu') ritzcarlton.com/en/hotels/indonesia/mandapa/dining/kubu
+
+          .business-info
+            .business-name
+              | Batubara, Argentinian Grill
+            .business-address
+              | Jl. Raya Pengosekan Ubud No.108, Ubud
+            .business-tel
+              a(href='tel://+628155799376') +62 815-5799-376
+            .business-link
+              a(href='https://www.facebook.com/batubaragrillery/') facebook.com/batubaragrillery
+
+          .business-info
+            .business-name
+              | Uma Cucina
+            .business-address
+              | Jalan Raya Sanggingan No.21, Kedewatan, Ubud
+            .business-tel
+              a(href='tel://+62361972448') +62 361 972448
+            .business-link
+              a(href='http://www.comohotels.com/umaubud/dining/uma-cucina/menus ') comohotels.com/umaubud/dining/uma-cucina/menus
+
+          .business-info
+            .business-name
+              | Mozaic
+            .business-address
+              | Jalan Raya Sanggingan, Kedewatan, Ubud
+            .business-tel
+              a(href='tel://+62361975768') +62 361 975768
+            .business-link
+              a(href='http://www.mozaic-bali.com/') mozaic-bali.com
+
+          .business-info
+            .business-name
+              | Hujan Locale
+            .business-address
+              | Jalan Sri Wedari No. 5, Ubud
+            .business-tel
+              a(href='tel://+6281339720306') +62 813 3972 0306
+            .business-link
+              a(href='http://hujanlocale.com/') hujanlocale.com
+
+          .business-info
+            .business-name
+              | Locavore
+            .business-address
+              | Jalan Dewisita No.10, Ubud
+            .business-tel
+              a(href='tel://+62361977733') +62 361 977733
+            .business-link
+              a(href='http://www.locavore.co.id/') www.locavore.co.id
+
+          h2 Food Delivery
+
+          .business-info
+            .business-name
+              | Café Marzano
+            .business-address
+              | Jl. Hanoman, Padangtegal, Ubud
+            .business-tel
+              a(href='tel://+623614792375') +62 361 4792375
+            .business-link
+              a(href='http://www.cafemarzano.com/ ') cafemarzano.com
+
+          .business-info
+            .business-name
+              |
+            .business-address
+              |
+            .business-tel
+              a(href='tel://')
+            .business-link
+              a(href='')
+
+          .business-info
+            .business-name
               |
             .business-address
               |
