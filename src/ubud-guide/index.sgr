@@ -213,6 +213,38 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Taco Casa
+            .business-address
+              | Jalan Raya Pengosekan, Ubud
+            .business-tel
+              a(href='tel://+6281224222357') +62 812 2422 2357
+            .business-link
+              a(href='http://www.tacocasabali.com/') tacocasabali.com
+
+          .business-info
+            .business-name
+              | Kafe
+            .business-address
+              | Jalan Hanoman No. 44B, Padangtegal, Ubud
+            .business-tel
+              a(href='tel://+628111793455') +62 811 1793 455
+            .business-link
+              a(href='http://www.balispirit.com/kafe') balispirit.com/kafe
+
+          .business-info
+            .business-name
+              | Bali Buda
+            .business-address
+              | Jalan Jembawan No.1, Ubud, Gianyar, Ubud
+            .business-tel
+              a(href='tel://+62361976324') +62 361 976324
+            .business-link
+              a(href='http://www.balibuda.com/') balibuda.com
+
+          h2 Beverages & Nightlife
+
+          .business-info
+            .business-name
               |
             .business-address
               |
