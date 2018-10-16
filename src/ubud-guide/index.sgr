@@ -89,6 +89,16 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Kismet Restaurant & Lounge
+            .business-address
+              | Jalan Goutama Selatan No. 27X, Ubud
+            .business-tel
+              a(href='tel://+623619080702') +62 361 9080702
+            .business-link
+              a(href='http://www.kismetbali.com/') kismetbali.com
+
+          .business-info
+            .business-name
               |
             .business-address
               |
