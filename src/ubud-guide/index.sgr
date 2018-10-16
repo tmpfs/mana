@@ -327,6 +327,48 @@ extends(src='../layout.sgr')
 
           .business-info
             .business-name
+              | Intuitive Flow
+            .business-address
+              | Jl. Raya Tjampuhan, Penestanan Kaja, Sayan, Ubud
+            .business-tel
+              a(href='tel://+62361977824') +62 361 977824
+            .business-link
+              a(href='http://www.intuitiveflow.com/ ') intuitiveflow.com
+
+          .business-info
+            .business-name
+              | Ubud Yoga House
+            .business-address
+              | Jl. Subak Sokwayah, Ubud
+            .business-tel
+              a(href='tel://+6282144181058') +62 821 4418 1058
+            .business-link
+              a(href='http://ubudyogahouse.com/') ubudyogahouse.com
+
+          .business-info
+            .business-name
+              | The Yoga Barn
+            .business-address
+              | Jalan Raya Pengosekan, Ubud, Gianyar, Ubud
+            .business-tel
+              a(href='tel://+62361971236') +62 361 971236
+            .business-link
+              a(href='http://www.theyogabarn.com/') theyogabarn.com
+
+          .business-info
+            .business-name
+              | Radiantly Alive Yoga
+            .business-address
+              | Jalan Jembawan No. 3, Padangtegal, Ubud
+            .business-tel
+              a(href='tel://+62361978055') +62 361 978055
+            .business-link
+              a(href='http://www.radiantlyalive.com/ ') radiantlyalive.com
+
+          h2 Wellness & Spa
+
+          .business-info
+            .business-name
               |
             .business-address
               |
