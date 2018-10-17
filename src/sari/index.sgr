@@ -107,7 +107,7 @@ extends(src='../layout.sgr')
           span.address.small
             img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")
             | Jalan Gunung Sari, Ubud, Bali, 80571
-        a.map-preview(href='https://goo.gl/maps/DrLZfDjuHSo')
+        a.map-preview(href='https://www.google.com/maps/place/Mana+Sari/@-8.507942,115.270734,17z/data=!3m1!4b1!4m7!3m6!1s0x2dd23d663bc9ec3d:0x834d1548b3f5b834!5m1!1s2018-11-06!8m2!3d-8.507942!4d115.272928')
           span.small.cta
             | tap for interactive map
 
