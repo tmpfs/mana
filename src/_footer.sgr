@@ -10,7 +10,7 @@ footer
       a(href='/contact/' title='Contact Us') Contact Us
 
 div.social.center
-  a(href='https://id.pinterest.com/ubudmana/' title='Pinterest')
+  a(href='https://id.pinterest.com/manavedabali/' title='Pinterest')
     img.icon(src='/assets/img/icon/pinterest.svg' width="16" height="16" alt="Pinterest")
   a(href='https://www.instagram.com/manaveda.bali/' title='Instagram')
     img.icon(src='/assets/img/icon/instagram.svg' width="16" height="16" alt="Instagram")
