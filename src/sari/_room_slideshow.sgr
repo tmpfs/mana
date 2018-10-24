@@ -3,8 +3,20 @@
     .swiper-wrapper
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/sari/09.jpg)")
-        figcaption Joglo Front View
+        img(style="background-image:url(/assets/img/gallery/sari/05.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/02.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/03.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/sari/04.jpg)")
+        figcaption &nbsp;
 
     .swiper-button-next.swiper-button-white
     .swiper-button-prev.swiper-button-white
