@@ -25,15 +25,15 @@ extends(src='../layout.sgr')
         h2
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
-
         p.
           Mana Sari is a luxurious, tasteful and tranquil private villa yet only 5 minutes from Ubud center close to restaurants, shops and amenities. Every part of our spacious two bedroom villa was designed with love and care.
 
         p.
           It is a romantic and serene villa designed and built for comfort; all furniture and elements were custom made. It blends a traditional Javanese teak house (Joglo) with modern architecture and is infused with light.
 
-        p.
-          The master suite is an airy, bright joglo house that has an enormous open air en-suite bathroom with beautifully made terrazzo bathtub, rainfall shower and natural stone walls adjoined to a spacious and bright walk-in closet. Folding doors open on to a large terrace that is furnished with a dining table and lounge area that overlooks the saltwater pool.
+        include(src='_room_slideshow.sgr')
+        p
+          | The master suite is an airy, bright joglo house that has an enormous open air en-suite bathroom with beautifully made terrazzo bathtub, rainfall shower and natural stone walls adjoined to a spacious and bright walk-in closet. Folding doors open on to a large terrace that is furnished with a dining table and lounge area that overlooks the saltwater pool.
 
         p.
           The second bedroom is a modern design that has a beautiful bright bathroom with terrazzo bathtub, rainfall shower and a private terrace overlooking the jungle ravine. The green roof above is a good place to lounge or meditate.

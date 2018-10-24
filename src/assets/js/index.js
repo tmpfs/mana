@@ -2,6 +2,7 @@ const Scroll = require('./scroll')
 const SlideShow = require('./slideshow')
 const Gallery = require('./gallery')
 const Contact = require('./contact')
+const RoomSlideshow = require('./room-slideshow')
 
 /**
  *  mana
@@ -13,6 +14,7 @@ class Application {
     this.scroller = new Scroll()
     this.slideshow = new SlideShow()
     this.gallery = new Gallery()
+    this.roomSlideshow = new RoomSlideshow()
 
     // Configure contact form redirect
     const form = document.querySelector('form.contact')
