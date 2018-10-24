@@ -1,0 +1,22 @@
+.room-slideshow
+  .swiper-container
+    .swiper-wrapper
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-001.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-002.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-003.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/chi-004.jpg)")
+        figcaption &nbsp;
+
+    .swiper-button-next.swiper-button-white
+    .swiper-button-prev.swiper-button-white
