@@ -36,7 +36,7 @@ module.exports = {
     ],
     optimize: optimize(),
     audit: [
-      require('makestatic-validate-html'),
+      //require('makestatic-validate-html'),
       require('makestatic-archive-zip')
     ]
   },
