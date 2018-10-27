@@ -10,19 +10,19 @@ class VhFix {
       return
     }
 
+    const h = window.innerHeight
     const splash = document.querySelector('.home-splash')
 
-    const fix = () => {
-      const h = window.innerHeight
+    const fix = (height) => {
       list.forEach((el) => {
-        el.style.height = h + 'px'
+        el.style.height = height + 'px'
       })
-      splash.style['min-height'] = h + 'px'
+      splash.style['min-height'] = height + 'px'
     }
 
-    window.onload = fix
-    window.onresize = fix
-    window.onscroll = fix
+    window.onload = () => fix(h)
+    window.onresize = () => fix(window.innerHeight)
+    //window.onscroll = () => fix(h)
   }
 }
 
