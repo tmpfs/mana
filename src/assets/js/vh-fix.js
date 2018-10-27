@@ -1,5 +1,7 @@
 class VhFix {
   constructor (options = {}) {
+    // Fixes a flicker on mobile firefox as the address bar is shown/hidden
+    // when the page is scrolled
     const elements = document.querySelectorAll('.locations .sari .img, .locations .boutique .img')
     const list = Array.from(elements)
 
