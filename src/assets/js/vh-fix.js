@@ -17,6 +17,7 @@ class VhFix {
 
     window.onload = fix
     window.onresize = fix
+    window.onscroll = fix
   }
 }
 
