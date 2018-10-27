@@ -14,8 +14,6 @@ class RoomSlideshow {
       return
     }
 
-    console.log('creating room slideshow')
-
     const s = new Swiper('.room-slideshow .swiper-container', {
       //spaceBetween: 10,
       autoplay: false,
@@ -25,8 +23,6 @@ class RoomSlideshow {
         prevEl: '.swiper-button-prev',
       }
     })
-
-    console.log(s)
 
   }
 }

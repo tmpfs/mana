@@ -3,6 +3,7 @@ const SlideShow = require('./slideshow')
 const Gallery = require('./gallery')
 const Contact = require('./contact')
 const RoomSlideshow = require('./room-slideshow')
+const VhFix = require('./vh-fix')
 
 /**
  *  mana
@@ -15,6 +16,7 @@ class Application {
     this.slideshow = new SlideShow()
     this.gallery = new Gallery()
     this.roomSlideshow = new RoomSlideshow()
+    this.vhFix = new VhFix()
 
     // Configure contact form redirect
     const form = document.querySelector('form.contact')
