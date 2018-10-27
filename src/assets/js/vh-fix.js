@@ -11,18 +11,22 @@ class VhFix {
     }
 
     const h = window.innerHeight
-    const splash = document.querySelector('.home-splash')
+    //const splash = document.querySelector('.home-splash')
 
-    const fix = (height) => {
-      list.forEach((el) => {
-        el.style.height = height + 'px'
-      })
-      splash.style['min-height'] = height + 'px'
+    const fix = () => {
+      //list.forEach((el) => {
+        //el.style.height = height + 'px'
+      //})
+      //splash.style['min-height'] = height + 'px'
+      let vh = window.innerHeight * 0.01;
+      // Then we set the value in the --vh custom property to the root of the document
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+
     }
 
-    window.onload = () => fix(h)
-    window.onresize = () => fix(window.innerHeight)
-    //window.onscroll = () => fix(h)
+    window.onresize = fix
+
+    fix()
   }
 }
 
