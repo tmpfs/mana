@@ -18,7 +18,6 @@ class VhFix {
         el.style.height = h + 'px'
       })
       splash.style['min-height'] = h + 'px'
-      console.log(splash.style)
     }
 
     window.onload = fix
