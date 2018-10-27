@@ -36,5 +36,14 @@ ssh -i ./mana-api.pem ec2-user@api.manaveda.com
 The git repository is in the `ec2-user` directory as `mana`.
 
 ```
-cd mana && git pull && docker-compose up
+cd mana && git pull && sudo docker-compose up
 ```
+
+Edit the crontab with `sudo crontab -e` and enter:
+
+```
+@reboot /home/ec2-user/mana/start.sh
+0 0 1 * * /home/ec2-user/certbot-auto renew --non-interactive
+```
+
+To start services when the VM is rebooted and also to renew the lets encrypt certificate on the first day of every month.
