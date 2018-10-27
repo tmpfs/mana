@@ -631,6 +631,7 @@ button.swiper-pagination-bullet {
 
 .swiper-slide {
   background-size: cover;
+  /*background-size: contain;*/
   background-position: center;
 }
 .gallery-top {

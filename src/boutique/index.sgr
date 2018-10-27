@@ -110,9 +110,9 @@ extends(src='../layout.sgr')
       section#map
         h2
           a(href='#map' title='Map Permalink') Map
-          span.address.small
-            img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")
-            | Penestanan Klod, Ubud, Bali, 80571
+        span.address.small
+          img.icon(src="/assets/img/icon/home.svg" width="16" height="16" alt="Home")
+          | Penestanan Klod, Ubud, Bali, 80571
         a.map-preview(href='https://www.google.com/maps/place/Mana+Boutique/@-8.512193,115.2480972,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd23d10c3651f97:0x457aea00a879076b!8m2!3d-8.512193!4d115.2502859')
           span.small.cta
             | tap for interactive map

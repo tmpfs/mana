@@ -7,15 +7,7 @@
         figcaption &nbsp;
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/mani-004.jpg)")
-        figcaption &nbsp;
-
-      figure.swiper-slide
         img(style="background-image:url(/assets/img/gallery/boutique/mani-005.jpg)")
-        figcaption &nbsp;
-
-      figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/mani-006.jpg)")
         figcaption &nbsp;
 
     .swiper-button-next.swiper-button-white
