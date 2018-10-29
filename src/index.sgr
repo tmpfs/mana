@@ -20,7 +20,7 @@ extends(src='layout.sgr')
             li
               a(href='/sari/') Learn more
             li
-              a(href='//app-apac.thebookingbutton.com/properties/manasari12direct') Book now
+              a(href='/sari/book/') Book now
         li
           div
             p Mana Boutique
@@ -29,7 +29,7 @@ extends(src='layout.sgr')
             li
               a(href='/boutique/') Learn more
             li
-              a(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect') Book now
+              a(href='/boutique/book/') Book now
 
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
@@ -48,7 +48,7 @@ extends(src='layout.sgr')
           div.options
             a.primary(href='/sari/' title='Explore Mana Sari')
               | Explore Sari
-            a.secondary(href='//app-apac.thebookingbutton.com/properties/manasari12direct' title="Make a reservation")
+            a.secondary(href='/sari/book/' title="Make a reservation")
               | Book now
 
     div.what
@@ -64,7 +64,7 @@ extends(src='layout.sgr')
           div.options
             a.primary(href='/boutique/' title='Explore Mana Boutique')
               | Explore Boutique
-            a.secondary(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect' title="Make a reservation")
+            a.secondary(href='/boutique/book/' title="Make a reservation")
               | Book now
   block(name='footer')
     include(src='_footer.sgr')

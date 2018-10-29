@@ -41,11 +41,11 @@ extends(src='../layout.sgr')
 
 
         div.book-direct
+          img(src="/assets/img/icon/angle-right.svg" type="image/svg+xml")
           p
-            img(src="/assets/img/icon/angle-right.svg" type="image/svg+xml")
             span Book direct, it's better for everyone!
           div
-            a.secondary(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect')
+            a.secondary(href='/boutique/book/')
               | Book now
 
         h5 Amenities
