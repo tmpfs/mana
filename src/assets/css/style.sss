@@ -52,6 +52,9 @@ a.explore
 body.book
   overflow: hidden
 
+body.book header nav a:last-child:hover
+  border-bottom: 2px solid transparent
+
 body.book header
   position: relative
 
@@ -89,6 +92,10 @@ iframe
   height: 32px
   display: inline-block
   vertical-align: middle
+  flex: 0
+
+.book-direct p
+  flex: 1
 
 .book-direct p span
   margin-top: 2px
@@ -591,6 +598,9 @@ div.error
 
   header nav:last-child a
     display: inline-block
+
+  header .logo
+    margin: 0
 
   .home-splash > .logotype > .graphic
     width: 50vw

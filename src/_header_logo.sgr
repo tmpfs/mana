@@ -1,6 +1,0 @@
-header
-  nav
-    a.logo(href='/' title='Home')
-      img.graphic(src="/assets/img/logo.svg" alt="")
-      img.logotype(src="/assets/img/logotype.svg" alt="")
-

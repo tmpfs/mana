@@ -53,8 +53,7 @@ extends(src='../layout.sgr')
         div.book-direct
           img(src="/assets/img/icon/angle-right.svg" type="image/svg+xml")
           p
-            span
-              | Book direct, it's better for everyone!
+            span Book direct, it's better for everyone!
           div
             a.secondary(href='/sari/book/')
               | Book now
