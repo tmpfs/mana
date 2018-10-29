@@ -3,6 +3,26 @@
     .swiper-wrapper
 
       figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/001.jpg)")
+        figcaption Property 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/002.jpg)")
+        figcaption Property 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/003.jpg)")
+        figcaption Property 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/004.jpg)")
+        figcaption Property 004
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/005.jpg)")
+        figcaption Property 005
+
+      figure.swiper-slide
         img(style="background-image:url(/assets/img/gallery/boutique/property-001.jpg)")
         figcaption Property 001
 
@@ -116,6 +136,26 @@
     .swiper-button-prev.swiper-button-white
   .swiper-container.gallery-thumbs
     .swiper-wrapper
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/001.jpg)")
+        figcaption Property 001
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/002.jpg)")
+        figcaption Property 002
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/003.jpg)")
+        figcaption Property 003
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/004.jpg)")
+        figcaption Property 004
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/gallery/boutique/005.jpg)")
+        figcaption Property 005
 
       .swiper-slide
         img(style="background-image:url(/assets/img/gallery/boutique/property-001.jpg)")
