@@ -16,16 +16,20 @@ extends(src='layout.sgr')
           div
             p Mana Sari
             small Private villa
-          nav
-            a(href='/sari/') Learn more
-            a(href='//app-apac.thebookingbutton.com/properties/manasari12direct') Book now
+          ul
+            li
+              a(href='/sari/') Learn more
+            li
+              a(href='//app-apac.thebookingbutton.com/properties/manasari12direct') Book now
         li
           div
             p Mana Boutique
             small Unique cosy hotel
-          nav
-            a(href='/boutique/') Learn more
-            a(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect') Book now
+          ul
+            li
+              a(href='/boutique/') Learn more
+            li
+              a(href='//app-apac.thebookingbutton.com/properties/manaboutiquedirect') Book now
 
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
