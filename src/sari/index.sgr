@@ -31,7 +31,7 @@ extends(src='../layout.sgr')
         p.
           It is a romantic and serene villa designed and built for comfort; all furniture and elements were custom made. It blends a traditional Javanese teak house (Joglo) with modern architecture and is infused with light.
 
-        include(src='_room_slideshow.sgr')
+        include(src='_joglo_slideshow.sgr')
         p
           | The master suite is an airy, bright joglo house that has an enormous open air en-suite bathroom with beautifully made terrazzo bathtub, rainfall shower and natural stone walls adjoined to a spacious and bright walk-in closet. Folding doors open on to a large terrace that is furnished with a dining table and lounge area that overlooks the saltwater pool.
 
