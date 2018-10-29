@@ -11,13 +11,13 @@ class VhFix {
     }
 
     //const h = window.innerHeight
-    //const splash = document.querySelector('.home-splash')
+    const splash = document.querySelector('.home-splash')
 
     const fix = (h) => {
       list.forEach((el) => {
         el.style.height = h + 'px'
       })
-      //splash.style['min-height'] = h + 'px'
+      splash.style['min-height'] = h + 'px'
     }
 
     window.onresize = window.onload = () => fix(window.innerHeight)
