@@ -6,13 +6,13 @@ extends(src='../../layout.sgr')
 
   block(name='content')
     div(style='height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; flex-wrap: nowrap; align-content: stretch')
-      header(style='width: 100%')
+      header(style='width: 100%; flex: 0')
         nav
           a.logo(href='/' title='Home')
             img.graphic(src="/assets/img/logo.svg" alt="")
             img.logotype(src="/assets/img/logotype.svg" alt="")
         nav
-          a.back(href='/boutique/' title='Back to Mana Boutique') &lt; Back to boutique
+          a.back(href='/sari/' title='Back to Mana Sari') &lt; Back to sari
       div(style='flex: 1 0; width:100%; display: flex; align-content: stretch')
         iframe(style=' width: 100%;' src='//app-apac.thebookingbutton.com/properties/manasari12direct')
     //-div.ibe(data-widget='embed' data-channelcode='mansari12direct')
