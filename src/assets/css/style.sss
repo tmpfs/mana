@@ -551,6 +551,12 @@ div.error
   header nav:last-child a
     display: inline-block
 
+  .home-splash > .logotype > .graphic
+    width: 60vw
+
+@media screen and (max-height: 414px)
+  .home-splash > .logotype > .graphic
+    width: 35vw
 
 @media screen and (max-width: 479px)
   header nav:last-child a
@@ -573,10 +579,6 @@ div.error
 
   dd
     margin-left: 1rem
-
-  .home-splash > .logotype > .graphic
-    //width: 60vw
-    width: 60%
 
   .home-splash > .logotype > :first-child
     margin-bottom: 2rem
@@ -671,6 +673,9 @@ div.error
     line-height: 6rem
     max-width: 75%
     /* text-shadow: 1px 1px var(--dark) */
+
+  .home-splash > .logotype > .graphic
+    //width: 60vw
 
   .features
     display: flex
