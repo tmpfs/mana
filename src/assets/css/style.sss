@@ -299,7 +299,7 @@ header
   text-align: left
   display: flex
   white-space: pre
-  background: var(--charcoal)
+  //background: var(--charcoal)
 
 header nav
   flex: 1 0
@@ -414,13 +414,6 @@ header .logo img.logotype
   color: var(--dark)
   margin-bottom: 2rem
 
-.locations .features
-  position: absolute
-  left: 0
-  bottom: 0
-  background: rgba(0,0,0,0.5)
-  color: var(--light)
-
 .inverse, .inverse a
   background: var(--dark)
   color: var(--light)
@@ -431,6 +424,8 @@ header .logo img.logotype
   width: auto
   display: block
   min-height: 280px
+  height: 100vw
+  max-height: 768px
   border: 0
 
 .locations .sari .img
@@ -535,7 +530,7 @@ div.error
   list-style-type: disc
   margin: 2rem 2rem 1rem 2rem
 
-@media screen and (max-width: 414px)
+@media screen and (max-width: 414px) and (orientation: portrait)
   header
     display: block
   header nav:first-child
@@ -552,9 +547,9 @@ div.error
     display: inline-block
 
   .home-splash > .logotype > .graphic
-    width: 60vw
+    width: 50vw
 
-@media screen and (max-height: 414px)
+@media screen and (max-height: 414px) and (orientation: landscape)
   .home-splash > .logotype > .graphic
     width: 35vw
 
