@@ -3,11 +3,39 @@
     .swiper-wrapper
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/avani-003.jpg)")
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/001.jpg)")
         figcaption &nbsp;
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/avani-007.jpg)")
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/002.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/003.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/004.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/005.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/006.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/007.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/008.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/avani/009.jpg)")
         figcaption &nbsp;
 
     .swiper-button-next.swiper-button-white
