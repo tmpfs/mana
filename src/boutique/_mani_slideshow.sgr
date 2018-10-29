@@ -3,11 +3,31 @@
     .swiper-wrapper
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/mani-003.jpg)")
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/001.jpg)")
         figcaption &nbsp;
 
       figure.swiper-slide
-        img(style="background-image:url(/assets/img/gallery/boutique/mani-005.jpg)")
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/002.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/003.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/004.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/005.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/006.jpg)")
+        figcaption &nbsp;
+
+      figure.swiper-slide
+        img(style="background-image:url(/assets/img/room-slides/boutique/mani/007.jpg)")
         figcaption &nbsp;
 
     .swiper-button-next.swiper-button-white
