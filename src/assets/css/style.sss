@@ -88,6 +88,45 @@ a.explore
   white-space: normal
   line-height: 1
 
+.home-splash .quicklinks
+  margin: 2rem 0 0 0
+  padding: 0
+  list-style-type: none
+  //text-align: left
+  //min-width: 280px
+
+.quicklinks nav a:not(:last-child)
+  margin-right: 1rem
+
+.quicklinks p
+  margin: 0
+  font-size: 1.4rem
+  text-transform: uppercase
+  text-decoration: underline
+
+.quicklinks nav
+  font-size: 1.4rem
+
+.quicklinks nav a
+  color: var(--teak)
+
+.quicklinks small
+  padding: 0
+
+.quicklinks li:not(:last-child)
+  margin-bottom: 2rem
+
+.quicklinks > li > div
+  //display: flex
+  //justify-content: space-between
+
+.quicklinks > li > div
+  flex: 1 0
+
+.quicklinks nav
+  text-align: center
+
+
 .business-info
   margin-bottom: 2rem
 
@@ -684,7 +723,7 @@ div.error
     margin-right: 0 !important
     flex: 1 0
 
-  .home-splash h4
+  .home-splash h4, .home-splash .quicklinks
     font-size: 2rem
     line-height: 2.6rem
     max-width: 520px
