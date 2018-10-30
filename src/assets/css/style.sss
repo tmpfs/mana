@@ -584,7 +584,8 @@ div.error
   list-style-type: disc
   margin: 2rem 2rem 1rem 2rem
 
-@media screen and (max-width: 414px) and (orientation: portrait)
+// NOTE: if we use "portrait" it breaks when the mobile keyboard is visible
+@media screen and (max-width: 414px) //and (orientation: portrait)
   header
     display: block
   header nav:first-child
