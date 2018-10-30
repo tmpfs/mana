@@ -8,5 +8,5 @@ extends(src='layout.sgr')
 
         div.scroll-action
           small
-            | Start from the 
+            | Start from the&nbsp;
             a.light(href='/') home page
