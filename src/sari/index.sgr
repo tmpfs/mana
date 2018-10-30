@@ -26,10 +26,10 @@ extends(src='../layout.sgr')
           a(href='#info' title='Information Permalink') Info
         include(src='./_features.sgr')
         p.
-          Mana Sari is a luxurious, tasteful and tranquil private villa only 5 minutes from Ubud center close to restaurants, shops and amenities. Every part of our spacious two bedroom villa was designed with love and care.
+          Mana Sari is a luxurious, tasteful and tranquil private villa only 5 minutes from Ubud center, close to restaurants, shops and amenities.
 
         p.
-          It is a romantic and serene villa designed and built for comfort; all furniture and elements were custom made. It blends a traditional Javanese teak house (Joglo) with modern architecture and is infused with light.
+          Every part of our spacious two bedroom villa was conceived with love and careful attention. It is a stunning romantic villa designed and built for comfort; all furniture and elements were custom made. The villa is a blend of traditional Javanese teak house (Joglo) with modern architecture and is infused with light.
 
         h5 Joglo
         include(src='_joglo_slideshow.sgr')
