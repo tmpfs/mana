@@ -8,7 +8,7 @@ extends(src='../layout.sgr')
   block(name='content')
     main
       section.page
-        h1 We aim to harmonize with nature
+        h1 We strive to harmonize with nature
         div.banner
 
         h2 Our Style
