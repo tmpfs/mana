@@ -17,6 +17,7 @@ services:
     restart: on-failure
   app:
     image: mana-api
+    container_name: api
     build:
       context: .
       dockerfile: Dockerfile
