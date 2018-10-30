@@ -14,22 +14,24 @@ extends(src='layout.sgr')
       ul.quicklinks
         li
           div
-            p Mana Sari
+            p
+              a(href='/sari/' title='Explore Mana Sari') Mana Sari
             small Private villa
           ul
             li
-              a(href='/sari/') Learn more
+              a(href='/sari/' title='Learn more') Learn more
             li
-              a(href='/sari/book/') Book now
+              a(href='/sari/book/' title='Make a reservation') Book now
         li
           div
-            p Mana Boutique
+            p
+              a(href='/boutique/' title='Explore Mana Boutique') Mana Boutique
             small Unique cosy hotel
           ul
             li
-              a(href='/boutique/') Learn more
+              a(href='/boutique/' title='Learn more') Learn more
             li
-              a(href='/boutique/book/') Book now
+              a(href='/boutique/book/' title='Make a reservation') Book now
 
       div.scroll-action
         small Scroll to explore and book a room at our boutique hotel or private villas
