@@ -36,7 +36,7 @@ extends(src='layout.sgr')
         img.down(src="/assets/img/icon/angle-down.svg" width="32")
 
     div.what
-      p.leader Mana means life force energy, which you can feel in the vibrant and peaceful energy of the spaces we create
+      p.leader Mana means life force energy, which you feel in the vibrant and peaceful energy of the spaces we create
 
     .splash
       div.locations
