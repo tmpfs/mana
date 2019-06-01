@@ -26,9 +26,6 @@ extends(src='../layout.sgr')
               li
                 img.icon(src='/assets/img/icon/envelope.svg' width="16" height="16" alt="Mail")
                 a(href='mailto:reservations@manaveda.com') reservations@manaveda.com
-            h4 Mana Sari
-            p
-              span.address Jalan Gunung Sari, Ubud, Bali, 80571
             h4 Mana Boutique
             p
               span.address Penestanan Klod, Ubud, Bali, 80571
