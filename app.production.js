@@ -30,7 +30,8 @@ module.exports = {
       },
       {
         plugin: require('makestatic-sitemap'),
-        formats: ['xml'],
+        formats: ['xml', 'html'],
+        template: 'sitemap/index.html',
         robots: true
       }
     ],
