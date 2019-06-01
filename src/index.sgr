@@ -15,16 +15,6 @@ extends(src='layout.sgr')
         li
           div
             p
-              a(href='/sari/' title='Explore Mana Sari') Mana Sari
-            small Private villa
-          ul
-            li
-              a(href='/sari/' title='Learn more') Learn more
-            li
-              a(href='/sari/book/' title='Make a reservation') Book now
-        li
-          div
-            p
               a(href='/boutique/' title='Explore Mana Boutique') Mana Boutique
             small Unique cosy hotel
           ul
@@ -42,22 +32,6 @@ extends(src='layout.sgr')
 
     .splash
       div.locations
-        div#sari.sari
-          div.img
-            h4
-              span Mana Sari
-              span.desc Private Villa
-          div.options
-            a.primary(href='/sari/' title='Explore Mana Sari')
-              | Explore Sari
-            a.secondary(href='/sari/book/' title="Make a reservation")
-              | Book now
-
-    div.what
-      p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere
-
-    .splash
-      div.locations
         div#boutique.boutique
           div.img
             h4
@@ -68,5 +42,9 @@ extends(src='layout.sgr')
               | Explore Boutique
             a.secondary(href='/boutique/book/' title="Make a reservation")
               | Book now
+
+    div.what
+      p.leader We blend traditional Javanese teak architecture with modern design to create luxurious spaces with a unique atmosphere
+
   block(name='footer')
     include(src='_footer.sgr')
