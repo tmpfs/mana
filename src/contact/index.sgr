@@ -16,13 +16,13 @@ extends(src='../layout.sgr')
             ul
               li
                 img.icon(src='/assets/img/icon/whatsapp.svg' width="16" height="16" alt="Whatsapp")
-                a(href='tel:+6287860878782') +6287860878782
+                a(href='tel:+6282144689887') +6282144689887
               li
                 img.icon(src='/assets/img/icon/phone.svg' width="16" height="16" alt="Phone")
                 a(href='tel:+6281236340887') +6281236340887
               li
                 img.icon(src='/assets/img/icon/phone.svg' width="16" height="16" alt="Phone")
-                a(href='tel:+6282146376989') +6282146376989
+                a(href='tel:+6287865567565') +6287865567565
               li
                 img.icon(src='/assets/img/icon/envelope.svg' width="16" height="16" alt="Mail")
                 a(href='mailto:reservations@manaveda.com') reservations@manaveda.com
