@@ -24,7 +24,7 @@ extends(src='layout.sgr')
               a(href='/boutique/book/' title='Make a reservation') Book now
 
       div.scroll-action
-        small Scroll to explore and book a room at our boutique hotel or private villas
+        small Scroll to explore and book a room at our boutique hotel
         img.down(src="/assets/img/icon/angle-down.svg" width="32")
 
     div.what
